@@ -13,7 +13,7 @@ import {
 import pokemonData from "./assets/pokemon_ipa.json";
 
 interface PokemonEntry {
-  dex: string;
+  dex: string | number;
   name: string;
   pronunciation: string;
   ipa: string;
@@ -35,12 +35,21 @@ const GENS = [
   { label: "Gen IX", from: 906, to: 1025 },
 ];
 
+function dexString(entry: PokemonEntry): string {
+  return String(entry.dex);
+}
+
 function dexNumber(entry: PokemonEntry): number {
-  return parseInt(entry.dex.replace(/\D/g, ""), 10);
+  return parseInt(dexString(entry).replace(/\D/g, ""), 10) || 0;
 }
 
 function dexDigits(entry: PokemonEntry): string {
-  return entry.dex.replace(/\D/g, "");
+  return dexString(entry).replace(/\D/g, "");
+}
+
+function formatDex(entry: PokemonEntry): string {
+  const n = dexNumber(entry);
+  return `#${String(n).padStart(4, "0")}`;
 }
 
 export default function App() {
@@ -338,15 +347,15 @@ export default function App() {
           <>
             <main className="grid grid-cols-[repeat(auto-fill,minmax(280px,1fr))] gap-4 pb-4">
               {shown.map((p) => {
-                const isPlaying = playingDex === p.dex;
-                const isCopied = copiedDex === p.dex;
+                const isPlaying = playingDex === dexString(p);
+                const isCopied = copiedDex === dexString(p);
                 return (
                   <article
-                    key={p.dex}
+                    key={formatDex(p)}
                     className="flex flex-col rounded-2xl bg-white p-5 shadow-sm ring-1 ring-slate-100 transition duration-200 hover:-translate-y-1 hover:shadow-lg"
                   >
                     <span className="inline-flex w-fit rounded-full bg-amber-100 px-2.5 py-1 font-mono text-xs font-bold tracking-wide text-amber-800">
-                      {p.dex}
+                      {formatDex(p)}
                     </span>
                     <h2 className="mt-3 text-xl font-bold text-slate-900">
                       {p.name}
