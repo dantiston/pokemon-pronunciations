@@ -1,5 +1,2963 @@
 [
   {
+    "dex": "#0001",
+    "name": "Bulbasaur",
+    "pronunciation": "BULL-buh-sohr",
+    "ipa": "/ˈbʊlbəsɔːɹ/"
+  },
+  {
+    "dex": "#0002",
+    "name": "Ivysaur",
+    "pronunciation": "EYE-vee-sohr",
+    "ipa": "/ˈaɪviːsɔːɹ/"
+  },
+  {
+    "dex": "#0003",
+    "name": "Venusaur",
+    "pronunciation": "VEE-nuh-sohr",
+    "ipa": "/ˈviːnəsɔːɹ/"
+  },
+  {
+    "dex": "#0004",
+    "name": "Charmander",
+    "pronunciation": "CHAR-man-der",
+    "ipa": "/ˈtʃɑːɹmændɚ/"
+  },
+  {
+    "dex": "#0005",
+    "name": "Charmeleon",
+    "pronunciation": "char-MEEL-yuhn",
+    "ipa": "/tʃɑːɹˈmiːljən/"
+  },
+  {
+    "dex": "#0006",
+    "name": "Charizard",
+    "pronunciation": "CHAR-ih-zard",
+    "ipa": "/ˈtʃɑːɹɪzɑːɹd/"
+  },
+  {
+    "dex": "#0007",
+    "name": "Squirtle",
+    "pronunciation": "SKWUR-tull",
+    "ipa": "/ˈskwɝːɾəl/"
+  },
+  {
+    "dex": "#0008",
+    "name": "Wartortle",
+    "pronunciation": "WOR-tor-tull",
+    "ipa": "/ˈwɔːɹtɔːɹɾəl/"
+  },
+  {
+    "dex": "#0009",
+    "name": "Blastoise",
+    "pronunciation": "BLAST-ois",
+    "ipa": "/ˈblæstɔɪs/"
+  },
+  {
+    "dex": "#0010",
+    "name": "Caterpie",
+    "pronunciation": "KAT-ur-pee",
+    "ipa": "/ˈkæɾɚpiː/"
+  },
+  {
+    "dex": "#0011",
+    "name": "Metapod",
+    "pronunciation": "MET-uh-pahd",
+    "ipa": "/ˈmɛɾəpɑːd/"
+  },
+  {
+    "dex": "#0012",
+    "name": "Butterfree",
+    "pronunciation": "BUT-ur-free",
+    "ipa": "/ˈbʌɾɚfɹiː/"
+  },
+  {
+    "dex": "#0013",
+    "name": "Weedle",
+    "pronunciation": "WEE-dull",
+    "ipa": "/ˈwiːdəl/"
+  },
+  {
+    "dex": "#0014",
+    "name": "Kakuna",
+    "pronunciation": "kuh-KOO-nuh",
+    "ipa": "/kəˈkuːnə/"
+  },
+  {
+    "dex": "#0015",
+    "name": "Beedrill",
+    "pronunciation": "BEE-drill",
+    "ipa": "/ˈbiːdɹɪl/"
+  },
+  {
+    "dex": "#0016",
+    "name": "Pidgey",
+    "pronunciation": "PID-jee",
+    "ipa": "/ˈpɪdʒiː/"
+  },
+  {
+    "dex": "#0017",
+    "name": "Pidgeotto",
+    "pronunciation": "PID-jee-OH-toh",
+    "ipa": "/ˌpɪdʒiːˈoʊɾoʊ/"
+  },
+  {
+    "dex": "#0018",
+    "name": "Pidgeot",
+    "pronunciation": "PID-jee-aht",
+    "ipa": "/ˈpɪdʒiːɑːt/"
+  },
+  {
+    "dex": "#0019",
+    "name": "Rattata",
+    "pronunciation": "ruh-TA-tuh",
+    "ipa": "/ɹəˈtæɾə/"
+  },
+  {
+    "dex": "#0020",
+    "name": "Raticate",
+    "pronunciation": "RAT-ih-kate",
+    "ipa": "/ˈɹæɾɪkeɪt/"
+  },
+  {
+    "dex": "#0021",
+    "name": "Spearow",
+    "pronunciation": "SPEER-oh",
+    "ipa": "/ˈspɪɹoʊ/"
+  },
+  {
+    "dex": "#0022",
+    "name": "Fearow",
+    "pronunciation": "FEER-oh",
+    "ipa": "/ˈfɪɹoʊ/"
+  },
+  {
+    "dex": "#0023",
+    "name": "Ekans",
+    "pronunciation": "ECK-ins",
+    "ipa": "/ˈɛkənz/"
+  },
+  {
+    "dex": "#0024",
+    "name": "Arbok",
+    "pronunciation": "AR-bahk",
+    "ipa": "/ˈɑːɹbɑːk/"
+  },
+  {
+    "dex": "#0025",
+    "name": "Pikachu",
+    "pronunciation": "PEE-ka-choo",
+    "ipa": "/ˈpiːkətʃuː/"
+  },
+  {
+    "dex": "#0026",
+    "name": "Raichu",
+    "pronunciation": "RYE-choo",
+    "ipa": "/ˈɹaɪtʃuː/"
+  },
+  {
+    "dex": "#0027",
+    "name": "Sandshrew",
+    "pronunciation": "SAND-shroo",
+    "ipa": "/ˈsændʃɹuː/"
+  },
+  {
+    "dex": "#0028",
+    "name": "Sandslash",
+    "pronunciation": "SAND-slash",
+    "ipa": "/ˈsændslæʃ/"
+  },
+  {
+    "dex": "#0029",
+    "name": "Nidoran♀",
+    "pronunciation": "NEE-doh-ran (female)",
+    "ipa": "/ˈniːdoʊɹæn (ˈfiːmeɪl)/"
+  },
+  {
+    "dex": "#0030",
+    "name": "Nidorina",
+    "pronunciation": "NEE-doh-REE-nuh",
+    "ipa": "/ˌniːdoʊˈɹiːnə/"
+  },
+  {
+    "dex": "#0031",
+    "name": "Nidoqueen",
+    "pronunciation": "NEE-doh-kween",
+    "ipa": "/ˈniːdoʊkwiːn/"
+  },
+  {
+    "dex": "#0032",
+    "name": "Nidoran♂",
+    "pronunciation": "NEE-doh-ran (male)",
+    "ipa": "/ˈniːdoʊɹæn (ˈmeɪl)/"
+  },
+  {
+    "dex": "#0033",
+    "name": "Nidorino",
+    "pronunciation": "NEE-doh-REE-no",
+    "ipa": "/ˌniːdoʊˈɹiːnoʊ/"
+  },
+  {
+    "dex": "#0034",
+    "name": "Nidoking",
+    "pronunciation": "NEE-doh-king",
+    "ipa": "/ˈniːdoʊkɪŋ/"
+  },
+  {
+    "dex": "#0035",
+    "name": "Clefairy",
+    "pronunciation": "cleh-FAIR-ee",
+    "ipa": "/klɛˈfɛɹiː/"
+  },
+  {
+    "dex": "#0036",
+    "name": "Clefable",
+    "pronunciation": "cleh-FAY-bull",
+    "ipa": "/klɛˈfeɪbəl/"
+  },
+  {
+    "dex": "#0037",
+    "name": "Vulpix",
+    "pronunciation": "VULL-piks",
+    "ipa": "/ˈvʊlpɪks/"
+  },
+  {
+    "dex": "#0038",
+    "name": "Ninetales",
+    "pronunciation": "NINE-tales",
+    "ipa": "/ˈnaɪnteɪlz/"
+  },
+  {
+    "dex": "#0039",
+    "name": "Jigglypuff",
+    "pronunciation": "JIG-lee-puff",
+    "ipa": "/ˈdʒɪɡliːpʌf/"
+  },
+  {
+    "dex": "#0040",
+    "name": "Wigglytuff",
+    "pronunciation": "WIG-lee-tuff",
+    "ipa": "/ˈwɪɡliːtʌf/"
+  },
+  {
+    "dex": "#0041",
+    "name": "Zubat",
+    "pronunciation": "ZOO-bat",
+    "ipa": "/ˈzuːbæt/"
+  },
+  {
+    "dex": "#0042",
+    "name": "Golbat",
+    "pronunciation": "GOHL-bat",
+    "ipa": "/ˈɡɔːlbæt/"
+  },
+  {
+    "dex": "#0043",
+    "name": "Oddish",
+    "pronunciation": "ODD-ish",
+    "ipa": "/ˈɑːdɪʃ/"
+  },
+  {
+    "dex": "#0044",
+    "name": "Gloom",
+    "pronunciation": "GLOOM",
+    "ipa": "/ˈɡluːm/"
+  },
+  {
+    "dex": "#0045",
+    "name": "Vileplume",
+    "pronunciation": "VILE-ploom",
+    "ipa": "/ˈvaɪlpluːm/"
+  },
+  {
+    "dex": "#0046",
+    "name": "Paras",
+    "pronunciation": "PEHR-iss",
+    "ipa": "/ˈpɛɹəs/"
+  },
+  {
+    "dex": "#0047",
+    "name": "Parasect",
+    "pronunciation": "PEHR-uh-sekt",
+    "ipa": "/ˈpɛɹəsɛkt/"
+  },
+  {
+    "dex": "#0048",
+    "name": "Venonat",
+    "pronunciation": "VENN-oh-nat",
+    "ipa": "/ˈvɛnoʊnæt/"
+  },
+  {
+    "dex": "#0049",
+    "name": "Venomoth",
+    "pronunciation": "VENN-oh-moth",
+    "ipa": "/ˈvɛnoʊmɑːθ/"
+  },
+  {
+    "dex": "#0050",
+    "name": "Diglett",
+    "pronunciation": "DIG-lit",
+    "ipa": "/ˈdɪɡlət/"
+  },
+  {
+    "dex": "#0051",
+    "name": "Dugtrio",
+    "pronunciation": "dug-TREE-oh",
+    "ipa": "/dʌɡˈtɹiːoʊ/"
+  },
+  {
+    "dex": "#0052",
+    "name": "Meowth",
+    "pronunciation": "mee-OWTH",
+    "ipa": "/miːˈaʊθ/"
+  },
+  {
+    "dex": "#0053",
+    "name": "Persian",
+    "pronunciation": "PURR-zhin",
+    "ipa": "/ˈpɝːʒən/"
+  },
+  {
+    "dex": "#0054",
+    "name": "Psyduck",
+    "pronunciation": "SYE-duck",
+    "ipa": "/ˈsaɪdʌk/"
+  },
+  {
+    "dex": "#0055",
+    "name": "Golduck",
+    "pronunciation": "GOHL-duck",
+    "ipa": "/ˈɡɔːldʌk/"
+  },
+  {
+    "dex": "#0056",
+    "name": "Mankey",
+    "pronunciation": "MANK-ee",
+    "ipa": "/ˈmæŋkiː/"
+  },
+  {
+    "dex": "#0057",
+    "name": "Primeape",
+    "pronunciation": "PRIME-ape",
+    "ipa": "/ˈpɹaɪmeɪp/"
+  },
+  {
+    "dex": "#0058",
+    "name": "Growlithe",
+    "pronunciation": "GROWL-ith",
+    "ipa": "/ˈɡɹaʊlɪθ/"
+  },
+  {
+    "dex": "#0059",
+    "name": "Arcanine",
+    "pronunciation": "AR-kuh-nine",
+    "ipa": "/ˈɑːɹkənɑɪn/"
+  },
+  {
+    "dex": "#0060",
+    "name": "Poliwag",
+    "pronunciation": "PAHL-ee-wag",
+    "ipa": "/ˈpɑːliːwæɡ/"
+  },
+  {
+    "dex": "#0061",
+    "name": "Poliwhirl",
+    "pronunciation": "PAHL-ee-wurl",
+    "ipa": "/ˈpɑːliːwɝːl/"
+  },
+  {
+    "dex": "#0062",
+    "name": "Poliwrath",
+    "pronunciation": "PAHL-ee-rath",
+    "ipa": "/ˈpɑːliːɹæθ/"
+  },
+  {
+    "dex": "#0063",
+    "name": "Abra",
+    "pronunciation": "AB-ruh",
+    "ipa": "/ˈæbɹə/"
+  },
+  {
+    "dex": "#0064",
+    "name": "Kadabra",
+    "pronunciation": "kuh-DAB-ruh",
+    "ipa": "/kəˈdæbɹə/"
+  },
+  {
+    "dex": "#0065",
+    "name": "Alakazam",
+    "pronunciation": "AL-uh-kuh-ZAM",
+    "ipa": "/ˌæləkəˈzæm/"
+  },
+  {
+    "dex": "#0066",
+    "name": "Machop",
+    "pronunciation": "muh-CHOP",
+    "ipa": "/məˈtʃɑːp/"
+  },
+  {
+    "dex": "#0067",
+    "name": "Machoke",
+    "pronunciation": "muh-CHOKE",
+    "ipa": "/məˈtʃoʊk/"
+  },
+  {
+    "dex": "#0068",
+    "name": "Machamp",
+    "pronunciation": "muh-CHAMP",
+    "ipa": "/məˈtʃæmp/"
+  },
+  {
+    "dex": "#0069",
+    "name": "Bellsprout",
+    "pronunciation": "BELL-sprout",
+    "ipa": "/ˈbɛlspɹaʊt/"
+  },
+  {
+    "dex": "#0070",
+    "name": "Weepinbell",
+    "pronunciation": "WEEP-in-bell",
+    "ipa": "/ˈwiːpɪnbɛl/"
+  },
+  {
+    "dex": "#0071",
+    "name": "Victreebel",
+    "pronunciation": "VICK-tree-bell",
+    "ipa": "/ˈvɪktriːbɛl/"
+  },
+  {
+    "dex": "#0072",
+    "name": "Tentacool",
+    "pronunciation": "TEN-tuh-kool",
+    "ipa": "/ˈtɛntəkuːl/"
+  },
+  {
+    "dex": "#0073",
+    "name": "Tentacruel",
+    "pronunciation": "TEN-tuh-krool",
+    "ipa": "/ˈtɛntəkɹuːl/"
+  },
+  {
+    "dex": "#0074",
+    "name": "Geodude",
+    "pronunciation": "JEE-oh-dood",
+    "ipa": "/ˈdʒiːoʊduːd/"
+  },
+  {
+    "dex": "#0075",
+    "name": "Graveler",
+    "pronunciation": "GRAV-uh-lurr",
+    "ipa": "/ˈɡɹævəlɚ/"
+  },
+  {
+    "dex": "#0076",
+    "name": "Golem",
+    "pronunciation": "GOHL-um",
+    "ipa": "/ˈɡɔːləm/"
+  },
+  {
+    "dex": "#0077",
+    "name": "Ponyta",
+    "pronunciation": "POH-nee-tah",
+    "ipa": "/ˈpoʊniːtɑː/"
+  },
+  {
+    "dex": "#0078",
+    "name": "Rapidash",
+    "pronunciation": "RAP-ih-dash",
+    "ipa": "/ˈɹæpɪdæʃ/"
+  },
+  {
+    "dex": "#0079",
+    "name": "Slowpoke",
+    "pronunciation": "SLOH-poke",
+    "ipa": "/ˈsloʊpoʊk/"
+  },
+  {
+    "dex": "#0080",
+    "name": "Slowbro",
+    "pronunciation": "SLOH-bro",
+    "ipa": "/ˈsloʊbɹoʊ/"
+  },
+  {
+    "dex": "#0081",
+    "name": "Magnemite",
+    "pronunciation": "MAG-nuh-mite",
+    "ipa": "/ˈmæɡnəmaɪt/"
+  },
+  {
+    "dex": "#0082",
+    "name": "Magneton",
+    "pronunciation": "MAG-nuh-tahn",
+    "ipa": "/ˈmæɡnətɑːn/"
+  },
+  {
+    "dex": "#0083",
+    "name": "Farfetch'd",
+    "pronunciation": "FAR-fetcht",
+    "ipa": "/ˈfɑːɹfɛtʃt/"
+  },
+  {
+    "dex": "#0084",
+    "name": "Doduo",
+    "pronunciation": "doh-DOO-oh",
+    "ipa": "/doʊˈduːoʊ/"
+  },
+  {
+    "dex": "#0085",
+    "name": "Dodrio",
+    "pronunciation": "doh-DREE-oh",
+    "ipa": "/doʊˈdɹiːoʊ/"
+  },
+  {
+    "dex": "#0086",
+    "name": "Seel",
+    "pronunciation": "SEEL",
+    "ipa": "/ˈsiːl/"
+  },
+  {
+    "dex": "#0087",
+    "name": "Dewgong",
+    "pronunciation": "DOO-gahng",
+    "ipa": "/ˈduːɡɑːŋ/"
+  },
+  {
+    "dex": "#0088",
+    "name": "Grimer",
+    "pronunciation": "GRIME-er",
+    "ipa": "/ˈɡɹaɪmɚ/"
+  },
+  {
+    "dex": "#0089",
+    "name": "Muk",
+    "pronunciation": "MUK",
+    "ipa": "/ˈmʌk/"
+  },
+  {
+    "dex": "#0090",
+    "name": "Shellder",
+    "pronunciation": "SHELL-dur",
+    "ipa": "/ˈʃɛldɚ/"
+  },
+  {
+    "dex": "#0091",
+    "name": "Cloyster",
+    "pronunciation": "CLOY-stur",
+    "ipa": "/ˈklɔɪstɚ/"
+  },
+  {
+    "dex": "#0092",
+    "name": "Gastly",
+    "pronunciation": "GAS-lee",
+    "ipa": "/ˈɡæsliː/"
+  },
+  {
+    "dex": "#0093",
+    "name": "Haunter",
+    "pronunciation": "HAHN-tur",
+    "ipa": "/ˈhɑːntɚ/"
+  },
+  {
+    "dex": "#0094",
+    "name": "Gengar",
+    "pronunciation": "GENG-gar",
+    "ipa": "/ˈɡɛŋɡɑːɹ/"
+  },
+  {
+    "dex": "#0095",
+    "name": "Onix",
+    "pronunciation": "AHN-iks",
+    "ipa": "/ˈɑːnɪks/"
+  },
+  {
+    "dex": "#0096",
+    "name": "Drowzee",
+    "pronunciation": "DROW-zee",
+    "ipa": "/ˈdɹaʊziː/"
+  },
+  {
+    "dex": "#0097",
+    "name": "Hypno",
+    "pronunciation": "HIP-noh",
+    "ipa": "/ˈhɪpnoʊ/"
+  },
+  {
+    "dex": "#0098",
+    "name": "Krabby",
+    "pronunciation": "KRA-bee",
+    "ipa": "/ˈkɹæbiː/"
+  },
+  {
+    "dex": "#0099",
+    "name": "Kingler",
+    "pronunciation": "KING-ler",
+    "ipa": "/ˈkɪŋlɚ/"
+  },
+  {
+    "dex": "#0100",
+    "name": "Voltorb",
+    "pronunciation": "VOHL-torb",
+    "ipa": "/ˈvɔːltɔːɹb/"
+  },
+  {
+    "dex": "#0101",
+    "name": "Electrode",
+    "pronunciation": "ee-LECK-trode",
+    "ipa": "/ɪˈlɛktɹoʊd/"
+  },
+  {
+    "dex": "#0102",
+    "name": "Exeggcute",
+    "pronunciation": "EGZ-egg-cute",
+    "ipa": "/ˈɛɡzəɡkjuːt/"
+  },
+  {
+    "dex": "#0103",
+    "name": "Exeggutor",
+    "pronunciation": "egz-EGG-yoo-tohr",
+    "ipa": "/ɛɡzˈɛɡjuːtɔːɹ/"
+  },
+  {
+    "dex": "#0104",
+    "name": "Cubone",
+    "pronunciation": "KYOO-bohn",
+    "ipa": "/ˈkjuːboʊn/"
+  },
+  {
+    "dex": "#0105",
+    "name": "Marowak",
+    "pronunciation": "MARE-oh-wak",
+    "ipa": "/ˈmɛɹoʊwæk/"
+  },
+  {
+    "dex": "#0106",
+    "name": "Hitmonlee",
+    "pronunciation": "HIT-mahn-lee",
+    "ipa": "/ˈhɪtmɑːnliː/"
+  },
+  {
+    "dex": "#0107",
+    "name": "Hitmonchan",
+    "pronunciation": "HIT-mahn-chan",
+    "ipa": "/ˈhɪtmɑːntʃæn/"
+  },
+  {
+    "dex": "#0108",
+    "name": "Lickitung",
+    "pronunciation": "LICK-ih-tung",
+    "ipa": "/ˈlɪkɪtʌŋ/"
+  },
+  {
+    "dex": "#0109",
+    "name": "Koffing",
+    "pronunciation": "KAHF-ing",
+    "ipa": "/ˈkɑːfɪŋ/"
+  },
+  {
+    "dex": "#0110",
+    "name": "Weezing",
+    "pronunciation": "WEEZ-ing",
+    "ipa": "/ˈwiːzɪŋ/"
+  },
+  {
+    "dex": "#0111",
+    "name": "Rhyhorn",
+    "pronunciation": "RYE-horn",
+    "ipa": "/ˈɹaɪhɔːɹn/"
+  },
+  {
+    "dex": "#0112",
+    "name": "Rhydon",
+    "pronunciation": "RYE-dahn",
+    "ipa": "/ˈɹaɪdɑːn/"
+  },
+  {
+    "dex": "#0113",
+    "name": "Chansey",
+    "pronunciation": "CHAN-see",
+    "ipa": "/ˈtʃænsiː/"
+  },
+  {
+    "dex": "#0114",
+    "name": "Tangela",
+    "pronunciation": "TANG-guh-luh",
+    "ipa": "/ˈtæŋɡələ/"
+  },
+  {
+    "dex": "#0115",
+    "name": "Kangaskhan",
+    "pronunciation": "KANG-gus-kahn",
+    "ipa": "/ˈkæŋɡəskɑːn/"
+  },
+  {
+    "dex": "#0116",
+    "name": "Horsea",
+    "pronunciation": "HOR-see",
+    "ipa": "/ˈhɔːɹsiː/"
+  },
+  {
+    "dex": "#0117",
+    "name": "Seadra",
+    "pronunciation": "SEE-druh",
+    "ipa": "/ˈsiːdɹə/"
+  },
+  {
+    "dex": "#0118",
+    "name": "Goldeen",
+    "pronunciation": "gol-DEEN",
+    "ipa": "/ɡɔːlˈdiːn/"
+  },
+  {
+    "dex": "#0119",
+    "name": "Seaking",
+    "pronunciation": "SEE-king",
+    "ipa": "/ˈsiːkɪŋ/"
+  },
+  {
+    "dex": "#0120",
+    "name": "Staryu",
+    "pronunciation": "STAR-yoo",
+    "ipa": "/ˈstɑːɹjuː/"
+  },
+  {
+    "dex": "#0121",
+    "name": "Starmie",
+    "pronunciation": "STAR-mee",
+    "ipa": "/ˈstɑːɹmiː/"
+  },
+  {
+    "dex": "#0122",
+    "name": "Mr. Mime",
+    "pronunciation": "MISS-tur-MIME",
+    "ipa": "/ˌmɪstɚˈmaɪm/"
+  },
+  {
+    "dex": "#0123",
+    "name": "Scyther",
+    "pronunciation": "SYE-ther",
+    "ipa": "/ˈsaɪθɚ/"
+  },
+  {
+    "dex": "#0124",
+    "name": "Jynx",
+    "pronunciation": "JINKS",
+    "ipa": "/ˈdʒɪŋks/"
+  },
+  {
+    "dex": "#0125",
+    "name": "Electabuzz",
+    "pronunciation": "ee-LECK-tuh-buzz",
+    "ipa": "/əˈlɛktəbʌz/"
+  },
+  {
+    "dex": "#0126",
+    "name": "Magmar",
+    "pronunciation": "MAG-mar",
+    "ipa": "/ˈmæɡmɑːɹ/"
+  },
+  {
+    "dex": "#0127",
+    "name": "Pinsir",
+    "pronunciation": "PIN-sur",
+    "ipa": "/ˈpɪnsɚ/"
+  },
+  {
+    "dex": "#0128",
+    "name": "Tauros",
+    "pronunciation": "TOHR-ohs",
+    "ipa": "/ˈtɔːɹoʊs/"
+  },
+  {
+    "dex": "#0129",
+    "name": "Magikarp",
+    "pronunciation": "MAJ-ih-karp",
+    "ipa": "/ˈmædʒɪkɑːɹp/"
+  },
+  {
+    "dex": "#0130",
+    "name": "Gyarados",
+    "pronunciation": "GARE-uh-dos",
+    "ipa": "/ˈɡɛɹədoʊs/"
+  },
+  {
+    "dex": "#0131",
+    "name": "Lapras",
+    "pronunciation": "LAP-ris",
+    "ipa": "/ˈlæpɹəs/"
+  },
+  {
+    "dex": "#0132",
+    "name": "Ditto",
+    "pronunciation": "DIH-toh",
+    "ipa": "/ˈdɪtoʊ/"
+  },
+  {
+    "dex": "#0133",
+    "name": "Eevee",
+    "pronunciation": "EE-vee",
+    "ipa": "/ˈiːviː/"
+  },
+  {
+    "dex": "#0134",
+    "name": "Vaporeon",
+    "pronunciation": "vay-POHR-ee-ahn",
+    "ipa": "/veɪˈpɔːɹiːɑːn/"
+  },
+  {
+    "dex": "#0135",
+    "name": "Jolteon",
+    "pronunciation": "JOHL-tee-ahn",
+    "ipa": "/ˈdʒɔːltiːɑːn/"
+  },
+  {
+    "dex": "#0136",
+    "name": "Flareon",
+    "pronunciation": "FLARE-ee-ahn",
+    "ipa": "/ˈflɛɹiːɑːn/"
+  },
+  {
+    "dex": "#0137",
+    "name": "Porygon",
+    "pronunciation": "POHR-ee-gahn",
+    "ipa": "/ˈpɔːɹiːɡɑːn/"
+  },
+  {
+    "dex": "#0138",
+    "name": "Omanyte",
+    "pronunciation": "AHM-uh-nite",
+    "ipa": "/ˈɑːmənɑɪt/"
+  },
+  {
+    "dex": "#0139",
+    "name": "Omastar",
+    "pronunciation": "AHM-uh-star",
+    "ipa": "/ˈɑːməstɑːɹ/"
+  },
+  {
+    "dex": "#0140",
+    "name": "Kabuto",
+    "pronunciation": "kuh-BOO-toh",
+    "ipa": "/kəˈbuːtoʊ/"
+  },
+  {
+    "dex": "#0141",
+    "name": "Kabutops",
+    "pronunciation": "KAH-boo-tahps",
+    "ipa": "/ˈkɑːbuːtɑːps/"
+  },
+  {
+    "dex": "#0142",
+    "name": "Aerodactyl",
+    "pronunciation": "AIR-uh-DAK-tull",
+    "ipa": "/ɛɹəˈdæktəl/"
+  },
+  {
+    "dex": "#0143",
+    "name": "Snorlax",
+    "pronunciation": "SNORE-lax",
+    "ipa": "/ˈsnɔːɹlæks/"
+  },
+  {
+    "dex": "#0144",
+    "name": "Articuno",
+    "pronunciation": "AR-ti-KOO-noh",
+    "ipa": "/ˌɑːɹɾɪˈkuːnoʊ/"
+  },
+  {
+    "dex": "#0145",
+    "name": "Zapdos",
+    "pronunciation": "ZAP-dohs",
+    "ipa": "/ˈzæpdoʊs/"
+  },
+  {
+    "dex": "#0146",
+    "name": "Moltres",
+    "pronunciation": "MOHL-trace",
+    "ipa": "/ˈmɔːltɹeɪs/"
+  },
+  {
+    "dex": "#0147",
+    "name": "Dratini",
+    "pronunciation": "druh-TEE-nee",
+    "ipa": "/dɹəˈtiːniː/"
+  },
+  {
+    "dex": "#0148",
+    "name": "Dragonair",
+    "pronunciation": "DRAG-uh-nair",
+    "ipa": "/ˈdɹæɡənɛɹ/"
+  },
+  {
+    "dex": "#0149",
+    "name": "Dragonite",
+    "pronunciation": "DRAG-uh-nite",
+    "ipa": "/ˈdɹæɡənaɪt/"
+  },
+  {
+    "dex": "#0150",
+    "name": "Mewtwo",
+    "pronunciation": "MYOO-too",
+    "ipa": "/ˈmjuːtuː/"
+  },
+  {
+    "dex": "#0151",
+    "name": "Mew",
+    "pronunciation": "MYOO",
+    "ipa": "/ˈmjuː/"
+  },
+  {
+    "dex": "#0152",
+    "name": "Chikorita",
+    "pronunciation": "CHIK-or-EE-tuh",
+    "ipa": "/ˌtʃɪkɔːɹˈiːɾə/"
+  },
+  {
+    "dex": "#0153",
+    "name": "Bayleef",
+    "pronunciation": "BAY-leef",
+    "ipa": "/ˈbeɪliːf/"
+  },
+  {
+    "dex": "#0154",
+    "name": "Meganium",
+    "pronunciation": "muh-GAY-nee-uhm",
+    "ipa": "/məˈɡeɪniːəm/"
+  },
+  {
+    "dex": "#0155",
+    "name": "Cyndaquil",
+    "pronunciation": "SIN-duh-kwil",
+    "ipa": "/ˈsɪndəkwɪl/"
+  },
+  {
+    "dex": "#0156",
+    "name": "Quilava",
+    "pronunciation": "kwi-LAH-vuh",
+    "ipa": "/kwɪˈlɑːvə/"
+  },
+  {
+    "dex": "#0157",
+    "name": "Typhlosion",
+    "pronunciation": "tye-FLOH-zhun",
+    "ipa": "/taɪˈfloʊʒən/"
+  },
+  {
+    "dex": "#0158",
+    "name": "Totodile",
+    "pronunciation": "TOH-tuh-dile",
+    "ipa": "/ˈtoʊɾədaɪl/"
+  },
+  {
+    "dex": "#0159",
+    "name": "Croconaw",
+    "pronunciation": "KROK-uh-naw",
+    "ipa": "/ˈkɹɑːkənɑː/"
+  },
+  {
+    "dex": "#0160",
+    "name": "Feraligatr",
+    "pronunciation": "fur-AL-ih-gay-tur",
+    "ipa": "/fɚˈæləɡeɪɾɚ/"
+  },
+  {
+    "dex": "#0161",
+    "name": "Sentret",
+    "pronunciation": "SEN-trit",
+    "ipa": "/ˈsɛntɹət/"
+  },
+  {
+    "dex": "#0162",
+    "name": "Furret",
+    "pronunciation": "FUR-it",
+    "ipa": "/ˈfɝːət/"
+  },
+  {
+    "dex": "#0163",
+    "name": "Hoothoot",
+    "pronunciation": "HOOT-hoot",
+    "ipa": "/ˈhuːtˌhuːt/"
+  },
+  {
+    "dex": "#0164",
+    "name": "Noctowl",
+    "pronunciation": "NAHK-towl",
+    "ipa": "/ˈnɑːktaʊl/"
+  },
+  {
+    "dex": "#0165",
+    "name": "Ledyba",
+    "pronunciation": "LED-ee-buh",
+    "ipa": "/ˈlɛdiːbə/"
+  },
+  {
+    "dex": "#0166",
+    "name": "Ledian",
+    "pronunciation": "LED-ee-ahn",
+    "ipa": "/ˈlɛdiːɑːn/"
+  },
+  {
+    "dex": "#0167",
+    "name": "Spinarak",
+    "pronunciation": "SPIN-uh-rak",
+    "ipa": "/ˈspɪnəɹæk/"
+  },
+  {
+    "dex": "#0168",
+    "name": "Ariados",
+    "pronunciation": "EHR-ee-uh-dos",
+    "ipa": "/ˈɛɹiːədoʊs/"
+  },
+  {
+    "dex": "#0169",
+    "name": "Crobat",
+    "pronunciation": "KROH-bat",
+    "ipa": "/ˈkɹoʊbæt/"
+  },
+  {
+    "dex": "#0170",
+    "name": "Chinchou",
+    "pronunciation": "CHIN-chow",
+    "ipa": "/ˈtʃɪntʃaʊ/"
+  },
+  {
+    "dex": "#0171",
+    "name": "Lanturn",
+    "pronunciation": "LAN-turn",
+    "ipa": "/ˈlæntɚn/"
+  },
+  {
+    "dex": "#0172",
+    "name": "Pichu",
+    "pronunciation": "PEE-choo",
+    "ipa": "/ˈpiːtʃu/"
+  },
+  {
+    "dex": "#0173",
+    "name": "Cleffa",
+    "pronunciation": "CLEH-fuh",
+    "ipa": "/ˈklɛfə/"
+  },
+  {
+    "dex": "#0174",
+    "name": "Igglybuff",
+    "pronunciation": "IGG-lee-buff",
+    "ipa": "/ˈɪɡliːbʌf/"
+  },
+  {
+    "dex": "#0175",
+    "name": "Togepi",
+    "pronunciation": "TOH-guh-pee",
+    "ipa": "/ˈtoʊgəpiː/"
+  },
+  {
+    "dex": "#0176",
+    "name": "Togetic",
+    "pronunciation": "TOH-guh-tik",
+    "ipa": "/ˈtoʊɡətɪk/"
+  },
+  {
+    "dex": "#0177",
+    "name": "Natu",
+    "pronunciation": "NAH-too",
+    "ipa": "/ˈnɑːtuː/"
+  },
+  {
+    "dex": "#0178",
+    "name": "Xatu",
+    "pronunciation": "ZAH-too",
+    "ipa": "/ˈzɑːtuː/"
+  },
+  {
+    "dex": "#0179",
+    "name": "Mareep",
+    "pronunciation": "muh-REEP",
+    "ipa": "/məˈɹiːp/"
+  },
+  {
+    "dex": "#0180",
+    "name": "Flaaffy",
+    "pronunciation": "FLA-fee",
+    "ipa": "/ˈflæfiː/"
+  },
+  {
+    "dex": "#0181",
+    "name": "Ampharos",
+    "pronunciation": "AM-fuh-rahs",
+    "ipa": "/ˈæmfəɹɑːs/"
+  },
+  {
+    "dex": "#0182",
+    "name": "Bellossom",
+    "pronunciation": "bell-AH-sum",
+    "ipa": "/bɛlˈɑːsəm/"
+  },
+  {
+    "dex": "#0183",
+    "name": "Marill",
+    "pronunciation": "MEHR-ull",
+    "ipa": "/ˈmɛɹəl/"
+  },
+  {
+    "dex": "#0184",
+    "name": "Azumarill",
+    "pronunciation": "uh-ZOO-muh-rill",
+    "ipa": "/əˈzuːməɹɪl/"
+  },
+  {
+    "dex": "#0185",
+    "name": "Sudowoodo",
+    "pronunciation": "SOO-doh-WOO-doh",
+    "ipa": "/ˌsuːdoʊˈwuːdoʊ/"
+  },
+  {
+    "dex": "#0186",
+    "name": "Politoed",
+    "pronunciation": "PAHL-ee-tohd",
+    "ipa": "/ˈpɑːliːtoʊd/"
+  },
+  {
+    "dex": "#0187",
+    "name": "Hoppip",
+    "pronunciation": "HOP-ip",
+    "ipa": "/ˈhɑːpɪp/"
+  },
+  {
+    "dex": "#0188",
+    "name": "Skiploom",
+    "pronunciation": "SKIP-loom",
+    "ipa": "/ˈskɪpluːm/"
+  },
+  {
+    "dex": "#0189",
+    "name": "Jumpluff",
+    "pronunciation": "JUMP-luff",
+    "ipa": "/ˈdʒʌmplʌf/"
+  },
+  {
+    "dex": "#0190",
+    "name": "Aipom",
+    "pronunciation": "AY-pahm",
+    "ipa": "/ˈeɪpɑːm/"
+  },
+  {
+    "dex": "#0191",
+    "name": "Sunkern",
+    "pronunciation": "SUN-kurn",
+    "ipa": "/ˈsʌŋkɚn/"
+  },
+  {
+    "dex": "#0192",
+    "name": "Sunflora",
+    "pronunciation": "sun-FLOHR-uh",
+    "ipa": "/ˌsʌnˈflɔːɹə/"
+  },
+  {
+    "dex": "#0193",
+    "name": "Yanma",
+    "pronunciation": "YAN-muh",
+    "ipa": "/ˈjænmə/"
+  },
+  {
+    "dex": "#0194",
+    "name": "Wooper",
+    "pronunciation": "WOO-pur",
+    "ipa": "/ˈwuːpɚ/"
+  },
+  {
+    "dex": "#0195",
+    "name": "Quagsire",
+    "pronunciation": "KWAG-sire",
+    "ipa": "/ˈkwæɡsaɪɚ/"
+  },
+  {
+    "dex": "#0196",
+    "name": "Espeon",
+    "pronunciation": "ES-pee-ahn",
+    "ipa": "/ˈɛspiːɑːn/"
+  },
+  {
+    "dex": "#0197",
+    "name": "Umbreon",
+    "pronunciation": "UM-bree-ahn",
+    "ipa": "/ˈʌmbɹiːɑːn/"
+  },
+  {
+    "dex": "#0198",
+    "name": "Murkrow",
+    "pronunciation": "MURR-kroh",
+    "ipa": "/ˈmɝːkɹoʊ/"
+  },
+  {
+    "dex": "#0199",
+    "name": "Slowking",
+    "pronunciation": "SLOH-king",
+    "ipa": "/ˈsloʊkɪŋ/"
+  },
+  {
+    "dex": "#0200",
+    "name": "Misdreavus",
+    "pronunciation": "miss-DREE-vis",
+    "ipa": "/mɪsˈdɹiːvəs/"
+  },
+  {
+    "dex": "#0201",
+    "name": "Unown",
+    "pronunciation": "uh-NOHN",
+    "ipa": "/ʌˈnoʊn/"
+  },
+  {
+    "dex": "#0202",
+    "name": "Wobbuffet",
+    "pronunciation": "WOBB-uh-fet",
+    "ipa": "/ˈwɑːbəfɛt/"
+  },
+  {
+    "dex": "#0203",
+    "name": "Girafarig",
+    "pronunciation": "jer-AF-uh-rig",
+    "ipa": "/dʒɚːˈæfəɹɪɡ/"
+  },
+  {
+    "dex": "#0204",
+    "name": "Pineco",
+    "pronunciation": "PINE-koh",
+    "ipa": "/ˈpaɪnkoʊ/"
+  },
+  {
+    "dex": "#0205",
+    "name": "Forretress",
+    "pronunciation": "FOHR-ih-triss",
+    "ipa": "/ˈfɔːɹətɹəs/"
+  },
+  {
+    "dex": "#0206",
+    "name": "Dunsparce",
+    "pronunciation": "DUN-sparce",
+    "ipa": "/ˈdʌnspɑːɹs/"
+  },
+  {
+    "dex": "#0207",
+    "name": "Gligar",
+    "pronunciation": "GLYE-gar",
+    "ipa": "/ˈɡlaɪɡɑːɹ/"
+  },
+  {
+    "dex": "#0208",
+    "name": "Steelix",
+    "pronunciation": "STEEL-iks",
+    "ipa": "/ˈstiːlɪks/"
+  },
+  {
+    "dex": "#0209",
+    "name": "Snubbull",
+    "pronunciation": "SNUH-bull",
+    "ipa": "/ˈsnʌbʊl/"
+  },
+  {
+    "dex": "#0210",
+    "name": "Granbull",
+    "pronunciation": "GRAN-bull",
+    "ipa": "/ˈɡɹænbʊl/"
+  },
+  {
+    "dex": "#0211",
+    "name": "Qwilfish",
+    "pronunciation": "KWIL-fish",
+    "ipa": "/ˈkwɪlfɪʃ/"
+  },
+  {
+    "dex": "#0212",
+    "name": "Scizor",
+    "pronunciation": "SIZ-or",
+    "ipa": "/ˈsɪzɔːɹ/"
+  },
+  {
+    "dex": "#0213",
+    "name": "Shuckle",
+    "pronunciation": "SHUCK-uhl",
+    "ipa": "/ˈʃʌkəl/"
+  },
+  {
+    "dex": "#0214",
+    "name": "Heracross",
+    "pronunciation": "HEHR-uh-cross",
+    "ipa": "/ˈhɛɹəkɹɑːs/"
+  },
+  {
+    "dex": "#0215",
+    "name": "Sneasel",
+    "pronunciation": "SNEE-zull",
+    "ipa": "/ˈsniːzəl/"
+  },
+  {
+    "dex": "#0216",
+    "name": "Teddiursa",
+    "pronunciation": "ted-ee-UR-suh",
+    "ipa": "/tɛdiːˈɝːsə/"
+  },
+  {
+    "dex": "#0217",
+    "name": "Ursaring",
+    "pronunciation": "UR-suh-ring",
+    "ipa": "/ˈɝːsəɹɪŋ/"
+  },
+  {
+    "dex": "#0218",
+    "name": "Slugma",
+    "pronunciation": "SLUG-muh",
+    "ipa": "/ˈslʌgmə/"
+  },
+  {
+    "dex": "#0219",
+    "name": "Magcargo",
+    "pronunciation": "mag-KAR-goh",
+    "ipa": "/mæɡˈkɑːɹɡoʊ/"
+  },
+  {
+    "dex": "#0220",
+    "name": "Swinub",
+    "pronunciation": "SWYE-nub",
+    "ipa": "/ˈswaɪnʌb/"
+  },
+  {
+    "dex": "#0221",
+    "name": "Piloswine",
+    "pronunciation": "PYE-loh-swine",
+    "ipa": "/ˈpaɪloʊˌswaɪn/"
+  },
+  {
+    "dex": "#0222",
+    "name": "Corsola",
+    "pronunciation": "KOR-suh-luh",
+    "ipa": "/ˈkɔːɹsələ/"
+  },
+  {
+    "dex": "#0223",
+    "name": "Remoraid",
+    "pronunciation": "REM-or-aid",
+    "ipa": "/ˈɹɛməɹeɪd/"
+  },
+  {
+    "dex": "#0224",
+    "name": "Octillery",
+    "pronunciation": "ahk-TILL-er-ee",
+    "ipa": "/ɑːkˈtɪlɚiː/"
+  },
+  {
+    "dex": "#0225",
+    "name": "Delibird",
+    "pronunciation": "DELL-ee-bird",
+    "ipa": "/ˈdɛliːbɚd/"
+  },
+  {
+    "dex": "#0226",
+    "name": "Mantine",
+    "pronunciation": "MAN-teen",
+    "ipa": "/ˈmæntiːn/"
+  },
+  {
+    "dex": "#0227",
+    "name": "Skarmory",
+    "pronunciation": "SKAR-muh-ree",
+    "ipa": "/ˈskɑːɹmɚiː/"
+  },
+  {
+    "dex": "#0228",
+    "name": "Houndour",
+    "pronunciation": "HOUN-dow-er",
+    "ipa": "/ˈhaʊndaʊɚ/"
+  },
+  {
+    "dex": "#0229",
+    "name": "Houndoom",
+    "pronunciation": "HOUN-doom",
+    "ipa": "/ˈhaʊnduːm/"
+  },
+  {
+    "dex": "#0230",
+    "name": "Kingdra",
+    "pronunciation": "KING-druh",
+    "ipa": "/ˈkɪŋdɹə/"
+  },
+  {
+    "dex": "#0231",
+    "name": "Phanpy",
+    "pronunciation": "FAN-pee",
+    "ipa": "/ˈfænpiː/"
+  },
+  {
+    "dex": "#0232",
+    "name": "Donphan",
+    "pronunciation": "DON-fan",
+    "ipa": "/ˈdɑːnfæn/"
+  },
+  {
+    "dex": "#0233",
+    "name": "Porygon2",
+    "pronunciation": "POR-ee-gahn-TOO",
+    "ipa": "/ˌpɔːɹiːɡɑːnˈtuː/"
+  },
+  {
+    "dex": "#0234",
+    "name": "Stantler",
+    "pronunciation": "STANT-ler",
+    "ipa": "/ˈstæntlɚ/"
+  },
+  {
+    "dex": "#0235",
+    "name": "Smeargle",
+    "pronunciation": "SMEER-gull",
+    "ipa": "/ˈsmɪɹɡəl/"
+  },
+  {
+    "dex": "#0236",
+    "name": "Tyrogue",
+    "pronunciation": "TYE-rohg",
+    "ipa": "/ˈtaɪɹoʊɡ/"
+  },
+  {
+    "dex": "#0237",
+    "name": "Hitmontop",
+    "pronunciation": "HIT-mahn-tahp",
+    "ipa": "/ˈhɪtmɑːntɑːp/"
+  },
+  {
+    "dex": "#0238",
+    "name": "Smoochum",
+    "pronunciation": "SMOO-chum",
+    "ipa": "/ˈsmuːtʃəm/"
+  },
+  {
+    "dex": "#0239",
+    "name": "Elekid",
+    "pronunciation": "EL-uh-kid",
+    "ipa": "/ˈɛləkɪd/"
+  },
+  {
+    "dex": "#0240",
+    "name": "Magby",
+    "pronunciation": "MAG-bee",
+    "ipa": "/ˈmægbiː/"
+  },
+  {
+    "dex": "#0241",
+    "name": "Miltank",
+    "pronunciation": "MILL-tank",
+    "ipa": "/ˈmɪltæŋk/"
+  },
+  {
+    "dex": "#0242",
+    "name": "Blissey",
+    "pronunciation": "BLISS-ee",
+    "ipa": "/ˈblɪsiː/"
+  },
+  {
+    "dex": "#0243",
+    "name": "Raikou",
+    "pronunciation": "RYE-koh",
+    "ipa": "/ˈɹaɪkoʊ/"
+  },
+  {
+    "dex": "#0244",
+    "name": "Entei",
+    "pronunciation": "EN-tay",
+    "ipa": "/ˈɛnteɪ/"
+  },
+  {
+    "dex": "#0245",
+    "name": "Suicune",
+    "pronunciation": "SWEE-koon",
+    "ipa": "/ˈswiːkuːn/"
+  },
+  {
+    "dex": "#0246",
+    "name": "Larvitar",
+    "pronunciation": "LAR-vih-tar",
+    "ipa": "/ˈlɑːɹvətɑːɹ/"
+  },
+  {
+    "dex": "#0247",
+    "name": "Pupitar",
+    "pronunciation": "PYOO-pih-tar",
+    "ipa": "/ˈpjuːpətɑːɹ/"
+  },
+  {
+    "dex": "#0248",
+    "name": "Tyranitar",
+    "pronunciation": "tye-RAN-ih-tar",
+    "ipa": "/taɪˈɹænətɑːɹ/"
+  },
+  {
+    "dex": "#0249",
+    "name": "Lugia",
+    "pronunciation": "LOO-gee-uh",
+    "ipa": "/ˈluːɡiːə/"
+  },
+  {
+    "dex": "#0250",
+    "name": "Ho-Oh",
+    "pronunciation": "HO-oh",
+    "ipa": "/ˈhoʊʔoʊ/"
+  },
+  {
+    "dex": "#0251",
+    "name": "Celebi",
+    "pronunciation": "SEL-uh-bee",
+    "ipa": "/ˈsɛləbiː/"
+  },
+  {
+    "dex": "#0252",
+    "name": "Treecko",
+    "pronunciation": "TREE-koh",
+    "ipa": "/ˈtɹiːkoʊ/"
+  },
+  {
+    "dex": "#0253",
+    "name": "Grovyle",
+    "pronunciation": "GROH-vile",
+    "ipa": "/ˈɡɹoʊvaɪl/"
+  },
+  {
+    "dex": "#0254",
+    "name": "Sceptile",
+    "pronunciation": "SEP-tile",
+    "ipa": "/ˈsɛptaɪl/"
+  },
+  {
+    "dex": "#0255",
+    "name": "Torchic",
+    "pronunciation": "TOR-chick",
+    "ipa": "/ˈtɔːɹtʃɪk/"
+  },
+  {
+    "dex": "#0256",
+    "name": "Combusken",
+    "pronunciation": "kum-BUS-kin",
+    "ipa": "/kəmˈbʌskən/"
+  },
+  {
+    "dex": "#0257",
+    "name": "Blaziken",
+    "pronunciation": "BLAYZ-ih-kin",
+    "ipa": "/ˈbleɪzəkən/"
+  },
+  {
+    "dex": "#0258",
+    "name": "Mudkip",
+    "pronunciation": "MUD-kip",
+    "ipa": "/ˈmʌdkɪp/"
+  },
+  {
+    "dex": "#0259",
+    "name": "Marshtomp",
+    "pronunciation": "MARSH-tahmp",
+    "ipa": "/ˈmɑːɹʃtɑːmp/"
+  },
+  {
+    "dex": "#0260",
+    "name": "Swampert",
+    "pronunciation": "SWAHM-purt",
+    "ipa": "/ˈswɑːmpɚt/"
+  },
+  {
+    "dex": "#0261",
+    "name": "Poochyena",
+    "pronunciation": "POO-chee-YEN-uh",
+    "ipa": "/ˌpuːtʃiːˈjɛnə/"
+  },
+  {
+    "dex": "#0262",
+    "name": "Mightyena",
+    "pronunciation": "MY-tee-YEN-uh",
+    "ipa": "/ˌmaɪtiːˈjɛnə/"
+  },
+  {
+    "dex": "#0263",
+    "name": "Zigzagoon",
+    "pronunciation": "zig-zuh-GOON",
+    "ipa": "/zɪɡzəˈɡuːn/"
+  },
+  {
+    "dex": "#0264",
+    "name": "Linoone",
+    "pronunciation": "lie-NOON",
+    "ipa": "/laɪˈnuːn/"
+  },
+  {
+    "dex": "#0265",
+    "name": "Wurmple",
+    "pronunciation": "WURM-pull",
+    "ipa": "/ˈwɝːmpəl/"
+  },
+  {
+    "dex": "#0266",
+    "name": "Silcoon",
+    "pronunciation": "SILL-koon",
+    "ipa": "/ˈsɪlkuːn/"
+  },
+  {
+    "dex": "#0267",
+    "name": "Beautifly",
+    "pronunciation": "BYOO-tih-fly",
+    "ipa": "/ˈbjuːtəflaɪ/"
+  },
+  {
+    "dex": "#0268",
+    "name": "Cascoon",
+    "pronunciation": "KASS-koon",
+    "ipa": "/ˈkæskuːn/"
+  },
+  {
+    "dex": "#0269",
+    "name": "Dustox",
+    "pronunciation": "DUS-tahks",
+    "ipa": "/ˈdʌstɑːks/"
+  },
+  {
+    "dex": "#0270",
+    "name": "Lotad",
+    "pronunciation": "LOH-tad",
+    "ipa": "/ˈloʊtæd/"
+  },
+  {
+    "dex": "#0271",
+    "name": "Lombre",
+    "pronunciation": "LAHM-bray",
+    "ipa": "/ˈlɑːmbɹeɪ/"
+  },
+  {
+    "dex": "#0272",
+    "name": "Ludicolo",
+    "pronunciation": "LOO-dee-KOH-loh",
+    "ipa": "/ˌluːdiːˈkoʊloʊ/"
+  },
+  {
+    "dex": "#0273",
+    "name": "Seedot",
+    "pronunciation": "SEE-daht",
+    "ipa": "/ˈsiːdɑːt/"
+  },
+  {
+    "dex": "#0274",
+    "name": "Nuzleaf",
+    "pronunciation": "NUZ-leef",
+    "ipa": "/ˈnʌzliːf/"
+  },
+  {
+    "dex": "#0275",
+    "name": "Shiftry",
+    "pronunciation": "SHIF-tree",
+    "ipa": "/ˈʃɪftɹiː/"
+  },
+  {
+    "dex": "#0276",
+    "name": "Taillow",
+    "pronunciation": "TAY-loh",
+    "ipa": "/ˈteɪloʊ/"
+  },
+  {
+    "dex": "#0277",
+    "name": "Swellow",
+    "pronunciation": "SWELL-oh",
+    "ipa": "/ˈswɛloʊ/"
+  },
+  {
+    "dex": "#0278",
+    "name": "Wingull",
+    "pronunciation": "WING-gull",
+    "ipa": "/ˈwɪŋɡəl/"
+  },
+  {
+    "dex": "#0279",
+    "name": "Pelipper",
+    "pronunciation": "PELL-ih-pur",
+    "ipa": "/ˈpɛlɪpɚ/"
+  },
+  {
+    "dex": "#0280",
+    "name": "Ralts",
+    "pronunciation": "RAHLTS",
+    "ipa": "/ˈɹɑːlts/"
+  },
+  {
+    "dex": "#0281",
+    "name": "Kirlia",
+    "pronunciation": "KUR-lee-uh",
+    "ipa": "/ˈkɝːliːə/"
+  },
+  {
+    "dex": "#0282",
+    "name": "Gardevoir",
+    "pronunciation": "GAR-dih-vwar",
+    "ipa": "/ˈɡɑːɹdəvwɑːɹ/"
+  },
+  {
+    "dex": "#0283",
+    "name": "Surskit",
+    "pronunciation": "SUR-skit",
+    "ipa": "/ˈsɝːskɪt/"
+  },
+  {
+    "dex": "#0284",
+    "name": "Masquerain",
+    "pronunciation": "mass-kur-AIN",
+    "ipa": "/mæskɚˈeɪn/"
+  },
+  {
+    "dex": "#0285",
+    "name": "Shroomish",
+    "pronunciation": "SHROO-mish",
+    "ipa": "/ˈʃɹuːmɪʃ/"
+  },
+  {
+    "dex": "#0286",
+    "name": "Breloom",
+    "pronunciation": "BREH-loom",
+    "ipa": "/ˈbɹɛluːm/"
+  },
+  {
+    "dex": "#0287",
+    "name": "Slakoth",
+    "pronunciation": "SLAK-ahth",
+    "ipa": "/ˈslækɑːθ/"
+  },
+  {
+    "dex": "#0288",
+    "name": "Vigoroth",
+    "pronunciation": "VIG-ur-ahth",
+    "ipa": "/ˈvɪɡɚɑːθ/"
+  },
+  {
+    "dex": "#0289",
+    "name": "Slaking",
+    "pronunciation": "SLAK-ing",
+    "ipa": "/ˈslækɪŋ/"
+  },
+  {
+    "dex": "#0290",
+    "name": "Nincada",
+    "pronunciation": "nin-KAH-duh",
+    "ipa": "/nɪnˈkɑːdə/"
+  },
+  {
+    "dex": "#0291",
+    "name": "Ninjask",
+    "pronunciation": "NIN-jask",
+    "ipa": "/ˈnɪndʒæsk/"
+  },
+  {
+    "dex": "#0292",
+    "name": "Shedinja",
+    "pronunciation": "shed-IN-juh",
+    "ipa": "/ʃɛdˈɪndʒə/"
+  },
+  {
+    "dex": "#0293",
+    "name": "Whismur",
+    "pronunciation": "WHISS-mur",
+    "ipa": "/ˈhwɪsmɚ/"
+  },
+  {
+    "dex": "#0294",
+    "name": "Loudred",
+    "pronunciation": "LOUD-red",
+    "ipa": "/ˈlaʊdɹɛd/"
+  },
+  {
+    "dex": "#0295",
+    "name": "Exploud",
+    "pronunciation": "ek-SPLOWD",
+    "ipa": "/ɛkˈsplaʊd/"
+  },
+  {
+    "dex": "#0296",
+    "name": "Makuhita",
+    "pronunciation": "MAH-koo-HEE-tuh",
+    "ipa": "/ˌmɑːkuːˈhiːtə/"
+  },
+  {
+    "dex": "#0297",
+    "name": "Hariyama",
+    "pronunciation": "HAR-ee-YAH-muh",
+    "ipa": "/ˌhɑːɹiːˈjɑːmə/"
+  },
+  {
+    "dex": "#0298",
+    "name": "Azurill",
+    "pronunciation": "uh-ZOO-ril",
+    "ipa": "/əˈzuːɹɪl/"
+  },
+  {
+    "dex": "#0299",
+    "name": "Nosepass",
+    "pronunciation": "NOZE-pass",
+    "ipa": "/ˈnoʊzpæs/"
+  },
+  {
+    "dex": "#0300",
+    "name": "Skitty",
+    "pronunciation": "SKIT-ee",
+    "ipa": "/ˈskɪtiː/"
+  },
+  {
+    "dex": "#0301",
+    "name": "Delcatty",
+    "pronunciation": "DEL-kat-ee",
+    "ipa": "/ˈdɛlkætiː/"
+  },
+  {
+    "dex": "#0302",
+    "name": "Sableye",
+    "pronunciation": "SAY-buh-lye",
+    "ipa": "/ˈseɪbəlaɪ/"
+  },
+  {
+    "dex": "#0303",
+    "name": "Mawile",
+    "pronunciation": "MAH-wile",
+    "ipa": "/ˈmɑːwaɪl/"
+  },
+  {
+    "dex": "#0304",
+    "name": "Aron",
+    "pronunciation": "EHR-ahn",
+    "ipa": "/ˈɛɹɑːn/"
+  },
+  {
+    "dex": "#0305",
+    "name": "Lairon",
+    "pronunciation": "LEHR-ahn",
+    "ipa": "/ˈlɛɹɑːn/"
+  },
+  {
+    "dex": "#0306",
+    "name": "Aggron",
+    "pronunciation": "AG-rahn",
+    "ipa": "/ˈæɡɹɑːn/"
+  },
+  {
+    "dex": "#0307",
+    "name": "Meditite",
+    "pronunciation": "MED-ih-tite",
+    "ipa": "/ˈmɛdətaɪt/"
+  },
+  {
+    "dex": "#0308",
+    "name": "Medicham",
+    "pronunciation": "MED-ih-cham",
+    "ipa": "/ˈmɛdətʃæm/"
+  },
+  {
+    "dex": "#0309",
+    "name": "Electrike",
+    "pronunciation": "ee-LEK-trike",
+    "ipa": "/ɪˈlɛktɹɑɪk/"
+  },
+  {
+    "dex": "#0310",
+    "name": "Manectric",
+    "pronunciation": "may-NEK-trik",
+    "ipa": "/meɪˈnɛktɹɪk/"
+  },
+  {
+    "dex": "#0311",
+    "name": "Plusle",
+    "pronunciation": "PLUS-ull",
+    "ipa": "/ˈplʌsəl/"
+  },
+  {
+    "dex": "#0312",
+    "name": "Minun",
+    "pronunciation": "MY-nun",
+    "ipa": "/ˈmaɪnən/"
+  },
+  {
+    "dex": "#0313",
+    "name": "Volbeat",
+    "pronunciation": "VOHL-beet",
+    "ipa": "/ˈvoʊlbiːt/"
+  },
+  {
+    "dex": "#0314",
+    "name": "Illumise",
+    "pronunciation": "ih-loo-MEE-zay",
+    "ipa": "/ɪluˈmiːzeɪ/"
+  },
+  {
+    "dex": "#0315",
+    "name": "Roselia",
+    "pronunciation": "roh-ZEL-ee-uh",
+    "ipa": "/ɹoʊˈzɛliːə/"
+  },
+  {
+    "dex": "#0316",
+    "name": "Gulpin",
+    "pronunciation": "GULL-pin",
+    "ipa": "/ˈɡʊlpɪn/"
+  },
+  {
+    "dex": "#0317",
+    "name": "Swalot",
+    "pronunciation": "SWAH-laht",
+    "ipa": "/ˈswɑːlɑːt/"
+  },
+  {
+    "dex": "#0318",
+    "name": "Carvanha",
+    "pronunciation": "kar-VAHN-uh",
+    "ipa": "/kɑːɹˈvɑːnə/"
+  },
+  {
+    "dex": "#0319",
+    "name": "Sharpedo",
+    "pronunciation": "shar-PEE-doh",
+    "ipa": "/ʃɑːɹˈpiːdoʊ/"
+  },
+  {
+    "dex": "#0320",
+    "name": "Wailmer",
+    "pronunciation": "WAIL-mur",
+    "ipa": "/ˈweɪlmɚ/"
+  },
+  {
+    "dex": "#0321",
+    "name": "Wailord",
+    "pronunciation": "WAIL-ord",
+    "ipa": "/ˈweɪlɔːɹd/"
+  },
+  {
+    "dex": "#0322",
+    "name": "Numel",
+    "pronunciation": "NUM-ull",
+    "ipa": "/ˈnʌməl/"
+  },
+  {
+    "dex": "#0323",
+    "name": "Camerupt",
+    "pronunciation": "KAM-ur-upt",
+    "ipa": "/ˈkæmɚʌpt/"
+  },
+  {
+    "dex": "#0324",
+    "name": "Torkoal",
+    "pronunciation": "TOR-kohl",
+    "ipa": "/ˈtɔːɹkoʊl/"
+  },
+  {
+    "dex": "#0325",
+    "name": "Spoink",
+    "pronunciation": "SPOINK",
+    "ipa": "/spɔɪŋk/"
+  },
+  {
+    "dex": "#0326",
+    "name": "Grumpig",
+    "pronunciation": "GRUM-pig",
+    "ipa": "/ˈɡɹʌmpɪɡ/"
+  },
+  {
+    "dex": "#0327",
+    "name": "Spinda",
+    "pronunciation": "SPIN-duh",
+    "ipa": "/ˈspɪndə/"
+  },
+  {
+    "dex": "#0328",
+    "name": "Trapinch",
+    "pronunciation": "TRA-pinch",
+    "ipa": "/ˈtɹæpɪntʃ/"
+  },
+  {
+    "dex": "#0329",
+    "name": "Vibrava",
+    "pronunciation": "vye-BRAH-vuh",
+    "ipa": "/vaɪˈbɹɑːvə/"
+  },
+  {
+    "dex": "#0330",
+    "name": "Flygon",
+    "pronunciation": "FLY-gahn",
+    "ipa": "/ˈflaɪɡɑːn/"
+  },
+  {
+    "dex": "#0331",
+    "name": "Cacnea",
+    "pronunciation": "KAK-nee-uh",
+    "ipa": "/ˈkækniːə/"
+  },
+  {
+    "dex": "#0332",
+    "name": "Cacturne",
+    "pronunciation": "KAK-turn",
+    "ipa": "/ˈkæktɚn/"
+  },
+  {
+    "dex": "#0333",
+    "name": "Swablu",
+    "pronunciation": "SWAHB-loo",
+    "ipa": "/ˈswɑːbluː/"
+  },
+  {
+    "dex": "#0334",
+    "name": "Altaria",
+    "pronunciation": "ahl-TAHR-ee-uh",
+    "ipa": "/ɑːlˈtɑːɹiːə/"
+  },
+  {
+    "dex": "#0335",
+    "name": "Zangoose",
+    "pronunciation": "ZANG-goos",
+    "ipa": "/ˈzæŋɡus/"
+  },
+  {
+    "dex": "#0336",
+    "name": "Seviper",
+    "pronunciation": "suh-VYE-pur",
+    "ipa": "/səˈvaɪpɚ/"
+  },
+  {
+    "dex": "#0337",
+    "name": "Lunatone",
+    "pronunciation": "LOO-nuh-tohn",
+    "ipa": "/ˈluːnətoʊn/"
+  },
+  {
+    "dex": "#0338",
+    "name": "Solrock",
+    "pronunciation": "SOHL-rahk",
+    "ipa": "/ˈsɔːlɹɑːk/"
+  },
+  {
+    "dex": "#0339",
+    "name": "Barboach",
+    "pronunciation": "BAR-bohch",
+    "ipa": "/ˈbɑːɹboʊtʃ/"
+  },
+  {
+    "dex": "#0340",
+    "name": "Whiscash",
+    "pronunciation": "WHIS-kash",
+    "ipa": "/ˈhwɪskæʃ/"
+  },
+  {
+    "dex": "#0341",
+    "name": "Corphish",
+    "pronunciation": "KOR-fish",
+    "ipa": "/ˈkɔːɹfɪʃ/"
+  },
+  {
+    "dex": "#0342",
+    "name": "Crawdaunt",
+    "pronunciation": "KRAH-dawnt",
+    "ipa": "/ˈkrɑːdɑːnt/"
+  },
+  {
+    "dex": "#0343",
+    "name": "Baltoy",
+    "pronunciation": "BAHL-toy",
+    "ipa": "/ˈbɑːltɔɪ/"
+  },
+  {
+    "dex": "#0344",
+    "name": "Claydol",
+    "pronunciation": "KLAY-dohl",
+    "ipa": "/ˈkleɪdɔl/"
+  },
+  {
+    "dex": "#0345",
+    "name": "Lileep",
+    "pronunciation": "lil-EEP",
+    "ipa": "/lɪlˈiːp/"
+  },
+  {
+    "dex": "#0346",
+    "name": "Cradily",
+    "pronunciation": "cray-DILL-ee",
+    "ipa": "/kɹeɪˈdɪliː/"
+  },
+  {
+    "dex": "#0347",
+    "name": "Anorith",
+    "pronunciation": "AN-uh-rith",
+    "ipa": "/ˈænəɹɪθ/"
+  },
+  {
+    "dex": "#0348",
+    "name": "Armaldo",
+    "pronunciation": "ar-MAHL-doh",
+    "ipa": "/ɑːɹˈmɑːldoʊ/"
+  },
+  {
+    "dex": "#0349",
+    "name": "Feebas",
+    "pronunciation": "FEE-bas",
+    "ipa": "/ˈfiːbæs/"
+  },
+  {
+    "dex": "#0350",
+    "name": "Milotic",
+    "pronunciation": "MY-loh-tik",
+    "ipa": "/ˈmaɪloʊtɪk/"
+  },
+  {
+    "dex": "#0351",
+    "name": "Castform",
+    "pronunciation": "KAST-form",
+    "ipa": "/ˈkæstfɔːɹm/"
+  },
+  {
+    "dex": "#0352",
+    "name": "Kecleon",
+    "pronunciation": "KEK-lee-ahn",
+    "ipa": "/ˈkɛkliːɑːn/"
+  },
+  {
+    "dex": "#0353",
+    "name": "Shuppet",
+    "pronunciation": "SHUP-it",
+    "ipa": "/ˈʃʌpət/"
+  },
+  {
+    "dex": "#0354",
+    "name": "Banette",
+    "pronunciation": "bay-NET",
+    "ipa": "/beɪˈnɛt/"
+  },
+  {
+    "dex": "#0355",
+    "name": "Duskull",
+    "pronunciation": "DUS-kull",
+    "ipa": "/ˈdʌskəl/"
+  },
+  {
+    "dex": "#0356",
+    "name": "Dusclops",
+    "pronunciation": "DUS-klahps",
+    "ipa": "/ˈdʌsklɑːps/"
+  },
+  {
+    "dex": "#0357",
+    "name": "Tropius",
+    "pronunciation": "TRAHP-ee-us",
+    "ipa": "/ˈtɹɑːpiːəs/"
+  },
+  {
+    "dex": "#0358",
+    "name": "Chimecho",
+    "pronunciation": "chye-MEK-oh",
+    "ipa": "/tʃaɪˈmɛkoʊ/"
+  },
+  {
+    "dex": "#0359",
+    "name": "Absol",
+    "pronunciation": "AB-sohl",
+    "ipa": "/ˈæbsɔːl/"
+  },
+  {
+    "dex": "#0360",
+    "name": "Wynaut",
+    "pronunciation": "WY-naut",
+    "ipa": "/ˈwaɪnɑːt/"
+  },
+  {
+    "dex": "#0361",
+    "name": "Snorunt",
+    "pronunciation": "SNOH-runt",
+    "ipa": "/ˈsnoʊɹʌnt/"
+  },
+  {
+    "dex": "#0362",
+    "name": "Glalie",
+    "pronunciation": "GLAY-lee",
+    "ipa": "/ˈɡleɪliː/"
+  },
+  {
+    "dex": "#0363",
+    "name": "Spheal",
+    "pronunciation": "SFEEL",
+    "ipa": "/ˈsfiːl/"
+  },
+  {
+    "dex": "#0364",
+    "name": "Sealeo",
+    "pronunciation": "SEE-lee-oh",
+    "ipa": "/ˈsiːliːoʊ/"
+  },
+  {
+    "dex": "#0365",
+    "name": "Walrein",
+    "pronunciation": "WAHL-rain",
+    "ipa": "/ˈwɑːlɹeɪn/"
+  },
+  {
+    "dex": "#0366",
+    "name": "Clamperl",
+    "pronunciation": "KLAM-purl",
+    "ipa": "/ˈklæmpɚl/"
+  },
+  {
+    "dex": "#0367",
+    "name": "Huntail",
+    "pronunciation": "HUN-tail",
+    "ipa": "/ˈhʌnteɪl/"
+  },
+  {
+    "dex": "#0368",
+    "name": "Gorebyss",
+    "pronunciation": "GOHR-uh-bis",
+    "ipa": "/ˈɡɔːɹəbɪs/"
+  },
+  {
+    "dex": "#0369",
+    "name": "Relicanth",
+    "pronunciation": "RELL-ih-kanth",
+    "ipa": "/ˈɹɛlɪkænθ/"
+  },
+  {
+    "dex": "#0370",
+    "name": "Luvdisc",
+    "pronunciation": "LUV-disk",
+    "ipa": "/ˈlʌvdɪsk/"
+  },
+  {
+    "dex": "#0371",
+    "name": "Bagon",
+    "pronunciation": "BAY-gahn",
+    "ipa": "/ˈbeɪɡɑːn/"
+  },
+  {
+    "dex": "#0372",
+    "name": "Shelgon",
+    "pronunciation": "SHEL-gahn",
+    "ipa": "/ˈʃɛlɡɑːn/"
+  },
+  {
+    "dex": "#0373",
+    "name": "Salamence",
+    "pronunciation": "SAL-uh-mence",
+    "ipa": "/ˈsæləmɛns/"
+  },
+  {
+    "dex": "#0374",
+    "name": "Beldum",
+    "pronunciation": "BEL-dum",
+    "ipa": "/ˈbɛldʌm/"
+  },
+  {
+    "dex": "#0375",
+    "name": "Metang",
+    "pronunciation": "muh-TANG",
+    "ipa": "/məˈtæŋ/"
+  },
+  {
+    "dex": "#0376",
+    "name": "Metagross",
+    "pronunciation": "MEH-tuh-grohs",
+    "ipa": "/ˈmɛtəɡroʊs/"
+  },
+  {
+    "dex": "#0377",
+    "name": "Regirock",
+    "pronunciation": "REJ-ee-rahk",
+    "ipa": "/ˈɹɛdʒiːɹɑːk/"
+  },
+  {
+    "dex": "#0378",
+    "name": "Regice",
+    "pronunciation": "REJ-ice",
+    "ipa": "/ˈɹɛdʒaɪs/"
+  },
+  {
+    "dex": "#0379",
+    "name": "Registeel",
+    "pronunciation": "REJ-ee-steel",
+    "ipa": "/ˈɹɛdʒiːstiːl/"
+  },
+  {
+    "dex": "#0380",
+    "name": "Latias",
+    "pronunciation": "LAH-tee-ahs",
+    "ipa": "/ˈlɑːtiːɑːs/"
+  },
+  {
+    "dex": "#0381",
+    "name": "Latios",
+    "pronunciation": "LAH-tee-ohs",
+    "ipa": "/ˈlɑːtiːoʊs/"
+  },
+  {
+    "dex": "#0382",
+    "name": "Kyogre",
+    "pronunciation": "kye-OH-gur",
+    "ipa": "/kaɪˈoʊɡɚ/"
+  },
+  {
+    "dex": "#0383",
+    "name": "Groudon",
+    "pronunciation": "GROU-dahn",
+    "ipa": "/ˈɡɹaʊdɑːn/"
+  },
+  {
+    "dex": "#0384",
+    "name": "Rayquaza",
+    "pronunciation": "ray-KWAY-zuh",
+    "ipa": "/ɹeɪˈkweɪzə/"
+  },
+  {
+    "dex": "#0385",
+    "name": "Jirachi",
+    "pronunciation": "jur-AH-chee",
+    "ipa": "/dʒɚˈɑːtʃiː/"
+  },
+  {
+    "dex": "#0386",
+    "name": "Deoxys",
+    "pronunciation": "dee-AHK-sis",
+    "ipa": "/diːˈɑːksɪs/"
+  },
+  {
+    "dex": "#0387",
+    "name": "Turtwig",
+    "pronunciation": "TUR-twig",
+    "ipa": "/ˈtɝːtwɪɡ/"
+  },
+  {
+    "dex": "#0388",
+    "name": "Grotle",
+    "pronunciation": "GRAH-tull",
+    "ipa": "/ˈɡɹɑːɾəl/"
+  },
+  {
+    "dex": "#0389",
+    "name": "Torterra",
+    "pronunciation": "tohr-TEHR-uh",
+    "ipa": "/tɔːɹˈtɛɹə/"
+  },
+  {
+    "dex": "#0390",
+    "name": "Chimchar",
+    "pronunciation": "CHIM-char",
+    "ipa": "/ˈtʃɪmtʃɑːɹ/"
+  },
+  {
+    "dex": "#0391",
+    "name": "Monferno",
+    "pronunciation": "mahn-FUR-noh",
+    "ipa": "/mɑːnˈfɝːnoʊ/"
+  },
+  {
+    "dex": "#0392",
+    "name": "Infernape",
+    "pronunciation": "in-FUR-nape",
+    "ipa": "/ɪnˈfɝːneɪp/"
+  },
+  {
+    "dex": "#0393",
+    "name": "Piplup",
+    "pronunciation": "PIP-lup",
+    "ipa": "/ˈpɪplʌp/"
+  },
+  {
+    "dex": "#0394",
+    "name": "Prinplup",
+    "pronunciation": "PRIN-plup",
+    "ipa": "/ˈpɹɪnplʌp/"
+  },
+  {
+    "dex": "#0395",
+    "name": "Empoleon",
+    "pronunciation": "em-POHL-ee-ahn",
+    "ipa": "/ɛmˈpɔːliːɑːn/"
+  },
+  {
+    "dex": "#0396",
+    "name": "Starly",
+    "pronunciation": "STAR-lee",
+    "ipa": "/ˈstɑːɹliː/"
+  },
+  {
+    "dex": "#0397",
+    "name": "Staravia",
+    "pronunciation": "star-AY-vee-uh",
+    "ipa": "/stɑːɹˈeɪviːə/"
+  },
+  {
+    "dex": "#0398",
+    "name": "Staraptor",
+    "pronunciation": "star-AP-tur",
+    "ipa": "/stɑːɹˈæptɚ/"
+  },
+  {
+    "dex": "#0399",
+    "name": "Bidoof",
+    "pronunciation": "BEE-doof",
+    "ipa": "/ˈbiːduːf/"
+  },
+  {
+    "dex": "#0400",
+    "name": "Bibarel",
+    "pronunciation": "BEE-behr-ull",
+    "ipa": "/ˈbiːbɛɹəl/"
+  },
+  {
+    "dex": "#0401",
+    "name": "Kricketot",
+    "pronunciation": "KRIK-ih-tot",
+    "ipa": "/ˈkɹɪkətɑːt/"
+  },
+  {
+    "dex": "#0402",
+    "name": "Kricketune",
+    "pronunciation": "KRIK-ih-toon",
+    "ipa": "/ˈkɹɪkətuːn/"
+  },
+  {
+    "dex": "#0403",
+    "name": "Shinx",
+    "pronunciation": "SHINKS",
+    "ipa": "/ˈʃiːŋks/"
+  },
+  {
+    "dex": "#0404",
+    "name": "Luxio",
+    "pronunciation": "LUKS-ee-oh",
+    "ipa": "/ˈlʌksiːoʊ/"
+  },
+  {
+    "dex": "#0405",
+    "name": "Luxray",
+    "pronunciation": "LUKS-ray",
+    "ipa": "/ˈlʌksɹeɪ/"
+  },
+  {
+    "dex": "#0406",
+    "name": "Budew",
+    "pronunciation": "buh-DOO",
+    "ipa": "/bəˈduː/"
+  },
+  {
+    "dex": "#0407",
+    "name": "Roserade",
+    "pronunciation": "ROZE-rayd",
+    "ipa": "/ˈɹoʊzɹeɪd/"
+  },
+  {
+    "dex": "#0408",
+    "name": "Cranidos",
+    "pronunciation": "KRANE-ee-dohs",
+    "ipa": "/ˈkɹeɪniːdoʊs/"
+  },
+  {
+    "dex": "#0409",
+    "name": "Rampardos",
+    "pronunciation": "ram-PAR-dohs",
+    "ipa": "/ræmˈpɑːɹdoʊs/"
+  },
+  {
+    "dex": "#0410",
+    "name": "Shieldon",
+    "pronunciation": "SHEEL-dahn",
+    "ipa": "/ˈʃiːldɑːn/"
+  },
+  {
+    "dex": "#0411",
+    "name": "Bastiodon",
+    "pronunciation": "BAS-tee-oh-dahn",
+    "ipa": "/ˈbæstiːoʊdɑːn/"
+  },
+  {
+    "dex": "#0412",
+    "name": "Burmy",
+    "pronunciation": "BUR-mee",
+    "ipa": "/ˈbɝːmiː/"
+  },
+  {
+    "dex": "#0413",
+    "name": "Wormadam",
+    "pronunciation": "WUR-muh-dam",
+    "ipa": "/ˈwɝːmədæm/"
+  },
+  {
+    "dex": "#0414",
+    "name": "Mothim",
+    "pronunciation": "MAH-thim",
+    "ipa": "/ˈmɑːθɪm/"
+  },
+  {
+    "dex": "#0415",
+    "name": "Combee",
+    "pronunciation": "COHM-bee",
+    "ipa": "/ˈkoʊmbiː/"
+  },
+  {
+    "dex": "#0416",
+    "name": "Vespiquen",
+    "pronunciation": "VES-pih-kwen",
+    "ipa": "/ˈvɛspɪkwɛn/"
+  },
+  {
+    "dex": "#0417",
+    "name": "Pachirisu",
+    "pronunciation": "PAH-chee-REE-soo",
+    "ipa": "/pɑːtʃiˈɹiːsuː/"
+  },
+  {
+    "dex": "#0418",
+    "name": "Buizel",
+    "pronunciation": "BWEE-zull",
+    "ipa": "/ˈbwiːzəl/"
+  },
+  {
+    "dex": "#0419",
+    "name": "Floatzel",
+    "pronunciation": "FLOHT-sull",
+    "ipa": "/ˈfloʊtsəl/"
+  },
+  {
+    "dex": "#0420",
+    "name": "Cherubi",
+    "pronunciation": "chur-OO-bee",
+    "ipa": "/tʃɚˈuːbiː/"
+  },
+  {
+    "dex": "#0421",
+    "name": "Cherrim",
+    "pronunciation": "CHEHR-im",
+    "ipa": "/ˈtʃɛɹɪm/"
+  },
+  {
+    "dex": "#0422",
+    "name": "Shellos",
+    "pronunciation": "SHELL-ahs",
+    "ipa": "/ˈʃɛlɑːs/"
+  },
+  {
+    "dex": "#0423",
+    "name": "Gastrodon",
+    "pronunciation": "GAS-troh-dahn",
+    "ipa": "/ˈɡæstɹoʊdɑːn/"
+  },
+  {
+    "dex": "#0424",
+    "name": "Ambipom",
+    "pronunciation": "AM-bih-pahm",
+    "ipa": "/ˈæmbɪpɑːm/"
+  },
+  {
+    "dex": "#0425",
+    "name": "Drifloon",
+    "pronunciation": "DRIF-loon",
+    "ipa": "/ˈdɹɪfluːn/"
+  },
+  {
+    "dex": "#0426",
+    "name": "Drifblim",
+    "pronunciation": "DRIF-blim",
+    "ipa": "/ˈdɹɪfblɪm/"
+  },
+  {
+    "dex": "#0427",
+    "name": "Buneary",
+    "pronunciation": "buh-NEER-ee",
+    "ipa": "/bəˈnɪɹiː/"
+  },
+  {
+    "dex": "#0428",
+    "name": "Lopunny",
+    "pronunciation": "LAH-puh-nee",
+    "ipa": "/ˈlɑːpəniː/"
+  },
+  {
+    "dex": "#0429",
+    "name": "Mismagius",
+    "pronunciation": "mis-MAG-ee-us",
+    "ipa": "/mɪsˈmæɡiːəs/"
+  },
+  {
+    "dex": "#0430",
+    "name": "Honchkrow",
+    "pronunciation": "HONCH-krow",
+    "ipa": "/ˈhɑːntʃkɹoʊ/"
+  },
+  {
+    "dex": "#0431",
+    "name": "Glameow",
+    "pronunciation": "GLAM-ee-ow",
+    "ipa": "/ˈɡlæmiːaʊ/"
+  },
+  {
+    "dex": "#0432",
+    "name": "Purugly",
+    "pronunciation": "purr-UG-lee",
+    "ipa": "/pɚˈʌɡliː/"
+  },
+  {
+    "dex": "#0433",
+    "name": "Chingling",
+    "pronunciation": "CHING-ling",
+    "ipa": "/ˈtʃɪŋlɪŋ/"
+  },
+  {
+    "dex": "#0434",
+    "name": "Stunky",
+    "pronunciation": "STUNK-ee",
+    "ipa": "/ˈstʌŋkiː/"
+  },
+  {
+    "dex": "#0435",
+    "name": "Skuntank",
+    "pronunciation": "SKUN-tank",
+    "ipa": "/ˈskʌntæŋk/"
+  },
+  {
+    "dex": "#0436",
+    "name": "Bronzor",
+    "pronunciation": "BRAHN-zor",
+    "ipa": "/ˈbɹɑːnzɔːɹ/"
+  },
+  {
+    "dex": "#0437",
+    "name": "Bronzong",
+    "pronunciation": "BRAHN-zahng",
+    "ipa": "/ˈbɹɑːnzɑːŋ/"
+  },
+  {
+    "dex": "#0438",
+    "name": "Bonsly",
+    "pronunciation": "BAHN-sly",
+    "ipa": "/ˈbɑːnslaɪ/"
+  },
+  {
+    "dex": "#0439",
+    "name": "Mime Jr.",
+    "pronunciation": "mime-JOON-yur",
+    "ipa": "/maɪmˈdʒuːnjɚ/"
+  },
+  {
+    "dex": "#0440",
+    "name": "Happiny",
+    "pronunciation": "huh-PEE-nee",
+    "ipa": "/həˈpiːniː/"
+  },
+  {
+    "dex": "#0441",
+    "name": "Chatot",
+    "pronunciation": "CHA-tot",
+    "ipa": "/ˈtʃætɑːt/"
+  },
+  {
+    "dex": "#0442",
+    "name": "Spiritomb",
+    "pronunciation": "SPEER-ih-toom",
+    "ipa": "/ˈspɪɹətuːm/"
+  },
+  {
+    "dex": "#0443",
+    "name": "Gible",
+    "pronunciation": "GIBB-ull",
+    "ipa": "/ˈɡɪbəl/"
+  },
+  {
+    "dex": "#0444",
+    "name": "Gabite",
+    "pronunciation": "guh-BITE",
+    "ipa": "/ɡəˈbaɪt/"
+  },
+  {
+    "dex": "#0445",
+    "name": "Garchomp",
+    "pronunciation": "GAR-chomp",
+    "ipa": "/ˈɡɑːɹtʃɑːmp/"
+  },
+  {
+    "dex": "#0446",
+    "name": "Munchlax",
+    "pronunciation": "MUNCH-laks",
+    "ipa": "/ˈmʌntʃlæks/"
+  },
+  {
+    "dex": "#0447",
+    "name": "Riolu",
+    "pronunciation": "ree-OH-loo",
+    "ipa": "/ɹiːˈoʊluː/"
+  },
+  {
+    "dex": "#0448",
+    "name": "Lucario",
+    "pronunciation": "loo-KAR-ee-oh",
+    "ipa": "/luːˈkɑːɹiːoʊ/"
+  },
+  {
+    "dex": "#0449",
+    "name": "Hippopotas",
+    "pronunciation": "HIH-poh-puh-TAHS",
+    "ipa": "/hɪpoʊpəˈtɑːs/"
+  },
+  {
+    "dex": "#0450",
+    "name": "Hippowdon",
+    "pronunciation": "hih-POW-dahn",
+    "ipa": "/hɪˈpaʊdɑːn/"
+  },
+  {
+    "dex": "#0451",
+    "name": "Skorupi",
+    "pronunciation": "skor-OO-pee",
+    "ipa": "/skɔːɹˈuːpiː/"
+  },
+  {
+    "dex": "#0452",
+    "name": "Drapion",
+    "pronunciation": "DRAP-ee-ahn",
+    "ipa": "/ˈdɹæpiːɑːn/"
+  },
+  {
+    "dex": "#0453",
+    "name": "Croagunk",
+    "pronunciation": "KROH-gunk",
+    "ipa": "/ˈkɹoʊɡʌŋk/"
+  },
+  {
+    "dex": "#0454",
+    "name": "Toxicroak",
+    "pronunciation": "TOKS-ih-crohk",
+    "ipa": "/ˈtɑːksɪkɹoʊk/"
+  },
+  {
+    "dex": "#0455",
+    "name": "Carnivine",
+    "pronunciation": "KAR-nih-vine",
+    "ipa": "/ˈkɑːɹnɪvaɪn/"
+  },
+  {
+    "dex": "#0456",
+    "name": "Finneon",
+    "pronunciation": "FIN-ee-ahn",
+    "ipa": "/ˈfɪniːɑːn/"
+  },
+  {
+    "dex": "#0457",
+    "name": "Lumineon",
+    "pronunciation": "loo-MIN-ee-ahn",
+    "ipa": "/luːˈmɪniːɑːn/"
+  },
+  {
+    "dex": "#0458",
+    "name": "Mantyke",
+    "pronunciation": "MAN-tyke",
+    "ipa": "/ˈmæntɑɪk/"
+  },
+  {
+    "dex": "#0459",
+    "name": "Snover",
+    "pronunciation": "SNOH-vurr",
+    "ipa": "/ˈsnoʊvɚ/"
+  },
+  {
+    "dex": "#0460",
+    "name": "Abomasnow",
+    "pronunciation": "uh-BAHM-uh-snoh",
+    "ipa": "/əˈbɑːməsnoʊ/"
+  },
+  {
+    "dex": "#0461",
+    "name": "Weavile",
+    "pronunciation": "WEE-vile",
+    "ipa": "/ˈwiːvaɪl/"
+  },
+  {
+    "dex": "#0462",
+    "name": "Magnezone",
+    "pronunciation": "MAG-nuh-zohn",
+    "ipa": "/ˈmæɡnəzoʊn/"
+  },
+  {
+    "dex": "#0463",
+    "name": "Lickilicky",
+    "pronunciation": "LIK-ee-LIK-ee",
+    "ipa": "/ˌlɪkiːˈlɪkiː/"
+  },
+  {
+    "dex": "#0464",
+    "name": "Rhyperior",
+    "pronunciation": "rye-PEER-ee-urr",
+    "ipa": "/ˈɹɑːɪpɪɹiːɚ/"
+  },
+  {
+    "dex": "#0465",
+    "name": "Tangrowth",
+    "pronunciation": "TANG-grohth",
+    "ipa": "/ˈtæŋɡroʊθ/"
+  },
+  {
+    "dex": "#0466",
+    "name": "Electivire",
+    "pronunciation": "ee-LEK-tih-vire",
+    "ipa": "/ɪˈlɛktəvɑɪɹ/"
+  },
+  {
+    "dex": "#0467",
+    "name": "Magmortar",
+    "pronunciation": "mag-MOHR-turr",
+    "ipa": "/mæɡˈmɔːɹtɚ/"
+  },
+  {
+    "dex": "#0468",
+    "name": "Togekiss",
+    "pronunciation": "TOH-guh-kiss",
+    "ipa": "/ˈtoʊɡəkɪs/"
+  },
+  {
+    "dex": "#0469",
+    "name": "Yanmega",
+    "pronunciation": "yan-MEG-uh",
+    "ipa": "/jænˈmɛɡə/"
+  },
+  {
+    "dex": "#0470",
+    "name": "Leafeon",
+    "pronunciation": "LEE-fee-ahn",
+    "ipa": "/ˈliːfiːɑːn/"
+  },
+  {
+    "dex": "#0471",
+    "name": "Glaceon",
+    "pronunciation": "GLAY-see-ahn",
+    "ipa": "/ˈɡleɪsiːɑːn/"
+  },
+  {
+    "dex": "#0472",
+    "name": "Gliscor",
+    "pronunciation": "GLYE-skor",
+    "ipa": "/ˈɡlaɪskɔːɹ/"
+  },
+  {
+    "dex": "#0473",
+    "name": "Mamoswine",
+    "pronunciation": "MAM-oh-swine",
+    "ipa": "/ˈmæmoʊswaɪn/"
+  },
+  {
+    "dex": "#0474",
+    "name": "Porygon-Z",
+    "pronunciation": "POR-ee-gahn-ZEE",
+    "ipa": "/ˌpɔːɹiːɡɑːnˈziː/"
+  },
+  {
+    "dex": "#0475",
+    "name": "Gallade",
+    "pronunciation": "guh-LAID",
+    "ipa": "/ɡəˈleɪd/"
+  },
+  {
+    "dex": "#0476",
+    "name": "Probopass",
+    "pronunciation": "PROH-boh-pass",
+    "ipa": "/ˈpɹoʊboʊpæs/"
+  },
+  {
+    "dex": "#0477",
+    "name": "Dusknoir",
+    "pronunciation": "DUSK-nwar",
+    "ipa": "/ˈdʌsknwɑːɹ/"
+  },
+  {
+    "dex": "#0478",
+    "name": "Froslass",
+    "pronunciation": "FRAHS-lass",
+    "ipa": "/ˈfɹɑːslæs/"
+  },
+  {
+    "dex": "#0479",
+    "name": "Rotom",
+    "pronunciation": "ROH-tahm",
+    "ipa": "/ˈɹoʊtɑːm/"
+  },
+  {
+    "dex": "#0480",
+    "name": "Uxie",
+    "pronunciation": "YOOK-see",
+    "ipa": "/ˈjuːksiː/"
+  },
+  {
+    "dex": "#0481",
+    "name": "Mesprit",
+    "pronunciation": "MESS-prit",
+    "ipa": "/ˈmɛspɹɪt/"
+  },
+  {
+    "dex": "#0482",
+    "name": "Azelf",
+    "pronunciation": "AZ-elf",
+    "ipa": "/ˈæzɛlf/"
+  },
+  {
+    "dex": "#0483",
+    "name": "Dialga",
+    "pronunciation": "dee-AHL-guh",
+    "ipa": "/diːˈɑːlɡə/"
+  },
+  {
+    "dex": "#0484",
+    "name": "Palkia",
+    "pronunciation": "PAHL-kee-uh",
+    "ipa": "/ˈpɑːlkiːə/"
+  },
+  {
+    "dex": "#0485",
+    "name": "Heatran",
+    "pronunciation": "HEE-tran",
+    "ipa": "/ˈhiːtɹæn/"
+  },
+  {
+    "dex": "#0486",
+    "name": "Regigigas",
+    "pronunciation": "REJ-ee-GEE-guss",
+    "ipa": "/ˌɹɛdʒiːˈɡiːɡəs/"
+  },
+  {
+    "dex": "#0487",
+    "name": "Giratina",
+    "pronunciation": "GIRR-uh-TEE-nuh",
+    "ipa": "/ˌɡɪɹəˈtiːnə/"
+  },
+  {
+    "dex": "#0488",
+    "name": "Cresselia",
+    "pronunciation": "kress-ELL-ee-uh",
+    "ipa": "/kɹɛsˈɛliːə/"
+  },
+  {
+    "dex": "#0489",
+    "name": "Phione",
+    "pronunciation": "fee-OH-nay",
+    "ipa": "/fiːˈoʊneɪ/"
+  },
+  {
+    "dex": "#0490",
+    "name": "Manaphy",
+    "pronunciation": "MAN-uh-fee",
+    "ipa": "/ˈmænəfiː/"
+  },
+  {
+    "dex": "#0491",
+    "name": "Darkrai",
+    "pronunciation": "DARK-rye",
+    "ipa": "/ˈdɑːɹkɹaɪ/"
+  },
+  {
+    "dex": "#0492",
+    "name": "Shaymin",
+    "pronunciation": "SHAY-min",
+    "ipa": "/ˈʃeɪmɪn/"
+  },
+  {
+    "dex": "#0493",
+    "name": "Arceus",
+    "pronunciation": "AR-kee-iss",
+    "ipa": "/ˈɑːɹkiːəs/"
+  },
+  {
     "dex": "#0494",
     "name": "Victini",
     "pronunciation": "vik-TEE-nee",
@@ -936,5215 +3894,2257 @@
     "ipa": "/ˈdʒɛnəsɛkt/"
   },
   {
-    "dex": 1,
-    "name": "Bulbasaur",
-    "pronunciation": "BULL-buh-sohr",
-    "ipa": "/ˈbʊlbəsɔːɹ/"
-  },
-  {
-    "dex": 2,
-    "name": "Ivysaur",
-    "pronunciation": "EYE-vee-sohr",
-    "ipa": "/ˈaɪviːsɔːɹ/"
-  },
-  {
-    "dex": 3,
-    "name": "Venusaur",
-    "pronunciation": "VEE-nuh-sohr",
-    "ipa": "/ˈviːnəsɔːɹ/"
-  },
-  {
-    "dex": 4,
-    "name": "Charmander",
-    "pronunciation": "CHAR-man-der",
-    "ipa": "/ˈtʃɑːɹmændɚ/"
-  },
-  {
-    "dex": 5,
-    "name": "Charmeleon",
-    "pronunciation": "char-MEEL-yuhn",
-    "ipa": "/tʃɑːɹˈmiːljən/"
-  },
-  {
-    "dex": 6,
-    "name": "Charizard",
-    "pronunciation": "CHAR-ih-zard",
-    "ipa": "/ˈtʃɑːɹɪzɑːɹd/"
-  },
-  {
-    "dex": 7,
-    "name": "Squirtle",
-    "pronunciation": "SKWUR-tull",
-    "ipa": "/ˈskwɝːɾəl/"
-  },
-  {
-    "dex": 8,
-    "name": "Wartortle",
-    "pronunciation": "WOR-tor-tull",
-    "ipa": "/ˈwɔːɹtɔːɹɾəl/"
-  },
-  {
-    "dex": 9,
-    "name": "Blastoise",
-    "pronunciation": "BLAST-ois",
-    "ipa": "/ˈblæstɔɪs/"
-  },
-  {
-    "dex": 10,
-    "name": "Caterpie",
-    "pronunciation": "KAT-ur-pee",
-    "ipa": "/ˈkæɾɚpiː/"
-  },
-  {
-    "dex": 11,
-    "name": "Metapod",
-    "pronunciation": "MET-uh-pahd",
-    "ipa": "/ˈmɛɾəpɑːd/"
-  },
-  {
-    "dex": 12,
-    "name": "Butterfree",
-    "pronunciation": "BUT-ur-free",
-    "ipa": "/ˈbʌɾɚfɹiː/"
-  },
-  {
-    "dex": 13,
-    "name": "Weedle",
-    "pronunciation": "WEE-dull",
-    "ipa": "/ˈwiːdəl/"
-  },
-  {
-    "dex": 14,
-    "name": "Kakuna",
-    "pronunciation": "kuh-KOO-nuh",
-    "ipa": "/kəˈkuːnə/"
-  },
-  {
-    "dex": 15,
-    "name": "Beedrill",
-    "pronunciation": "BEE-drill",
-    "ipa": "/ˈbiːdɹɪl/"
-  },
-  {
-    "dex": 16,
-    "name": "Pidgey",
-    "pronunciation": "PID-jee",
-    "ipa": "/ˈpɪdʒiː/"
-  },
-  {
-    "dex": 17,
-    "name": "Pidgeotto",
-    "pronunciation": "PID-jee-OH-toh",
-    "ipa": "/ˌpɪdʒiːˈoʊɾoʊ/"
-  },
-  {
-    "dex": 18,
-    "name": "Pidgeot",
-    "pronunciation": "PID-jee-aht",
-    "ipa": "/ˈpɪdʒiːɑːt/"
-  },
-  {
-    "dex": 19,
-    "name": "Rattata",
-    "pronunciation": "ruh-TA-tuh",
-    "ipa": "/ɹəˈtæɾə/"
-  },
-  {
-    "dex": 20,
-    "name": "Raticate",
-    "pronunciation": "RAT-ih-kate",
-    "ipa": "/ˈɹæɾɪkeɪt/"
-  },
-  {
-    "dex": 21,
-    "name": "Spearow",
-    "pronunciation": "SPEER-oh",
-    "ipa": "/ˈspɪɹoʊ/"
-  },
-  {
-    "dex": 22,
-    "name": "Fearow",
-    "pronunciation": "FEER-oh",
-    "ipa": "/ˈfɪɹoʊ/"
-  },
-  {
-    "dex": 23,
-    "name": "Ekans",
-    "pronunciation": "ECK-ins",
-    "ipa": "/ˈɛkənz/"
-  },
-  {
-    "dex": 24,
-    "name": "Arbok",
-    "pronunciation": "AR-bahk",
-    "ipa": "/ˈɑːɹbɑːk/"
-  },
-  {
-    "dex": 25,
-    "name": "Pikachu",
-    "pronunciation": "PEE-ka-choo",
-    "ipa": "/ˈpiːkətʃuː/"
-  },
-  {
-    "dex": 26,
-    "name": "Raichu",
-    "pronunciation": "RYE-choo",
-    "ipa": "/ˈɹaɪtʃuː/"
-  },
-  {
-    "dex": 27,
-    "name": "Sandshrew",
-    "pronunciation": "SAND-shroo",
-    "ipa": "/ˈsændʃɹuː/"
-  },
-  {
-    "dex": 28,
-    "name": "Sandslash",
-    "pronunciation": "SAND-slash",
-    "ipa": "/ˈsændslæʃ/"
-  },
-  {
-    "dex": 29,
-    "name": "Nidoran♀",
-    "pronunciation": "NEE-doh-ran (female)",
-    "ipa": "/ˈniːdoʊɹæn (ˈfiːmeɪl)/"
-  },
-  {
-    "dex": 30,
-    "name": "Nidorina",
-    "pronunciation": "NEE-doh-REE-nuh",
-    "ipa": "/ˌniːdoʊˈɹiːnə/"
-  },
-  {
-    "dex": 31,
-    "name": "Nidoqueen",
-    "pronunciation": "NEE-doh-kween",
-    "ipa": "/ˈniːdoʊkwiːn/"
-  },
-  {
-    "dex": 32,
-    "name": "Nidoran♂",
-    "pronunciation": "NEE-doh-ran (male)",
-    "ipa": "/ˈniːdoʊɹæn (ˈmeɪl)/"
-  },
-  {
-    "dex": 33,
-    "name": "Nidorino",
-    "pronunciation": "NEE-doh-REE-no",
-    "ipa": "/ˌniːdoʊˈɹiːnoʊ/"
-  },
-  {
-    "dex": 34,
-    "name": "Nidoking",
-    "pronunciation": "NEE-doh-king",
-    "ipa": "/ˈniːdoʊkɪŋ/"
-  },
-  {
-    "dex": 35,
-    "name": "Clefairy",
-    "pronunciation": "cleh-FAIR-ee",
-    "ipa": "/klɛˈfɛɹiː/"
-  },
-  {
-    "dex": 36,
-    "name": "Clefable",
-    "pronunciation": "cleh-FAY-bull",
-    "ipa": "/klɛˈfeɪbəl/"
-  },
-  {
-    "dex": 37,
-    "name": "Vulpix",
-    "pronunciation": "VULL-piks",
-    "ipa": "/ˈvʊlpɪks/"
-  },
-  {
-    "dex": 38,
-    "name": "Ninetales",
-    "pronunciation": "NINE-tales",
-    "ipa": "/ˈnaɪnteɪlz/"
-  },
-  {
-    "dex": 39,
-    "name": "Jigglypuff",
-    "pronunciation": "JIG-lee-puff",
-    "ipa": "/ˈdʒɪɡliːpʌf/"
-  },
-  {
-    "dex": 40,
-    "name": "Wigglytuff",
-    "pronunciation": "WIG-lee-tuff",
-    "ipa": "/ˈwɪɡliːtʌf/"
-  },
-  {
-    "dex": 41,
-    "name": "Zubat",
-    "pronunciation": "ZOO-bat",
-    "ipa": "/ˈzuːbæt/"
-  },
-  {
-    "dex": 42,
-    "name": "Golbat",
-    "pronunciation": "GOHL-bat",
-    "ipa": "/ˈɡɔːlbæt/"
-  },
-  {
-    "dex": 43,
-    "name": "Oddish",
-    "pronunciation": "ODD-ish",
-    "ipa": "/ˈɑːdɪʃ/"
-  },
-  {
-    "dex": 44,
-    "name": "Gloom",
-    "pronunciation": "GLOOM",
-    "ipa": "/ˈɡluːm/"
-  },
-  {
-    "dex": 45,
-    "name": "Vileplume",
-    "pronunciation": "VILE-ploom",
-    "ipa": "/ˈvaɪlpluːm/"
-  },
-  {
-    "dex": 46,
-    "name": "Paras",
-    "pronunciation": "PEHR-iss",
-    "ipa": "/ˈpɛɹəs/"
-  },
-  {
-    "dex": 47,
-    "name": "Parasect",
-    "pronunciation": "PEHR-uh-sekt",
-    "ipa": "/ˈpɛɹəsɛkt/"
-  },
-  {
-    "dex": 48,
-    "name": "Venonat",
-    "pronunciation": "VENN-oh-nat",
-    "ipa": "/ˈvɛnoʊnæt/"
-  },
-  {
-    "dex": 49,
-    "name": "Venomoth",
-    "pronunciation": "VENN-oh-moth",
-    "ipa": "/ˈvɛnoʊmɑːθ/"
-  },
-  {
-    "dex": 50,
-    "name": "Diglett",
-    "pronunciation": "DIG-lit",
-    "ipa": "/ˈdɪɡlət/"
-  },
-  {
-    "dex": 51,
-    "name": "Dugtrio",
-    "pronunciation": "dug-TREE-oh",
-    "ipa": "/dʌɡˈtɹiːoʊ/"
-  },
-  {
-    "dex": 52,
-    "name": "Meowth",
-    "pronunciation": "mee-OWTH",
-    "ipa": "/miːˈaʊθ/"
-  },
-  {
-    "dex": 53,
-    "name": "Persian",
-    "pronunciation": "PURR-zhin",
-    "ipa": "/ˈpɝːʒən/"
-  },
-  {
-    "dex": 54,
-    "name": "Psyduck",
-    "pronunciation": "SYE-duck",
-    "ipa": "/ˈsaɪdʌk/"
-  },
-  {
-    "dex": 55,
-    "name": "Golduck",
-    "pronunciation": "GOHL-duck",
-    "ipa": "/ˈɡɔːldʌk/"
-  },
-  {
-    "dex": 56,
-    "name": "Mankey",
-    "pronunciation": "MANK-ee",
-    "ipa": "/ˈmæŋkiː/"
-  },
-  {
-    "dex": 57,
-    "name": "Primeape",
-    "pronunciation": "PRIME-ape",
-    "ipa": "/ˈpɹaɪmeɪp/"
-  },
-  {
-    "dex": 58,
-    "name": "Growlithe",
-    "pronunciation": "GROWL-ith",
-    "ipa": "/ˈɡɹaʊlɪθ/"
-  },
-  {
-    "dex": 59,
-    "name": "Arcanine",
-    "pronunciation": "AR-kuh-nine",
-    "ipa": "/ˈɑːɹkənɑɪn/"
-  },
-  {
-    "dex": 60,
-    "name": "Poliwag",
-    "pronunciation": "PAHL-ee-wag",
-    "ipa": "/ˈpɑːliːwæɡ/"
-  },
-  {
-    "dex": 61,
-    "name": "Poliwhirl",
-    "pronunciation": "PAHL-ee-wurl",
-    "ipa": "/ˈpɑːliːwɝːl/"
-  },
-  {
-    "dex": 62,
-    "name": "Poliwrath",
-    "pronunciation": "PAHL-ee-rath",
-    "ipa": "/ˈpɑːliːɹæθ/"
-  },
-  {
-    "dex": 63,
-    "name": "Abra",
-    "pronunciation": "AB-ruh",
-    "ipa": "/ˈæbɹə/"
-  },
-  {
-    "dex": 64,
-    "name": "Kadabra",
-    "pronunciation": "kuh-DAB-ruh",
-    "ipa": "/kəˈdæbɹə/"
-  },
-  {
-    "dex": 65,
-    "name": "Alakazam",
-    "pronunciation": "AL-uh-kuh-ZAM",
-    "ipa": "/ˌæləkəˈzæm/"
-  },
-  {
-    "dex": 66,
-    "name": "Machop",
-    "pronunciation": "muh-CHOP",
-    "ipa": "/məˈtʃɑːp/"
-  },
-  {
-    "dex": 67,
-    "name": "Machoke",
-    "pronunciation": "muh-CHOKE",
-    "ipa": "/məˈtʃoʊk/"
-  },
-  {
-    "dex": 68,
-    "name": "Machamp",
-    "pronunciation": "muh-CHAMP",
-    "ipa": "/məˈtʃæmp/"
-  },
-  {
-    "dex": 69,
-    "name": "Bellsprout",
-    "pronunciation": "BELL-sprout",
-    "ipa": "/ˈbɛlspɹaʊt/"
-  },
-  {
-    "dex": 70,
-    "name": "Weepinbell",
-    "pronunciation": "WEEP-in-bell",
-    "ipa": "/ˈwiːpɪnbɛl/"
-  },
-  {
-    "dex": 71,
-    "name": "Victreebel",
-    "pronunciation": "VICK-tree-bell",
-    "ipa": "/ˈvɪktriːbɛl/"
-  },
-  {
-    "dex": 72,
-    "name": "Tentacool",
-    "pronunciation": "TEN-tuh-kool",
-    "ipa": "/ˈtɛntəkuːl/"
-  },
-  {
-    "dex": 73,
-    "name": "Tentacruel",
-    "pronunciation": "TEN-tuh-krool",
-    "ipa": "/ˈtɛntəkɹuːl/"
-  },
-  {
-    "dex": 74,
-    "name": "Geodude",
-    "pronunciation": "JEE-oh-dood",
-    "ipa": "/ˈdʒiːoʊduːd/"
-  },
-  {
-    "dex": 75,
-    "name": "Graveler",
-    "pronunciation": "GRAV-uh-lurr",
-    "ipa": "/ˈɡɹævəlɚ/"
-  },
-  {
-    "dex": 76,
-    "name": "Golem",
-    "pronunciation": "GOHL-um",
-    "ipa": "/ˈɡɔːləm/"
-  },
-  {
-    "dex": 77,
-    "name": "Ponyta",
-    "pronunciation": "POH-nee-tah",
-    "ipa": "/ˈpoʊniːtɑː/"
-  },
-  {
-    "dex": 78,
-    "name": "Rapidash",
-    "pronunciation": "RAP-ih-dash",
-    "ipa": "/ˈɹæpɪdæʃ/"
-  },
-  {
-    "dex": 79,
-    "name": "Slowpoke",
-    "pronunciation": "SLOH-poke",
-    "ipa": "/ˈsloʊpoʊk/"
-  },
-  {
-    "dex": 80,
-    "name": "Slowbro",
-    "pronunciation": "SLOH-bro",
-    "ipa": "/ˈsloʊbɹoʊ/"
-  },
-  {
-    "dex": 81,
-    "name": "Magnemite",
-    "pronunciation": "MAG-nuh-mite",
-    "ipa": "/ˈmæɡnəmaɪt/"
-  },
-  {
-    "dex": 82,
-    "name": "Magneton",
-    "pronunciation": "MAG-nuh-tahn",
-    "ipa": "/ˈmæɡnətɑːn/"
-  },
-  {
-    "dex": 83,
-    "name": "Farfetch'd",
-    "pronunciation": "FAR-fetcht",
-    "ipa": "/ˈfɑːɹfɛtʃt/"
-  },
-  {
-    "dex": 84,
-    "name": "Doduo",
-    "pronunciation": "doh-DOO-oh",
-    "ipa": "/doʊˈduːoʊ/"
-  },
-  {
-    "dex": 85,
-    "name": "Dodrio",
-    "pronunciation": "doh-DREE-oh",
-    "ipa": "/doʊˈdɹiːoʊ/"
-  },
-  {
-    "dex": 86,
-    "name": "Seel",
-    "pronunciation": "SEEL",
-    "ipa": "/ˈsiːl/"
-  },
-  {
-    "dex": 87,
-    "name": "Dewgong",
-    "pronunciation": "DOO-gahng",
-    "ipa": "/ˈduːɡɑːŋ/"
-  },
-  {
-    "dex": 88,
-    "name": "Grimer",
-    "pronunciation": "GRIME-er",
-    "ipa": "/ˈɡɹaɪmɚ/"
-  },
-  {
-    "dex": 89,
-    "name": "Muk",
-    "pronunciation": "MUK",
-    "ipa": "/ˈmʌk/"
-  },
-  {
-    "dex": 90,
-    "name": "Shellder",
-    "pronunciation": "SHELL-dur",
-    "ipa": "/ˈʃɛldɚ/"
-  },
-  {
-    "dex": 91,
-    "name": "Cloyster",
-    "pronunciation": "CLOY-stur",
-    "ipa": "/ˈklɔɪstɚ/"
-  },
-  {
-    "dex": 92,
-    "name": "Gastly",
-    "pronunciation": "GAS-lee",
-    "ipa": "/ˈɡæsliː/"
-  },
-  {
-    "dex": 93,
-    "name": "Haunter",
-    "pronunciation": "HAHN-tur",
-    "ipa": "/ˈhɑːntɚ/"
-  },
-  {
-    "dex": 94,
-    "name": "Gengar",
-    "pronunciation": "GENG-gar",
-    "ipa": "/ˈɡɛŋɡɑːɹ/"
-  },
-  {
-    "dex": 95,
-    "name": "Onix",
-    "pronunciation": "AHN-iks",
-    "ipa": "/ˈɑːnɪks/"
-  },
-  {
-    "dex": 96,
-    "name": "Drowzee",
-    "pronunciation": "DROW-zee",
-    "ipa": "/ˈdɹaʊziː/"
-  },
-  {
-    "dex": 97,
-    "name": "Hypno",
-    "pronunciation": "HIP-noh",
-    "ipa": "/ˈhɪpnoʊ/"
-  },
-  {
-    "dex": 98,
-    "name": "Krabby",
-    "pronunciation": "KRA-bee",
-    "ipa": "/ˈkɹæbiː/"
-  },
-  {
-    "dex": 99,
-    "name": "Kingler",
-    "pronunciation": "KING-ler",
-    "ipa": "/ˈkɪŋlɚ/"
-  },
-  {
-    "dex": 100,
-    "name": "Voltorb",
-    "pronunciation": "VOHL-torb",
-    "ipa": "/ˈvɔːltɔːɹb/"
-  },
-  {
-    "dex": 101,
-    "name": "Electrode",
-    "pronunciation": "ee-LECK-trode",
-    "ipa": "/ɪˈlɛktɹoʊd/"
-  },
-  {
-    "dex": 102,
-    "name": "Exeggcute",
-    "pronunciation": "EGZ-egg-cute",
-    "ipa": "/ˈɛɡzəɡkjuːt/"
-  },
-  {
-    "dex": 103,
-    "name": "Exeggutor",
-    "pronunciation": "egz-EGG-yoo-tohr",
-    "ipa": "/ɛɡzˈɛɡjuːtɔːɹ/"
-  },
-  {
-    "dex": 104,
-    "name": "Cubone",
-    "pronunciation": "KYOO-bohn",
-    "ipa": "/ˈkjuːboʊn/"
-  },
-  {
-    "dex": 105,
-    "name": "Marowak",
-    "pronunciation": "MARE-oh-wak",
-    "ipa": "/ˈmɛɹoʊwæk/"
-  },
-  {
-    "dex": 106,
-    "name": "Hitmonlee",
-    "pronunciation": "HIT-mahn-lee",
-    "ipa": "/ˈhɪtmɑːnliː/"
-  },
-  {
-    "dex": 107,
-    "name": "Hitmonchan",
-    "pronunciation": "HIT-mahn-chan",
-    "ipa": "/ˈhɪtmɑːntʃæn/"
-  },
-  {
-    "dex": 108,
-    "name": "Lickitung",
-    "pronunciation": "LICK-ih-tung",
-    "ipa": "/ˈlɪkɪtʌŋ/"
-  },
-  {
-    "dex": 109,
-    "name": "Koffing",
-    "pronunciation": "KAHF-ing",
-    "ipa": "/ˈkɑːfɪŋ/"
-  },
-  {
-    "dex": 110,
-    "name": "Weezing",
-    "pronunciation": "WEEZ-ing",
-    "ipa": "/ˈwiːzɪŋ/"
-  },
-  {
-    "dex": 111,
-    "name": "Rhyhorn",
-    "pronunciation": "RYE-horn",
-    "ipa": "/ˈɹaɪhɔːɹn/"
-  },
-  {
-    "dex": 112,
-    "name": "Rhydon",
-    "pronunciation": "RYE-dahn",
-    "ipa": "/ˈɹaɪdɑːn/"
-  },
-  {
-    "dex": 113,
-    "name": "Chansey",
-    "pronunciation": "CHAN-see",
-    "ipa": "/ˈtʃænsiː/"
-  },
-  {
-    "dex": 114,
-    "name": "Tangela",
-    "pronunciation": "TANG-guh-luh",
-    "ipa": "/ˈtæŋɡələ/"
-  },
-  {
-    "dex": 115,
-    "name": "Kangaskhan",
-    "pronunciation": "KANG-gus-kahn",
-    "ipa": "/ˈkæŋɡəskɑːn/"
-  },
-  {
-    "dex": 116,
-    "name": "Horsea",
-    "pronunciation": "HOR-see",
-    "ipa": "/ˈhɔːɹsiː/"
-  },
-  {
-    "dex": 117,
-    "name": "Seadra",
-    "pronunciation": "SEE-druh",
-    "ipa": "/ˈsiːdɹə/"
-  },
-  {
-    "dex": 118,
-    "name": "Goldeen",
-    "pronunciation": "gol-DEEN",
-    "ipa": "/ɡɔːlˈdiːn/"
-  },
-  {
-    "dex": 119,
-    "name": "Seaking",
-    "pronunciation": "SEE-king",
-    "ipa": "/ˈsiːkɪŋ/"
-  },
-  {
-    "dex": 120,
-    "name": "Staryu",
-    "pronunciation": "STAR-yoo",
-    "ipa": "/ˈstɑːɹjuː/"
-  },
-  {
-    "dex": 121,
-    "name": "Starmie",
-    "pronunciation": "STAR-mee",
-    "ipa": "/ˈstɑːɹmiː/"
-  },
-  {
-    "dex": 122,
-    "name": "Mr. Mime",
-    "pronunciation": "MISS-tur-MIME",
-    "ipa": "/ˌmɪstɚˈmaɪm/"
-  },
-  {
-    "dex": 123,
-    "name": "Scyther",
-    "pronunciation": "SYE-ther",
-    "ipa": "/ˈsaɪθɚ/"
-  },
-  {
-    "dex": 124,
-    "name": "Jynx",
-    "pronunciation": "JINKS",
-    "ipa": "/ˈdʒɪŋks/"
-  },
-  {
-    "dex": 125,
-    "name": "Electabuzz",
-    "pronunciation": "ee-LECK-tuh-buzz",
-    "ipa": "/əˈlɛktəbʌz/"
-  },
-  {
-    "dex": 126,
-    "name": "Magmar",
-    "pronunciation": "MAG-mar",
-    "ipa": "/ˈmæɡmɑːɹ/"
-  },
-  {
-    "dex": 127,
-    "name": "Pinsir",
-    "pronunciation": "PIN-sur",
-    "ipa": "/ˈpɪnsɚ/"
-  },
-  {
-    "dex": 128,
-    "name": "Tauros",
-    "pronunciation": "TOHR-ohs",
-    "ipa": "/ˈtɔːɹoʊs/"
-  },
-  {
-    "dex": 129,
-    "name": "Magikarp",
-    "pronunciation": "MAJ-ih-karp",
-    "ipa": "/ˈmædʒɪkɑːɹp/"
-  },
-  {
-    "dex": 130,
-    "name": "Gyarados",
-    "pronunciation": "GARE-uh-dos",
-    "ipa": "/ˈɡɛɹədoʊs/"
-  },
-  {
-    "dex": 131,
-    "name": "Lapras",
-    "pronunciation": "LAP-ris",
-    "ipa": "/ˈlæpɹəs/"
-  },
-  {
-    "dex": 132,
-    "name": "Ditto",
-    "pronunciation": "DIH-toh",
-    "ipa": "/ˈdɪtoʊ/"
-  },
-  {
-    "dex": 133,
-    "name": "Eevee",
-    "pronunciation": "EE-vee",
-    "ipa": "/ˈiːviː/"
-  },
-  {
-    "dex": 134,
-    "name": "Vaporeon",
-    "pronunciation": "vay-POHR-ee-ahn",
-    "ipa": "/veɪˈpɔːɹiːɑːn/"
-  },
-  {
-    "dex": 135,
-    "name": "Jolteon",
-    "pronunciation": "JOHL-tee-ahn",
-    "ipa": "/ˈdʒɔːltiːɑːn/"
-  },
-  {
-    "dex": 136,
-    "name": "Flareon",
-    "pronunciation": "FLARE-ee-ahn",
-    "ipa": "/ˈflɛɹiːɑːn/"
-  },
-  {
-    "dex": 137,
-    "name": "Porygon",
-    "pronunciation": "POHR-ee-gahn",
-    "ipa": "/ˈpɔːɹiːɡɑːn/"
-  },
-  {
-    "dex": 138,
-    "name": "Omanyte",
-    "pronunciation": "AHM-uh-nite",
-    "ipa": "/ˈɑːmənɑɪt/"
-  },
-  {
-    "dex": 139,
-    "name": "Omastar",
-    "pronunciation": "AHM-uh-star",
-    "ipa": "/ˈɑːməstɑːɹ/"
-  },
-  {
-    "dex": 140,
-    "name": "Kabuto",
-    "pronunciation": "kuh-BOO-toh",
-    "ipa": "/kəˈbuːtoʊ/"
-  },
-  {
-    "dex": 141,
-    "name": "Kabutops",
-    "pronunciation": "KAH-boo-tahps",
-    "ipa": "/ˈkɑːbuːtɑːps/"
-  },
-  {
-    "dex": 142,
-    "name": "Aerodactyl",
-    "pronunciation": "AIR-uh-DAK-tull",
-    "ipa": "/ɛɹəˈdæktəl/"
-  },
-  {
-    "dex": 143,
-    "name": "Snorlax",
-    "pronunciation": "SNORE-lax",
-    "ipa": "/ˈsnɔːɹlæks/"
-  },
-  {
-    "dex": 144,
-    "name": "Articuno",
-    "pronunciation": "AR-ti-KOO-noh",
-    "ipa": "/ˌɑːɹɾɪˈkuːnoʊ/"
-  },
-  {
-    "dex": 145,
-    "name": "Zapdos",
-    "pronunciation": "ZAP-dohs",
-    "ipa": "/ˈzæpdoʊs/"
-  },
-  {
-    "dex": 146,
-    "name": "Moltres",
-    "pronunciation": "MOHL-trace",
-    "ipa": "/ˈmɔːltɹeɪs/"
-  },
-  {
-    "dex": 147,
-    "name": "Dratini",
-    "pronunciation": "druh-TEE-nee",
-    "ipa": "/dɹəˈtiːniː/"
-  },
-  {
-    "dex": 148,
-    "name": "Dragonair",
-    "pronunciation": "DRAG-uh-nair",
-    "ipa": "/ˈdɹæɡənɛɹ/"
-  },
-  {
-    "dex": 149,
-    "name": "Dragonite",
-    "pronunciation": "DRAG-uh-nite",
-    "ipa": "/ˈdɹæɡənaɪt/"
-  },
-  {
-    "dex": 150,
-    "name": "Mewtwo",
-    "pronunciation": "MYOO-too",
-    "ipa": "/ˈmjuːtuː/"
-  },
-  {
-    "dex": 151,
-    "name": "Mew",
-    "pronunciation": "MYOO",
-    "ipa": "/ˈmjuː/"
-  },
-  {
-    "dex": 152,
-    "name": "Chikorita",
-    "pronunciation": "CHIK-or-EE-tuh",
-    "ipa": "/ˌtʃɪkɔːɹˈiːɾə/"
-  },
-  {
-    "dex": 153,
-    "name": "Bayleef",
-    "pronunciation": "BAY-leef",
-    "ipa": "/ˈbeɪliːf/"
-  },
-  {
-    "dex": 154,
-    "name": "Meganium",
-    "pronunciation": "muh-GAY-nee-uhm",
-    "ipa": "/məˈɡeɪniːəm/"
-  },
-  {
-    "dex": 155,
-    "name": "Cyndaquil",
-    "pronunciation": "SIN-duh-kwil",
-    "ipa": "/ˈsɪndəkwɪl/"
-  },
-  {
-    "dex": 156,
-    "name": "Quilava",
-    "pronunciation": "kwi-LAH-vuh",
-    "ipa": "/kwɪˈlɑːvə/"
-  },
-  {
-    "dex": 157,
-    "name": "Typhlosion",
-    "pronunciation": "tye-FLOH-zhun",
-    "ipa": "/taɪˈfloʊʒən/"
-  },
-  {
-    "dex": 158,
-    "name": "Totodile",
-    "pronunciation": "TOH-tuh-dile",
-    "ipa": "/ˈtoʊɾədaɪl/"
-  },
-  {
-    "dex": 159,
-    "name": "Croconaw",
-    "pronunciation": "KROK-uh-naw",
-    "ipa": "/ˈkɹɑːkənɑː/"
-  },
-  {
-    "dex": 160,
-    "name": "Feraligatr",
-    "pronunciation": "fur-AL-ih-gay-tur",
-    "ipa": "/fɚˈæləɡeɪɾɚ/"
-  },
-  {
-    "dex": 161,
-    "name": "Sentret",
-    "pronunciation": "SEN-trit",
-    "ipa": "/ˈsɛntɹət/"
-  },
-  {
-    "dex": 162,
-    "name": "Furret",
-    "pronunciation": "FUR-it",
-    "ipa": "/ˈfɝːət/"
-  },
-  {
-    "dex": 163,
-    "name": "Hoothoot",
-    "pronunciation": "HOOT-hoot",
-    "ipa": "/ˈhuːtˌhuːt/"
-  },
-  {
-    "dex": 164,
-    "name": "Noctowl",
-    "pronunciation": "NAHK-towl",
-    "ipa": "/ˈnɑːktaʊl/"
-  },
-  {
-    "dex": 165,
-    "name": "Ledyba",
-    "pronunciation": "LED-ee-buh",
-    "ipa": "/ˈlɛdiːbə/"
-  },
-  {
-    "dex": 166,
-    "name": "Ledian",
-    "pronunciation": "LED-ee-ahn",
-    "ipa": "/ˈlɛdiːɑːn/"
-  },
-  {
-    "dex": 167,
-    "name": "Spinarak",
-    "pronunciation": "SPIN-uh-rak",
-    "ipa": "/ˈspɪnəɹæk/"
-  },
-  {
-    "dex": 168,
-    "name": "Ariados",
-    "pronunciation": "EHR-ee-uh-dos",
-    "ipa": "/ˈɛɹiːədoʊs/"
-  },
-  {
-    "dex": 169,
-    "name": "Crobat",
-    "pronunciation": "KROH-bat",
-    "ipa": "/ˈkɹoʊbæt/"
-  },
-  {
-    "dex": 170,
-    "name": "Chinchou",
-    "pronunciation": "CHIN-chow",
-    "ipa": "/ˈtʃɪntʃaʊ/"
-  },
-  {
-    "dex": 171,
-    "name": "Lanturn",
-    "pronunciation": "LAN-turn",
-    "ipa": "/ˈlæntɚn/"
-  },
-  {
-    "dex": 172,
-    "name": "Pichu",
-    "pronunciation": "PEE-choo",
-    "ipa": "/ˈpiːtʃu/"
-  },
-  {
-    "dex": 173,
-    "name": "Cleffa",
-    "pronunciation": "CLEH-fuh",
-    "ipa": "/ˈklɛfə/"
-  },
-  {
-    "dex": 174,
-    "name": "Igglybuff",
-    "pronunciation": "IGG-lee-buff",
-    "ipa": "/ˈɪɡliːbʌf/"
-  },
-  {
-    "dex": 175,
-    "name": "Togepi",
-    "pronunciation": "TOH-guh-pee",
-    "ipa": "/ˈtoʊgəpiː/"
-  },
-  {
-    "dex": 176,
-    "name": "Togetic",
-    "pronunciation": "TOH-guh-tik",
-    "ipa": "/ˈtoʊɡətɪk/"
-  },
-  {
-    "dex": 177,
-    "name": "Natu",
-    "pronunciation": "NAH-too",
-    "ipa": "/ˈnɑːtuː/"
-  },
-  {
-    "dex": 178,
-    "name": "Xatu",
-    "pronunciation": "ZAH-too",
-    "ipa": "/ˈzɑːtuː/"
-  },
-  {
-    "dex": 179,
-    "name": "Mareep",
-    "pronunciation": "muh-REEP",
-    "ipa": "/məˈɹiːp/"
-  },
-  {
-    "dex": 180,
-    "name": "Flaaffy",
-    "pronunciation": "FLA-fee",
-    "ipa": "/ˈflæfiː/"
-  },
-  {
-    "dex": 181,
-    "name": "Ampharos",
-    "pronunciation": "AM-fuh-rahs",
-    "ipa": "/ˈæmfəɹɑːs/"
-  },
-  {
-    "dex": 182,
-    "name": "Bellossom",
-    "pronunciation": "bell-AH-sum",
-    "ipa": "/bɛlˈɑːsəm/"
-  },
-  {
-    "dex": 183,
-    "name": "Marill",
-    "pronunciation": "MEHR-ull",
-    "ipa": "/ˈmɛɹəl/"
-  },
-  {
-    "dex": 184,
-    "name": "Azumarill",
-    "pronunciation": "uh-ZOO-muh-rill",
-    "ipa": "/əˈzuːməɹɪl/"
-  },
-  {
-    "dex": 185,
-    "name": "Sudowoodo",
-    "pronunciation": "SOO-doh-WOO-doh",
-    "ipa": "/ˌsuːdoʊˈwuːdoʊ/"
-  },
-  {
-    "dex": 186,
-    "name": "Politoed",
-    "pronunciation": "PAHL-ee-tohd",
-    "ipa": "/ˈpɑːliːtoʊd/"
-  },
-  {
-    "dex": 187,
-    "name": "Hoppip",
-    "pronunciation": "HOP-ip",
-    "ipa": "/ˈhɑːpɪp/"
-  },
-  {
-    "dex": 188,
-    "name": "Skiploom",
-    "pronunciation": "SKIP-loom",
-    "ipa": "/ˈskɪpluːm/"
-  },
-  {
-    "dex": 189,
-    "name": "Jumpluff",
-    "pronunciation": "JUMP-luff",
-    "ipa": "/ˈdʒʌmplʌf/"
-  },
-  {
-    "dex": 190,
-    "name": "Aipom",
-    "pronunciation": "AY-pahm",
-    "ipa": "/ˈeɪpɑːm/"
-  },
-  {
-    "dex": 191,
-    "name": "Sunkern",
-    "pronunciation": "SUN-kurn",
-    "ipa": "/ˈsʌŋkɚn/"
-  },
-  {
-    "dex": 192,
-    "name": "Sunflora",
-    "pronunciation": "sun-FLOHR-uh",
-    "ipa": "/ˌsʌnˈflɔːɹə/"
-  },
-  {
-    "dex": 193,
-    "name": "Yanma",
-    "pronunciation": "YAN-muh",
-    "ipa": "/ˈjænmə/"
-  },
-  {
-    "dex": 194,
-    "name": "Wooper",
-    "pronunciation": "WOO-pur",
-    "ipa": "/ˈwuːpɚ/"
-  },
-  {
-    "dex": 195,
-    "name": "Quagsire",
-    "pronunciation": "KWAG-sire",
-    "ipa": "/ˈkwæɡsaɪɚ/"
-  },
-  {
-    "dex": 196,
-    "name": "Espeon",
-    "pronunciation": "ES-pee-ahn",
-    "ipa": "/ˈɛspiːɑːn/"
-  },
-  {
-    "dex": 197,
-    "name": "Umbreon",
-    "pronunciation": "UM-bree-ahn",
-    "ipa": "/ˈʌmbɹiːɑːn/"
-  },
-  {
-    "dex": 198,
-    "name": "Murkrow",
-    "pronunciation": "MURR-kroh",
-    "ipa": "/ˈmɝːkɹoʊ/"
-  },
-  {
-    "dex": 199,
-    "name": "Slowking",
-    "pronunciation": "SLOH-king",
-    "ipa": "/ˈsloʊkɪŋ/"
-  },
-  {
-    "dex": 200,
-    "name": "Misdreavus",
-    "pronunciation": "miss-DREE-vis",
-    "ipa": "/mɪsˈdɹiːvəs/"
-  },
-  {
-    "dex": 201,
-    "name": "Unown",
-    "pronunciation": "uh-NOHN",
-    "ipa": "/ʌˈnoʊn/"
-  },
-  {
-    "dex": 202,
-    "name": "Wobbuffet",
-    "pronunciation": "WOBB-uh-fet",
-    "ipa": "/ˈwɑːbəfɛt/"
-  },
-  {
-    "dex": 203,
-    "name": "Girafarig",
-    "pronunciation": "jer-AF-uh-rig",
-    "ipa": "/dʒɚːˈæfəɹɪɡ/"
-  },
-  {
-    "dex": 204,
-    "name": "Pineco",
-    "pronunciation": "PINE-koh",
-    "ipa": "/ˈpaɪnkoʊ/"
-  },
-  {
-    "dex": 205,
-    "name": "Forretress",
-    "pronunciation": "FOHR-ih-triss",
-    "ipa": "/ˈfɔːɹətɹəs/"
-  },
-  {
-    "dex": 206,
-    "name": "Dunsparce",
-    "pronunciation": "DUN-sparce",
-    "ipa": "/ˈdʌnspɑːɹs/"
-  },
-  {
-    "dex": 207,
-    "name": "Gligar",
-    "pronunciation": "GLYE-gar",
-    "ipa": "/ˈɡlaɪɡɑːɹ/"
-  },
-  {
-    "dex": 208,
-    "name": "Steelix",
-    "pronunciation": "STEEL-iks",
-    "ipa": "/ˈstiːlɪks/"
-  },
-  {
-    "dex": 209,
-    "name": "Snubbull",
-    "pronunciation": "SNUH-bull",
-    "ipa": "/ˈsnʌbʊl/"
-  },
-  {
-    "dex": 210,
-    "name": "Granbull",
-    "pronunciation": "GRAN-bull",
-    "ipa": "/ˈɡɹænbʊl/"
-  },
-  {
-    "dex": 211,
-    "name": "Qwilfish",
-    "pronunciation": "KWIL-fish",
-    "ipa": "/ˈkwɪlfɪʃ/"
-  },
-  {
-    "dex": 212,
-    "name": "Scizor",
-    "pronunciation": "SIZ-or",
-    "ipa": "/ˈsɪzɔːɹ/"
-  },
-  {
-    "dex": 213,
-    "name": "Shuckle",
-    "pronunciation": "SHUCK-uhl",
-    "ipa": "/ˈʃʌkəl/"
-  },
-  {
-    "dex": 214,
-    "name": "Heracross",
-    "pronunciation": "HEHR-uh-cross",
-    "ipa": "/ˈhɛɹəkɹɑːs/"
-  },
-  {
-    "dex": 215,
-    "name": "Sneasel",
-    "pronunciation": "SNEE-zull",
-    "ipa": "/ˈsniːzəl/"
-  },
-  {
-    "dex": 216,
-    "name": "Teddiursa",
-    "pronunciation": "ted-ee-UR-suh",
-    "ipa": "/tɛdiːˈɝːsə/"
-  },
-  {
-    "dex": 217,
-    "name": "Ursaring",
-    "pronunciation": "UR-suh-ring",
-    "ipa": "/ˈɝːsəɹɪŋ/"
-  },
-  {
-    "dex": 218,
-    "name": "Slugma",
-    "pronunciation": "SLUG-muh",
-    "ipa": "/ˈslʌgmə/"
-  },
-  {
-    "dex": 219,
-    "name": "Magcargo",
-    "pronunciation": "mag-KAR-goh",
-    "ipa": "/mæɡˈkɑːɹɡoʊ/"
-  },
-  {
-    "dex": 220,
-    "name": "Swinub",
-    "pronunciation": "SWYE-nub",
-    "ipa": "/ˈswaɪnʌb/"
-  },
-  {
-    "dex": 221,
-    "name": "Piloswine",
-    "pronunciation": "PYE-loh-swine",
-    "ipa": "/ˈpaɪloʊˌswaɪn/"
-  },
-  {
-    "dex": 222,
-    "name": "Corsola",
-    "pronunciation": "KOR-suh-luh",
-    "ipa": "/ˈkɔːɹsələ/"
-  },
-  {
-    "dex": 223,
-    "name": "Remoraid",
-    "pronunciation": "REM-or-aid",
-    "ipa": "/ˈɹɛməɹeɪd/"
-  },
-  {
-    "dex": 224,
-    "name": "Octillery",
-    "pronunciation": "ahk-TILL-er-ee",
-    "ipa": "/ɑːkˈtɪlɚiː/"
-  },
-  {
-    "dex": 225,
-    "name": "Delibird",
-    "pronunciation": "DELL-ee-bird",
-    "ipa": "/ˈdɛliːbɚd/"
-  },
-  {
-    "dex": 226,
-    "name": "Mantine",
-    "pronunciation": "MAN-teen",
-    "ipa": "/ˈmæntiːn/"
-  },
-  {
-    "dex": 227,
-    "name": "Skarmory",
-    "pronunciation": "SKAR-muh-ree",
-    "ipa": "/ˈskɑːɹmɚiː/"
-  },
-  {
-    "dex": 228,
-    "name": "Houndour",
-    "pronunciation": "HOUN-dow-er",
-    "ipa": "/ˈhaʊndaʊɚ/"
-  },
-  {
-    "dex": 229,
-    "name": "Houndoom",
-    "pronunciation": "HOUN-doom",
-    "ipa": "/ˈhaʊnduːm/"
-  },
-  {
-    "dex": 230,
-    "name": "Kingdra",
-    "pronunciation": "KING-druh",
-    "ipa": "/ˈkɪŋdɹə/"
-  },
-  {
-    "dex": 231,
-    "name": "Phanpy",
-    "pronunciation": "FAN-pee",
-    "ipa": "/ˈfænpiː/"
-  },
-  {
-    "dex": 232,
-    "name": "Donphan",
-    "pronunciation": "DON-fan",
-    "ipa": "/ˈdɑːnfæn/"
-  },
-  {
-    "dex": 233,
-    "name": "Porygon2",
-    "pronunciation": "POR-ee-gahn-TOO",
-    "ipa": "/ˌpɔːɹiːɡɑːnˈtuː/"
-  },
-  {
-    "dex": 234,
-    "name": "Stantler",
-    "pronunciation": "STANT-ler",
-    "ipa": "/ˈstæntlɚ/"
-  },
-  {
-    "dex": 235,
-    "name": "Smeargle",
-    "pronunciation": "SMEER-gull",
-    "ipa": "/ˈsmɪɹɡəl/"
-  },
-  {
-    "dex": 236,
-    "name": "Tyrogue",
-    "pronunciation": "TYE-rohg",
-    "ipa": "/ˈtaɪɹoʊɡ/"
-  },
-  {
-    "dex": 237,
-    "name": "Hitmontop",
-    "pronunciation": "HIT-mahn-tahp",
-    "ipa": "/ˈhɪtmɑːntɑːp/"
-  },
-  {
-    "dex": 238,
-    "name": "Smoochum",
-    "pronunciation": "SMOO-chum",
-    "ipa": "/ˈsmuːtʃəm/"
-  },
-  {
-    "dex": 239,
-    "name": "Elekid",
-    "pronunciation": "EL-uh-kid",
-    "ipa": "/ˈɛləkɪd/"
-  },
-  {
-    "dex": 240,
-    "name": "Magby",
-    "pronunciation": "MAG-bee",
-    "ipa": "/ˈmægbiː/"
-  },
-  {
-    "dex": 241,
-    "name": "Miltank",
-    "pronunciation": "MILL-tank",
-    "ipa": "/ˈmɪltæŋk/"
-  },
-  {
-    "dex": 242,
-    "name": "Blissey",
-    "pronunciation": "BLISS-ee",
-    "ipa": "/ˈblɪsiː/"
-  },
-  {
-    "dex": 243,
-    "name": "Raikou",
-    "pronunciation": "RYE-koh",
-    "ipa": "/ˈɹaɪkoʊ/"
-  },
-  {
-    "dex": 244,
-    "name": "Entei",
-    "pronunciation": "EN-tay",
-    "ipa": "/ˈɛnteɪ/"
-  },
-  {
-    "dex": 245,
-    "name": "Suicune",
-    "pronunciation": "SWEE-koon",
-    "ipa": "/ˈswiːkuːn/"
-  },
-  {
-    "dex": 246,
-    "name": "Larvitar",
-    "pronunciation": "LAR-vih-tar",
-    "ipa": "/ˈlɑːɹvətɑːɹ/"
-  },
-  {
-    "dex": 247,
-    "name": "Pupitar",
-    "pronunciation": "PYOO-pih-tar",
-    "ipa": "/ˈpjuːpətɑːɹ/"
-  },
-  {
-    "dex": 248,
-    "name": "Tyranitar",
-    "pronunciation": "tye-RAN-ih-tar",
-    "ipa": "/taɪˈɹænətɑːɹ/"
-  },
-  {
-    "dex": 249,
-    "name": "Lugia",
-    "pronunciation": "LOO-gee-uh",
-    "ipa": "/ˈluːɡiːə/"
-  },
-  {
-    "dex": 250,
-    "name": "Ho-Oh",
-    "pronunciation": "HO-oh",
-    "ipa": "/ˈhoʊʔoʊ/"
-  },
-  {
-    "dex": 251,
-    "name": "Celebi",
-    "pronunciation": "SEL-uh-bee",
-    "ipa": "/ˈsɛləbiː/"
-  },
-  {
-    "dex": 252,
-    "name": "Treecko",
-    "pronunciation": "TREE-koh",
-    "ipa": "/ˈtɹiːkoʊ/"
-  },
-  {
-    "dex": 253,
-    "name": "Grovyle",
-    "pronunciation": "GROH-vile",
-    "ipa": "/ˈɡɹoʊvaɪl/"
-  },
-  {
-    "dex": 254,
-    "name": "Sceptile",
-    "pronunciation": "SEP-tile",
-    "ipa": "/ˈsɛptaɪl/"
-  },
-  {
-    "dex": 255,
-    "name": "Torchic",
-    "pronunciation": "TOR-chick",
-    "ipa": "/ˈtɔːɹtʃɪk/"
-  },
-  {
-    "dex": 256,
-    "name": "Combusken",
-    "pronunciation": "kum-BUS-kin",
-    "ipa": "/kəmˈbʌskən/"
-  },
-  {
-    "dex": 257,
-    "name": "Blaziken",
-    "pronunciation": "BLAYZ-ih-kin",
-    "ipa": "/ˈbleɪzəkən/"
-  },
-  {
-    "dex": 258,
-    "name": "Mudkip",
-    "pronunciation": "MUD-kip",
-    "ipa": "/ˈmʌdkɪp/"
-  },
-  {
-    "dex": 259,
-    "name": "Marshtomp",
-    "pronunciation": "MARSH-tahmp",
-    "ipa": "/ˈmɑːɹʃtɑːmp/"
-  },
-  {
-    "dex": 260,
-    "name": "Swampert",
-    "pronunciation": "SWAHM-purt",
-    "ipa": "/ˈswɑːmpɚt/"
-  },
-  {
-    "dex": 261,
-    "name": "Poochyena",
-    "pronunciation": "POO-chee-YEN-uh",
-    "ipa": "/ˌpuːtʃiːˈjɛnə/"
-  },
-  {
-    "dex": 262,
-    "name": "Mightyena",
-    "pronunciation": "MY-tee-YEN-uh",
-    "ipa": "/ˌmaɪtiːˈjɛnə/"
-  },
-  {
-    "dex": 263,
-    "name": "Zigzagoon",
-    "pronunciation": "zig-zuh-GOON",
-    "ipa": "/zɪɡzəˈɡuːn/"
-  },
-  {
-    "dex": 264,
-    "name": "Linoone",
-    "pronunciation": "lie-NOON",
-    "ipa": "/laɪˈnuːn/"
-  },
-  {
-    "dex": 265,
-    "name": "Wurmple",
-    "pronunciation": "WURM-pull",
-    "ipa": "/ˈwɝːmpəl/"
-  },
-  {
-    "dex": 266,
-    "name": "Silcoon",
-    "pronunciation": "SILL-koon",
-    "ipa": "/ˈsɪlkuːn/"
-  },
-  {
-    "dex": 267,
-    "name": "Beautifly",
-    "pronunciation": "BYOO-tih-fly",
-    "ipa": "/ˈbjuːtəflaɪ/"
-  },
-  {
-    "dex": 268,
-    "name": "Cascoon",
-    "pronunciation": "KASS-koon",
-    "ipa": "/ˈkæskuːn/"
-  },
-  {
-    "dex": 269,
-    "name": "Dustox",
-    "pronunciation": "DUS-tahks",
-    "ipa": "/ˈdʌstɑːks/"
-  },
-  {
-    "dex": 270,
-    "name": "Lotad",
-    "pronunciation": "LOH-tad",
-    "ipa": "/ˈloʊtæd/"
-  },
-  {
-    "dex": 271,
-    "name": "Lombre",
-    "pronunciation": "LAHM-bray",
-    "ipa": "/ˈlɑːmbɹeɪ/"
-  },
-  {
-    "dex": 272,
-    "name": "Ludicolo",
-    "pronunciation": "LOO-dee-KOH-loh",
-    "ipa": "/ˌluːdiːˈkoʊloʊ/"
-  },
-  {
-    "dex": 273,
-    "name": "Seedot",
-    "pronunciation": "SEE-daht",
-    "ipa": "/ˈsiːdɑːt/"
-  },
-  {
-    "dex": 274,
-    "name": "Nuzleaf",
-    "pronunciation": "NUZ-leef",
-    "ipa": "/ˈnʌzliːf/"
-  },
-  {
-    "dex": 275,
-    "name": "Shiftry",
-    "pronunciation": "SHIF-tree",
-    "ipa": "/ˈʃɪftɹiː/"
-  },
-  {
-    "dex": 276,
-    "name": "Taillow",
-    "pronunciation": "TAY-loh",
-    "ipa": "/ˈteɪloʊ/"
-  },
-  {
-    "dex": 277,
-    "name": "Swellow",
-    "pronunciation": "SWELL-oh",
-    "ipa": "/ˈswɛloʊ/"
-  },
-  {
-    "dex": 278,
-    "name": "Wingull",
-    "pronunciation": "WING-gull",
-    "ipa": "/ˈwɪŋɡəl/"
-  },
-  {
-    "dex": 279,
-    "name": "Pelipper",
-    "pronunciation": "PELL-ih-pur",
-    "ipa": "/ˈpɛlɪpɚ/"
-  },
-  {
-    "dex": 280,
-    "name": "Ralts",
-    "pronunciation": "RAHLTS",
-    "ipa": "/ˈɹɑːlts/"
-  },
-  {
-    "dex": 281,
-    "name": "Kirlia",
-    "pronunciation": "KUR-lee-uh",
-    "ipa": "/ˈkɝːliːə/"
-  },
-  {
-    "dex": 282,
-    "name": "Gardevoir",
-    "pronunciation": "GAR-dih-vwar",
-    "ipa": "/ˈɡɑːɹdəvwɑːɹ/"
-  },
-  {
-    "dex": 283,
-    "name": "Surskit",
-    "pronunciation": "SUR-skit",
-    "ipa": "/ˈsɝːskɪt/"
-  },
-  {
-    "dex": 284,
-    "name": "Masquerain",
-    "pronunciation": "mass-kur-AIN",
-    "ipa": "/mæskɚˈeɪn/"
-  },
-  {
-    "dex": 285,
-    "name": "Shroomish",
-    "pronunciation": "SHROO-mish",
-    "ipa": "/ˈʃɹuːmɪʃ/"
-  },
-  {
-    "dex": 286,
-    "name": "Breloom",
-    "pronunciation": "BREH-loom",
-    "ipa": "/ˈbɹɛluːm/"
-  },
-  {
-    "dex": 287,
-    "name": "Slakoth",
-    "pronunciation": "SLAK-ahth",
-    "ipa": "/ˈslækɑːθ/"
-  },
-  {
-    "dex": 288,
-    "name": "Vigoroth",
-    "pronunciation": "VIG-ur-ahth",
-    "ipa": "/ˈvɪɡɚɑːθ/"
-  },
-  {
-    "dex": 289,
-    "name": "Slaking",
-    "pronunciation": "SLAK-ing",
-    "ipa": "/ˈslækɪŋ/"
-  },
-  {
-    "dex": 290,
-    "name": "Nincada",
-    "pronunciation": "nin-KAH-duh",
-    "ipa": "/nɪnˈkɑːdə/"
-  },
-  {
-    "dex": 291,
-    "name": "Ninjask",
-    "pronunciation": "NIN-jask",
-    "ipa": "/ˈnɪndʒæsk/"
-  },
-  {
-    "dex": 292,
-    "name": "Shedinja",
-    "pronunciation": "shed-IN-juh",
-    "ipa": "/ʃɛdˈɪndʒə/"
-  },
-  {
-    "dex": 293,
-    "name": "Whismur",
-    "pronunciation": "WHISS-mur",
-    "ipa": "/ˈhwɪsmɚ/"
-  },
-  {
-    "dex": 294,
-    "name": "Loudred",
-    "pronunciation": "LOUD-red",
-    "ipa": "/ˈlaʊdɹɛd/"
-  },
-  {
-    "dex": 295,
-    "name": "Exploud",
-    "pronunciation": "ek-SPLOWD",
-    "ipa": "/ɛkˈsplaʊd/"
-  },
-  {
-    "dex": 296,
-    "name": "Makuhita",
-    "pronunciation": "MAH-koo-HEE-tuh",
-    "ipa": "/ˌmɑːkuːˈhiːtə/"
-  },
-  {
-    "dex": 297,
-    "name": "Hariyama",
-    "pronunciation": "HAR-ee-YAH-muh",
-    "ipa": "/ˌhɑːɹiːˈjɑːmə/"
-  },
-  {
-    "dex": 298,
-    "name": "Azurill",
-    "pronunciation": "uh-ZOO-ril",
-    "ipa": "/əˈzuːɹɪl/"
-  },
-  {
-    "dex": 299,
-    "name": "Nosepass",
-    "pronunciation": "NOZE-pass",
-    "ipa": "/ˈnoʊzpæs/"
-  },
-  {
-    "dex": 300,
-    "name": "Skitty",
-    "pronunciation": "SKIT-ee",
-    "ipa": "/ˈskɪtiː/"
-  },
-  {
-    "dex": 301,
-    "name": "Delcatty",
-    "pronunciation": "DEL-kat-ee",
-    "ipa": "/ˈdɛlkætiː/"
-  },
-  {
-    "dex": 302,
-    "name": "Sableye",
-    "pronunciation": "SAY-buh-lye",
-    "ipa": "/ˈseɪbəlaɪ/"
-  },
-  {
-    "dex": 303,
-    "name": "Mawile",
-    "pronunciation": "MAH-wile",
-    "ipa": "/ˈmɑːwaɪl/"
-  },
-  {
-    "dex": 304,
-    "name": "Aron",
-    "pronunciation": "EHR-ahn",
-    "ipa": "/ˈɛɹɑːn/"
-  },
-  {
-    "dex": 305,
-    "name": "Lairon",
-    "pronunciation": "LEHR-ahn",
-    "ipa": "/ˈlɛɹɑːn/"
-  },
-  {
-    "dex": 306,
-    "name": "Aggron",
-    "pronunciation": "AG-rahn",
-    "ipa": "/ˈæɡɹɑːn/"
-  },
-  {
-    "dex": 307,
-    "name": "Meditite",
-    "pronunciation": "MED-ih-tite",
-    "ipa": "/ˈmɛdətaɪt/"
-  },
-  {
-    "dex": 308,
-    "name": "Medicham",
-    "pronunciation": "MED-ih-cham",
-    "ipa": "/ˈmɛdətʃæm/"
-  },
-  {
-    "dex": 309,
-    "name": "Electrike",
-    "pronunciation": "ee-LEK-trike",
-    "ipa": "/ɪˈlɛktɹɑɪk/"
-  },
-  {
-    "dex": 310,
-    "name": "Manectric",
-    "pronunciation": "may-NEK-trik",
-    "ipa": "/meɪˈnɛktɹɪk/"
-  },
-  {
-    "dex": 311,
-    "name": "Plusle",
-    "pronunciation": "PLUS-ull",
-    "ipa": "/ˈplʌsəl/"
-  },
-  {
-    "dex": 312,
-    "name": "Minun",
-    "pronunciation": "MY-nun",
-    "ipa": "/ˈmaɪnən/"
-  },
-  {
-    "dex": 313,
-    "name": "Volbeat",
-    "pronunciation": "VOHL-beet",
-    "ipa": "/ˈvoʊlbiːt/"
-  },
-  {
-    "dex": 314,
-    "name": "Illumise",
-    "pronunciation": "ih-loo-MEE-zay",
-    "ipa": "/ɪluˈmiːzeɪ/"
-  },
-  {
-    "dex": 315,
-    "name": "Roselia",
-    "pronunciation": "roh-ZEL-ee-uh",
-    "ipa": "/ɹoʊˈzɛliːə/"
-  },
-  {
-    "dex": 316,
-    "name": "Gulpin",
-    "pronunciation": "GULL-pin",
-    "ipa": "/ˈɡʊlpɪn/"
-  },
-  {
-    "dex": 317,
-    "name": "Swalot",
-    "pronunciation": "SWAH-laht",
-    "ipa": "/ˈswɑːlɑːt/"
-  },
-  {
-    "dex": 318,
-    "name": "Carvanha",
-    "pronunciation": "kar-VAHN-uh",
-    "ipa": "/kɑːɹˈvɑːnə/"
-  },
-  {
-    "dex": 319,
-    "name": "Sharpedo",
-    "pronunciation": "shar-PEE-doh",
-    "ipa": "/ʃɑːɹˈpiːdoʊ/"
-  },
-  {
-    "dex": 320,
-    "name": "Wailmer",
-    "pronunciation": "WAIL-mur",
-    "ipa": "/ˈweɪlmɚ/"
-  },
-  {
-    "dex": 321,
-    "name": "Wailord",
-    "pronunciation": "WAIL-ord",
-    "ipa": "/ˈweɪlɔːɹd/"
-  },
-  {
-    "dex": 322,
-    "name": "Numel",
-    "pronunciation": "NUM-ull",
-    "ipa": "/ˈnʌməl/"
-  },
-  {
-    "dex": 323,
-    "name": "Camerupt",
-    "pronunciation": "KAM-ur-upt",
-    "ipa": "/ˈkæmɚʌpt/"
-  },
-  {
-    "dex": 324,
-    "name": "Torkoal",
-    "pronunciation": "TOR-kohl",
-    "ipa": "/ˈtɔːɹkoʊl/"
-  },
-  {
-    "dex": 325,
-    "name": "Spoink",
-    "pronunciation": "SPOINK",
-    "ipa": "/spɔɪŋk/"
-  },
-  {
-    "dex": 326,
-    "name": "Grumpig",
-    "pronunciation": "GRUM-pig",
-    "ipa": "/ˈɡɹʌmpɪɡ/"
-  },
-  {
-    "dex": 327,
-    "name": "Spinda",
-    "pronunciation": "SPIN-duh",
-    "ipa": "/ˈspɪndə/"
-  },
-  {
-    "dex": 328,
-    "name": "Trapinch",
-    "pronunciation": "TRA-pinch",
-    "ipa": "/ˈtɹæpɪntʃ/"
-  },
-  {
-    "dex": 329,
-    "name": "Vibrava",
-    "pronunciation": "vye-BRAH-vuh",
-    "ipa": "/vaɪˈbɹɑːvə/"
-  },
-  {
-    "dex": 330,
-    "name": "Flygon",
-    "pronunciation": "FLY-gahn",
-    "ipa": "/ˈflaɪɡɑːn/"
-  },
-  {
-    "dex": 331,
-    "name": "Cacnea",
-    "pronunciation": "KAK-nee-uh",
-    "ipa": "/ˈkækniːə/"
-  },
-  {
-    "dex": 332,
-    "name": "Cacturne",
-    "pronunciation": "KAK-turn",
-    "ipa": "/ˈkæktɚn/"
-  },
-  {
-    "dex": 333,
-    "name": "Swablu",
-    "pronunciation": "SWAHB-loo",
-    "ipa": "/ˈswɑːbluː/"
-  },
-  {
-    "dex": 334,
-    "name": "Altaria",
-    "pronunciation": "ahl-TAHR-ee-uh",
-    "ipa": "/ɑːlˈtɑːɹiːə/"
-  },
-  {
-    "dex": 335,
-    "name": "Zangoose",
-    "pronunciation": "ZANG-goos",
-    "ipa": "/ˈzæŋɡus/"
-  },
-  {
-    "dex": 336,
-    "name": "Seviper",
-    "pronunciation": "suh-VYE-pur",
-    "ipa": "/səˈvaɪpɚ/"
-  },
-  {
-    "dex": 337,
-    "name": "Lunatone",
-    "pronunciation": "LOO-nuh-tohn",
-    "ipa": "/ˈluːnətoʊn/"
-  },
-  {
-    "dex": 338,
-    "name": "Solrock",
-    "pronunciation": "SOHL-rahk",
-    "ipa": "/ˈsɔːlɹɑːk/"
-  },
-  {
-    "dex": 339,
-    "name": "Barboach",
-    "pronunciation": "BAR-bohch",
-    "ipa": "/ˈbɑːɹboʊtʃ/"
-  },
-  {
-    "dex": 340,
-    "name": "Whiscash",
-    "pronunciation": "WHIS-kash",
-    "ipa": "/ˈhwɪskæʃ/"
-  },
-  {
-    "dex": 341,
-    "name": "Corphish",
-    "pronunciation": "KOR-fish",
-    "ipa": "/ˈkɔːɹfɪʃ/"
-  },
-  {
-    "dex": 342,
-    "name": "Crawdaunt",
-    "pronunciation": "KRAH-dawnt",
-    "ipa": "/ˈkrɑːdɑːnt/"
-  },
-  {
-    "dex": 343,
-    "name": "Baltoy",
-    "pronunciation": "BAHL-toy",
-    "ipa": "/ˈbɑːltɔɪ/"
-  },
-  {
-    "dex": 344,
-    "name": "Claydol",
-    "pronunciation": "KLAY-dohl",
-    "ipa": "/ˈkleɪdɔl/"
-  },
-  {
-    "dex": 345,
-    "name": "Lileep",
-    "pronunciation": "lil-EEP",
-    "ipa": "/lɪlˈiːp/"
-  },
-  {
-    "dex": 346,
-    "name": "Cradily",
-    "pronunciation": "cray-DILL-ee",
-    "ipa": "/kɹeɪˈdɪliː/"
-  },
-  {
-    "dex": 347,
-    "name": "Anorith",
-    "pronunciation": "AN-uh-rith",
-    "ipa": "/ˈænəɹɪθ/"
-  },
-  {
-    "dex": 348,
-    "name": "Armaldo",
-    "pronunciation": "ar-MAHL-doh",
-    "ipa": "/ɑːɹˈmɑːldoʊ/"
-  },
-  {
-    "dex": 349,
-    "name": "Feebas",
-    "pronunciation": "FEE-bas",
-    "ipa": "/ˈfiːbæs/"
-  },
-  {
-    "dex": 350,
-    "name": "Milotic",
-    "pronunciation": "MY-loh-tik",
-    "ipa": "/ˈmaɪloʊtɪk/"
-  },
-  {
-    "dex": 351,
-    "name": "Castform",
-    "pronunciation": "KAST-form",
-    "ipa": "/ˈkæstfɔːɹm/"
-  },
-  {
-    "dex": 352,
-    "name": "Kecleon",
-    "pronunciation": "KEK-lee-ahn",
-    "ipa": "/ˈkɛkliːɑːn/"
-  },
-  {
-    "dex": 353,
-    "name": "Shuppet",
-    "pronunciation": "SHUP-it",
-    "ipa": "/ˈʃʌpət/"
-  },
-  {
-    "dex": 354,
-    "name": "Banette",
-    "pronunciation": "bay-NET",
-    "ipa": "/beɪˈnɛt/"
-  },
-  {
-    "dex": 355,
-    "name": "Duskull",
-    "pronunciation": "DUS-kull",
-    "ipa": "/ˈdʌskəl/"
-  },
-  {
-    "dex": 356,
-    "name": "Dusclops",
-    "pronunciation": "DUS-klahps",
-    "ipa": "/ˈdʌsklɑːps/"
-  },
-  {
-    "dex": 357,
-    "name": "Tropius",
-    "pronunciation": "TRAHP-ee-us",
-    "ipa": "/ˈtɹɑːpiːəs/"
-  },
-  {
-    "dex": 358,
-    "name": "Chimecho",
-    "pronunciation": "chye-MEK-oh",
-    "ipa": "/tʃaɪˈmɛkoʊ/"
-  },
-  {
-    "dex": 359,
-    "name": "Absol",
-    "pronunciation": "AB-sohl",
-    "ipa": "/ˈæbsɔːl/"
-  },
-  {
-    "dex": 360,
-    "name": "Wynaut",
-    "pronunciation": "WY-naut",
-    "ipa": "/ˈwaɪnɑːt/"
-  },
-  {
-    "dex": 361,
-    "name": "Snorunt",
-    "pronunciation": "SNOH-runt",
-    "ipa": "/ˈsnoʊɹʌnt/"
-  },
-  {
-    "dex": 362,
-    "name": "Glalie",
-    "pronunciation": "GLAY-lee",
-    "ipa": "/ˈɡleɪliː/"
-  },
-  {
-    "dex": 363,
-    "name": "Spheal",
-    "pronunciation": "SFEEL",
-    "ipa": "/ˈsfiːl/"
-  },
-  {
-    "dex": 364,
-    "name": "Sealeo",
-    "pronunciation": "SEE-lee-oh",
-    "ipa": "/ˈsiːliːoʊ/"
-  },
-  {
-    "dex": 365,
-    "name": "Walrein",
-    "pronunciation": "WAHL-rain",
-    "ipa": "/ˈwɑːlɹeɪn/"
-  },
-  {
-    "dex": 366,
-    "name": "Clamperl",
-    "pronunciation": "KLAM-purl",
-    "ipa": "/ˈklæmpɚl/"
-  },
-  {
-    "dex": 367,
-    "name": "Huntail",
-    "pronunciation": "HUN-tail",
-    "ipa": "/ˈhʌnteɪl/"
-  },
-  {
-    "dex": 368,
-    "name": "Gorebyss",
-    "pronunciation": "GOHR-uh-bis",
-    "ipa": "/ˈɡɔːɹəbɪs/"
-  },
-  {
-    "dex": 369,
-    "name": "Relicanth",
-    "pronunciation": "RELL-ih-kanth",
-    "ipa": "/ˈɹɛlɪkænθ/"
-  },
-  {
-    "dex": 370,
-    "name": "Luvdisc",
-    "pronunciation": "LUV-disk",
-    "ipa": "/ˈlʌvdɪsk/"
-  },
-  {
-    "dex": 371,
-    "name": "Bagon",
-    "pronunciation": "BAY-gahn",
-    "ipa": "/ˈbeɪɡɑːn/"
-  },
-  {
-    "dex": 372,
-    "name": "Shelgon",
-    "pronunciation": "SHEL-gahn",
-    "ipa": "/ˈʃɛlɡɑːn/"
-  },
-  {
-    "dex": 373,
-    "name": "Salamence",
-    "pronunciation": "SAL-uh-mence",
-    "ipa": "/ˈsæləmɛns/"
-  },
-  {
-    "dex": 374,
-    "name": "Beldum",
-    "pronunciation": "BEL-dum",
-    "ipa": "/ˈbɛldʌm/"
-  },
-  {
-    "dex": 375,
-    "name": "Metang",
-    "pronunciation": "muh-TANG",
-    "ipa": "/məˈtæŋ/"
-  },
-  {
-    "dex": 376,
-    "name": "Metagross",
-    "pronunciation": "MEH-tuh-grohs",
-    "ipa": "/ˈmɛtəɡroʊs/"
-  },
-  {
-    "dex": 377,
-    "name": "Regirock",
-    "pronunciation": "REJ-ee-rahk",
-    "ipa": "/ˈɹɛdʒiːɹɑːk/"
-  },
-  {
-    "dex": 378,
-    "name": "Regice",
-    "pronunciation": "REJ-ice",
-    "ipa": "/ˈɹɛdʒaɪs/"
-  },
-  {
-    "dex": 379,
-    "name": "Registeel",
-    "pronunciation": "REJ-ee-steel",
-    "ipa": "/ˈɹɛdʒiːstiːl/"
-  },
-  {
-    "dex": 380,
-    "name": "Latias",
-    "pronunciation": "LAH-tee-ahs",
-    "ipa": "/ˈlɑːtiːɑːs/"
-  },
-  {
-    "dex": 381,
-    "name": "Latios",
-    "pronunciation": "LAH-tee-ohs",
-    "ipa": "/ˈlɑːtiːoʊs/"
-  },
-  {
-    "dex": 382,
-    "name": "Kyogre",
-    "pronunciation": "kye-OH-gur",
-    "ipa": "/kaɪˈoʊɡɚ/"
-  },
-  {
-    "dex": 383,
-    "name": "Groudon",
-    "pronunciation": "GROU-dahn",
-    "ipa": "/ˈɡɹaʊdɑːn/"
-  },
-  {
-    "dex": 384,
-    "name": "Rayquaza",
-    "pronunciation": "ray-KWAY-zuh",
-    "ipa": "/ɹeɪˈkweɪzə/"
-  },
-  {
-    "dex": 385,
-    "name": "Jirachi",
-    "pronunciation": "jur-AH-chee",
-    "ipa": "/dʒɚˈɑːtʃiː/"
-  },
-  {
-    "dex": 386,
-    "name": "Deoxys",
-    "pronunciation": "dee-AHK-sis",
-    "ipa": "/diːˈɑːksɪs/"
-  },
-  {
-    "dex": 387,
-    "name": "Turtwig",
-    "pronunciation": "TUR-twig",
-    "ipa": "/ˈtɝːtwɪɡ/"
-  },
-  {
-    "dex": 388,
-    "name": "Grotle",
-    "pronunciation": "GRAH-tull",
-    "ipa": "/ˈɡɹɑːɾəl/"
-  },
-  {
-    "dex": 389,
-    "name": "Torterra",
-    "pronunciation": "tohr-TEHR-uh",
-    "ipa": "/tɔːɹˈtɛɹə/"
-  },
-  {
-    "dex": 390,
-    "name": "Chimchar",
-    "pronunciation": "CHIM-char",
-    "ipa": "/ˈtʃɪmtʃɑːɹ/"
-  },
-  {
-    "dex": 391,
-    "name": "Monferno",
-    "pronunciation": "mahn-FUR-noh",
-    "ipa": "/mɑːnˈfɝːnoʊ/"
-  },
-  {
-    "dex": 392,
-    "name": "Infernape",
-    "pronunciation": "in-FUR-nape",
-    "ipa": "/ɪnˈfɝːneɪp/"
-  },
-  {
-    "dex": 393,
-    "name": "Piplup",
-    "pronunciation": "PIP-lup",
-    "ipa": "/ˈpɪplʌp/"
-  },
-  {
-    "dex": 394,
-    "name": "Prinplup",
-    "pronunciation": "PRIN-plup",
-    "ipa": "/ˈpɹɪnplʌp/"
-  },
-  {
-    "dex": 395,
-    "name": "Empoleon",
-    "pronunciation": "em-POHL-ee-ahn",
-    "ipa": "/ɛmˈpɔːliːɑːn/"
-  },
-  {
-    "dex": 396,
-    "name": "Starly",
-    "pronunciation": "STAR-lee",
-    "ipa": "/ˈstɑːɹliː/"
-  },
-  {
-    "dex": 397,
-    "name": "Staravia",
-    "pronunciation": "star-AY-vee-uh",
-    "ipa": "/stɑːɹˈeɪviːə/"
-  },
-  {
-    "dex": 398,
-    "name": "Staraptor",
-    "pronunciation": "star-AP-tur",
-    "ipa": "/stɑːɹˈæptɚ/"
-  },
-  {
-    "dex": 399,
-    "name": "Bidoof",
-    "pronunciation": "BEE-doof",
-    "ipa": "/ˈbiːduːf/"
-  },
-  {
-    "dex": 400,
-    "name": "Bibarel",
-    "pronunciation": "BEE-behr-ull",
-    "ipa": "/ˈbiːbɛɹəl/"
-  },
-  {
-    "dex": 401,
-    "name": "Kricketot",
-    "pronunciation": "KRIK-ih-tot",
-    "ipa": "/ˈkɹɪkətɑːt/"
-  },
-  {
-    "dex": 402,
-    "name": "Kricketune",
-    "pronunciation": "KRIK-ih-toon",
-    "ipa": "/ˈkɹɪkətuːn/"
-  },
-  {
-    "dex": 403,
-    "name": "Shinx",
-    "pronunciation": "SHINKS",
-    "ipa": "/ˈʃiːŋks/"
-  },
-  {
-    "dex": 404,
-    "name": "Luxio",
-    "pronunciation": "LUKS-ee-oh",
-    "ipa": "/ˈlʌksiːoʊ/"
-  },
-  {
-    "dex": 405,
-    "name": "Luxray",
-    "pronunciation": "LUKS-ray",
-    "ipa": "/ˈlʌksɹeɪ/"
-  },
-  {
-    "dex": 406,
-    "name": "Budew",
-    "pronunciation": "buh-DOO",
-    "ipa": "/bəˈduː/"
-  },
-  {
-    "dex": 407,
-    "name": "Roserade",
-    "pronunciation": "ROZE-rayd",
-    "ipa": "/ˈɹoʊzɹeɪd/"
-  },
-  {
-    "dex": 408,
-    "name": "Cranidos",
-    "pronunciation": "KRANE-ee-dohs",
-    "ipa": "/ˈkɹeɪniːdoʊs/"
-  },
-  {
-    "dex": 409,
-    "name": "Rampardos",
-    "pronunciation": "ram-PAR-dohs",
-    "ipa": "/ræmˈpɑːɹdoʊs/"
-  },
-  {
-    "dex": 410,
-    "name": "Shieldon",
-    "pronunciation": "SHEEL-dahn",
-    "ipa": "/ˈʃiːldɑːn/"
-  },
-  {
-    "dex": 411,
-    "name": "Bastiodon",
-    "pronunciation": "BAS-tee-oh-dahn",
-    "ipa": "/ˈbæstiːoʊdɑːn/"
-  },
-  {
-    "dex": 412,
-    "name": "Burmy",
-    "pronunciation": "BUR-mee",
-    "ipa": "/ˈbɝːmiː/"
-  },
-  {
-    "dex": 413,
-    "name": "Wormadam",
-    "pronunciation": "WUR-muh-dam",
-    "ipa": "/ˈwɝːmədæm/"
-  },
-  {
-    "dex": 414,
-    "name": "Mothim",
-    "pronunciation": "MAH-thim",
-    "ipa": "/ˈmɑːθɪm/"
-  },
-  {
-    "dex": 415,
-    "name": "Combee",
-    "pronunciation": "COHM-bee",
-    "ipa": "/ˈkoʊmbiː/"
-  },
-  {
-    "dex": 416,
-    "name": "Vespiquen",
-    "pronunciation": "VES-pih-kwen",
-    "ipa": "/ˈvɛspɪkwɛn/"
-  },
-  {
-    "dex": 417,
-    "name": "Pachirisu",
-    "pronunciation": "PAH-chee-REE-soo",
-    "ipa": "/pɑːtʃiˈɹiːsuː/"
-  },
-  {
-    "dex": 418,
-    "name": "Buizel",
-    "pronunciation": "BWEE-zull",
-    "ipa": "/ˈbwiːzəl/"
-  },
-  {
-    "dex": 419,
-    "name": "Floatzel",
-    "pronunciation": "FLOHT-sull",
-    "ipa": "/ˈfloʊtsəl/"
-  },
-  {
-    "dex": 420,
-    "name": "Cherubi",
-    "pronunciation": "chur-OO-bee",
-    "ipa": "/tʃɚˈuːbiː/"
-  },
-  {
-    "dex": 421,
-    "name": "Cherrim",
-    "pronunciation": "CHEHR-im",
-    "ipa": "/ˈtʃɛɹɪm/"
-  },
-  {
-    "dex": 422,
-    "name": "Shellos",
-    "pronunciation": "SHELL-ahs",
-    "ipa": "/ˈʃɛlɑːs/"
-  },
-  {
-    "dex": 423,
-    "name": "Gastrodon",
-    "pronunciation": "GAS-troh-dahn",
-    "ipa": "/ˈɡæstɹoʊdɑːn/"
-  },
-  {
-    "dex": 424,
-    "name": "Ambipom",
-    "pronunciation": "AM-bih-pahm",
-    "ipa": "/ˈæmbɪpɑːm/"
-  },
-  {
-    "dex": 425,
-    "name": "Drifloon",
-    "pronunciation": "DRIF-loon",
-    "ipa": "/ˈdɹɪfluːn/"
-  },
-  {
-    "dex": 426,
-    "name": "Drifblim",
-    "pronunciation": "DRIF-blim",
-    "ipa": "/ˈdɹɪfblɪm/"
-  },
-  {
-    "dex": 427,
-    "name": "Buneary",
-    "pronunciation": "buh-NEER-ee",
-    "ipa": "/bəˈnɪɹiː/"
-  },
-  {
-    "dex": 428,
-    "name": "Lopunny",
-    "pronunciation": "LAH-puh-nee",
-    "ipa": "/ˈlɑːpəniː/"
-  },
-  {
-    "dex": 429,
-    "name": "Mismagius",
-    "pronunciation": "mis-MAG-ee-us",
-    "ipa": "/mɪsˈmæɡiːəs/"
-  },
-  {
-    "dex": 430,
-    "name": "Honchkrow",
-    "pronunciation": "HONCH-krow",
-    "ipa": "/ˈhɑːntʃkɹoʊ/"
-  },
-  {
-    "dex": 431,
-    "name": "Glameow",
-    "pronunciation": "GLAM-ee-ow",
-    "ipa": "/ˈɡlæmiːaʊ/"
-  },
-  {
-    "dex": 432,
-    "name": "Purugly",
-    "pronunciation": "purr-UG-lee",
-    "ipa": "/pɚˈʌɡliː/"
-  },
-  {
-    "dex": 433,
-    "name": "Chingling",
-    "pronunciation": "CHING-ling",
-    "ipa": "/ˈtʃɪŋlɪŋ/"
-  },
-  {
-    "dex": 434,
-    "name": "Stunky",
-    "pronunciation": "STUNK-ee",
-    "ipa": "/ˈstʌŋkiː/"
-  },
-  {
-    "dex": 435,
-    "name": "Skuntank",
-    "pronunciation": "SKUN-tank",
-    "ipa": "/ˈskʌntæŋk/"
-  },
-  {
-    "dex": 436,
-    "name": "Bronzor",
-    "pronunciation": "BRAHN-zor",
-    "ipa": "/ˈbɹɑːnzɔːɹ/"
-  },
-  {
-    "dex": 437,
-    "name": "Bronzong",
-    "pronunciation": "BRAHN-zahng",
-    "ipa": "/ˈbɹɑːnzɑːŋ/"
-  },
-  {
-    "dex": 438,
-    "name": "Bonsly",
-    "pronunciation": "BAHN-sly",
-    "ipa": "/ˈbɑːnslaɪ/"
-  },
-  {
-    "dex": 439,
-    "name": "Mime Jr.",
-    "pronunciation": "mime-JOON-yur",
-    "ipa": "/maɪmˈdʒuːnjɚ/"
-  },
-  {
-    "dex": 440,
-    "name": "Happiny",
-    "pronunciation": "huh-PEE-nee",
-    "ipa": "/həˈpiːniː/"
-  },
-  {
-    "dex": 441,
-    "name": "Chatot",
-    "pronunciation": "CHA-tot",
-    "ipa": "/ˈtʃætɑːt/"
-  },
-  {
-    "dex": 442,
-    "name": "Spiritomb",
-    "pronunciation": "SPEER-ih-toom",
-    "ipa": "/ˈspɪɹətuːm/"
-  },
-  {
-    "dex": 443,
-    "name": "Gible",
-    "pronunciation": "GIBB-ull",
-    "ipa": "/ˈɡɪbəl/"
-  },
-  {
-    "dex": 444,
-    "name": "Gabite",
-    "pronunciation": "guh-BITE",
-    "ipa": "/ɡəˈbaɪt/"
-  },
-  {
-    "dex": 445,
-    "name": "Garchomp",
-    "pronunciation": "GAR-chomp",
-    "ipa": "/ˈɡɑːɹtʃɑːmp/"
-  },
-  {
-    "dex": 446,
-    "name": "Munchlax",
-    "pronunciation": "MUNCH-laks",
-    "ipa": "/ˈmʌntʃlæks/"
-  },
-  {
-    "dex": 447,
-    "name": "Riolu",
-    "pronunciation": "ree-OH-loo",
-    "ipa": "/ɹiːˈoʊluː/"
-  },
-  {
-    "dex": 448,
-    "name": "Lucario",
-    "pronunciation": "loo-KAR-ee-oh",
-    "ipa": "/luːˈkɑːɹiːoʊ/"
-  },
-  {
-    "dex": 449,
-    "name": "Hippopotas",
-    "pronunciation": "HIH-poh-puh-TAHS",
-    "ipa": "/hɪpoʊpəˈtɑːs/"
-  },
-  {
-    "dex": 450,
-    "name": "Hippowdon",
-    "pronunciation": "hih-POW-dahn",
-    "ipa": "/hɪˈpaʊdɑːn/"
-  },
-  {
-    "dex": 451,
-    "name": "Skorupi",
-    "pronunciation": "skor-OO-pee",
-    "ipa": "/skɔːɹˈuːpiː/"
-  },
-  {
-    "dex": 452,
-    "name": "Drapion",
-    "pronunciation": "DRAP-ee-ahn",
-    "ipa": "/ˈdɹæpiːɑːn/"
-  },
-  {
-    "dex": 453,
-    "name": "Croagunk",
-    "pronunciation": "KROH-gunk",
-    "ipa": "/ˈkɹoʊɡʌŋk/"
-  },
-  {
-    "dex": 454,
-    "name": "Toxicroak",
-    "pronunciation": "TOKS-ih-crohk",
-    "ipa": "/ˈtɑːksɪkɹoʊk/"
-  },
-  {
-    "dex": 455,
-    "name": "Carnivine",
-    "pronunciation": "KAR-nih-vine",
-    "ipa": "/ˈkɑːɹnɪvaɪn/"
-  },
-  {
-    "dex": 456,
-    "name": "Finneon",
-    "pronunciation": "FIN-ee-ahn",
-    "ipa": "/ˈfɪniːɑːn/"
-  },
-  {
-    "dex": 457,
-    "name": "Lumineon",
-    "pronunciation": "loo-MIN-ee-ahn",
-    "ipa": "/luːˈmɪniːɑːn/"
-  },
-  {
-    "dex": 458,
-    "name": "Mantyke",
-    "pronunciation": "MAN-tyke",
-    "ipa": "/ˈmæntɑɪk/"
-  },
-  {
-    "dex": 459,
-    "name": "Snover",
-    "pronunciation": "SNOH-vurr",
-    "ipa": "/ˈsnoʊvɚ/"
-  },
-  {
-    "dex": 460,
-    "name": "Abomasnow",
-    "pronunciation": "uh-BAHM-uh-snoh",
-    "ipa": "/əˈbɑːməsnoʊ/"
-  },
-  {
-    "dex": 461,
-    "name": "Weavile",
-    "pronunciation": "WEE-vile",
-    "ipa": "/ˈwiːvaɪl/"
-  },
-  {
-    "dex": 462,
-    "name": "Magnezone",
-    "pronunciation": "MAG-nuh-zohn",
-    "ipa": "/ˈmæɡnəzoʊn/"
-  },
-  {
-    "dex": 463,
-    "name": "Lickilicky",
-    "pronunciation": "LIK-ee-LIK-ee",
-    "ipa": "/ˌlɪkiːˈlɪkiː/"
-  },
-  {
-    "dex": 464,
-    "name": "Rhyperior",
-    "pronunciation": "rye-PEER-ee-urr",
-    "ipa": "/ˈɹɑːɪpɪɹiːɚ/"
-  },
-  {
-    "dex": 465,
-    "name": "Tangrowth",
-    "pronunciation": "TANG-grohth",
-    "ipa": "/ˈtæŋɡroʊθ/"
-  },
-  {
-    "dex": 466,
-    "name": "Electivire",
-    "pronunciation": "ee-LEK-tih-vire",
-    "ipa": "/ɪˈlɛktəvɑɪɹ/"
-  },
-  {
-    "dex": 467,
-    "name": "Magmortar",
-    "pronunciation": "mag-MOHR-turr",
-    "ipa": "/mæɡˈmɔːɹtɚ/"
-  },
-  {
-    "dex": 468,
-    "name": "Togekiss",
-    "pronunciation": "TOH-guh-kiss",
-    "ipa": "/ˈtoʊɡəkɪs/"
-  },
-  {
-    "dex": 469,
-    "name": "Yanmega",
-    "pronunciation": "yan-MEG-uh",
-    "ipa": "/jænˈmɛɡə/"
-  },
-  {
-    "dex": 470,
-    "name": "Leafeon",
-    "pronunciation": "LEE-fee-ahn",
-    "ipa": "/ˈliːfiːɑːn/"
-  },
-  {
-    "dex": 471,
-    "name": "Glaceon",
-    "pronunciation": "GLAY-see-ahn",
-    "ipa": "/ˈɡleɪsiːɑːn/"
-  },
-  {
-    "dex": 472,
-    "name": "Gliscor",
-    "pronunciation": "GLYE-skor",
-    "ipa": "/ˈɡlaɪskɔːɹ/"
-  },
-  {
-    "dex": 473,
-    "name": "Mamoswine",
-    "pronunciation": "MAM-oh-swine",
-    "ipa": "/ˈmæmoʊswaɪn/"
-  },
-  {
-    "dex": 474,
-    "name": "Porygon-Z",
-    "pronunciation": "POR-ee-gahn-ZEE",
-    "ipa": "/ˌpɔːɹiːɡɑːnˈziː/"
-  },
-  {
-    "dex": 475,
-    "name": "Gallade",
-    "pronunciation": "guh-LAID",
-    "ipa": "/ɡəˈleɪd/"
-  },
-  {
-    "dex": 476,
-    "name": "Probopass",
-    "pronunciation": "PROH-boh-pass",
-    "ipa": "/ˈpɹoʊboʊpæs/"
-  },
-  {
-    "dex": 477,
-    "name": "Dusknoir",
-    "pronunciation": "DUSK-nwar",
-    "ipa": "/ˈdʌsknwɑːɹ/"
-  },
-  {
-    "dex": 478,
-    "name": "Froslass",
-    "pronunciation": "FRAHS-lass",
-    "ipa": "/ˈfɹɑːslæs/"
-  },
-  {
-    "dex": 479,
-    "name": "Rotom",
-    "pronunciation": "ROH-tahm",
-    "ipa": "/ˈɹoʊtɑːm/"
-  },
-  {
-    "dex": 480,
-    "name": "Uxie",
-    "pronunciation": "YOOK-see",
-    "ipa": "/ˈjuːksiː/"
-  },
-  {
-    "dex": 481,
-    "name": "Mesprit",
-    "pronunciation": "MESS-prit",
-    "ipa": "/ˈmɛspɹɪt/"
-  },
-  {
-    "dex": 482,
-    "name": "Azelf",
-    "pronunciation": "AZ-elf",
-    "ipa": "/ˈæzɛlf/"
-  },
-  {
-    "dex": 483,
-    "name": "Dialga",
-    "pronunciation": "dee-AHL-guh",
-    "ipa": "/diːˈɑːlɡə/"
-  },
-  {
-    "dex": 484,
-    "name": "Palkia",
-    "pronunciation": "PAHL-kee-uh",
-    "ipa": "/ˈpɑːlkiːə/"
-  },
-  {
-    "dex": 485,
-    "name": "Heatran",
-    "pronunciation": "HEE-tran",
-    "ipa": "/ˈhiːtɹæn/"
-  },
-  {
-    "dex": 486,
-    "name": "Regigigas",
-    "pronunciation": "REJ-ee-GEE-guss",
-    "ipa": "/ˌɹɛdʒiːˈɡiːɡəs/"
-  },
-  {
-    "dex": 487,
-    "name": "Giratina",
-    "pronunciation": "GIRR-uh-TEE-nuh",
-    "ipa": "/ˌɡɪɹəˈtiːnə/"
-  },
-  {
-    "dex": 488,
-    "name": "Cresselia",
-    "pronunciation": "kress-ELL-ee-uh",
-    "ipa": "/kɹɛsˈɛliːə/"
-  },
-  {
-    "dex": 489,
-    "name": "Phione",
-    "pronunciation": "fee-OH-nay",
-    "ipa": "/fiːˈoʊneɪ/"
-  },
-  {
-    "dex": 490,
-    "name": "Manaphy",
-    "pronunciation": "MAN-uh-fee",
-    "ipa": "/ˈmænəfiː/"
-  },
-  {
-    "dex": 491,
-    "name": "Darkrai",
-    "pronunciation": "DARK-rye",
-    "ipa": "/ˈdɑːɹkɹaɪ/"
-  },
-  {
-    "dex": 492,
-    "name": "Shaymin",
-    "pronunciation": "SHAY-min",
-    "ipa": "/ˈʃeɪmɪn/"
-  },
-  {
-    "dex": 493,
-    "name": "Arceus",
-    "pronunciation": "AR-kee-iss",
-    "ipa": "/ˈɑːɹkiːəs/"
-  },
-  {
-    "dex": 650,
+    "dex": "#0650",
     "name": "Chespin",
     "pronunciation": "CHESS-pin",
     "ipa": "/ˈtʃɛspɪn/"
   },
   {
-    "dex": 651,
+    "dex": "#0651",
     "name": "Quilladin",
     "pronunciation": "QUILL-uh-din",
     "ipa": "/ˈkwɪlədɪn/"
   },
   {
-    "dex": 652,
+    "dex": "#0652",
     "name": "Chesnaught",
     "pronunciation": "CHESS-naht",
     "ipa": "/ˈtʃɛsnɑːt/"
   },
   {
-    "dex": 653,
+    "dex": "#0653",
     "name": "Fennekin",
     "pronunciation": "FEN-uh-kin",
     "ipa": "/ˈfɛnəkɪn/"
   },
   {
-    "dex": 654,
+    "dex": "#0654",
     "name": "Braixen",
     "pronunciation": "BRAYK-sin",
     "ipa": "/ˈbɹeɪksɪn/"
   },
   {
-    "dex": 655,
+    "dex": "#0655",
     "name": "Delphox",
     "pronunciation": "DELL-fahks",
     "ipa": "/ˈdɛlfɑːks/"
   },
   {
-    "dex": 656,
+    "dex": "#0656",
     "name": "Froakie",
     "pronunciation": "FROH-kee",
     "ipa": "/ˈfɹoʊkiː/"
   },
   {
-    "dex": 657,
+    "dex": "#0657",
     "name": "Frogadier",
     "pronunciation": "frog-uh-DEER",
     "ipa": "/fɹɑːɡəˈdɪɹ/"
   },
   {
-    "dex": 658,
+    "dex": "#0658",
     "name": "Greninja",
     "pronunciation": "gruh-NIN-juh",
     "ipa": "/ɡɹəˈnɪndʒə/"
   },
   {
-    "dex": 659,
+    "dex": "#0659",
     "name": "Bunnelby",
     "pronunciation": "BUNN-uhl-bee",
     "ipa": "/ˈbʌnəlbiː/"
   },
   {
-    "dex": 660,
+    "dex": "#0660",
     "name": "Diggersby",
     "pronunciation": "DIG-erz-bee",
     "ipa": "/ˈdɪɡɚzbiː/"
   },
   {
-    "dex": 661,
+    "dex": "#0661",
     "name": "Fletchling",
     "pronunciation": "FLETCH-ling",
     "ipa": "/ˈflɛtʃlɪŋ/"
   },
   {
-    "dex": 662,
+    "dex": "#0662",
     "name": "Fletchinder",
     "pronunciation": "FLETCH-in-dur",
     "ipa": "/ˈflɛtʃɪndɚ/"
   },
   {
-    "dex": 663,
+    "dex": "#0663",
     "name": "Talonflame",
     "pronunciation": "TAL-in-flame",
     "ipa": "/ˈtælənfleɪm/"
   },
   {
-    "dex": 664,
+    "dex": "#0664",
     "name": "Scatterbug",
     "pronunciation": "SKAT-ur-bug",
     "ipa": "/ˈskætɚbʌɡ/"
   },
   {
-    "dex": 665,
+    "dex": "#0665",
     "name": "Spewpa",
     "pronunciation": "SPYOO-puh",
     "ipa": "/ˈspjuːpə/"
   },
   {
-    "dex": 666,
+    "dex": "#0666",
     "name": "Vivillon",
     "pronunciation": "VIH-vee-yahn",
     "ipa": "/ˈvɪviːjɑːn/"
   },
   {
-    "dex": 667,
+    "dex": "#0667",
     "name": "Litleo",
     "pronunciation": "LIT-lee-oh",
     "ipa": "/ˈlɪtliːoʊ/"
   },
   {
-    "dex": 668,
+    "dex": "#0668",
     "name": "Pyroar",
     "pronunciation": "PYE-rohr",
     "ipa": "/ˈpaɪɹɔːɹ/"
   },
   {
-    "dex": 669,
+    "dex": "#0669",
     "name": "Flabébé",
     "pronunciation": "fluh-BAY-bay",
     "ipa": "/fləˈbeɪbeɪ/"
   },
   {
-    "dex": 670,
+    "dex": "#0670",
     "name": "Floette",
     "pronunciation": "floh-ETT",
     "ipa": "/floʊˈɛt/"
   },
   {
-    "dex": 671,
+    "dex": "#0671",
     "name": "Florges",
     "pronunciation": "FLOHR-jiss",
     "ipa": "/ˈflɔːɹdʒɪs/"
   },
   {
-    "dex": 672,
+    "dex": "#0672",
     "name": "Skiddo",
     "pronunciation": "skih-DOO",
     "ipa": "/skɪˈduː/"
   },
   {
-    "dex": 673,
+    "dex": "#0673",
     "name": "Gogoat",
     "pronunciation": "GOH-goht",
     "ipa": "/ˈɡoʊɡoʊt/"
   },
   {
-    "dex": 674,
+    "dex": "#0674",
     "name": "Pancham",
     "pronunciation": "PAN-chum",
     "ipa": "/ˈpæntʃəm/"
   },
   {
-    "dex": 675,
+    "dex": "#0675",
     "name": "Pangoro",
     "pronunciation": "PANG-gur-oh",
     "ipa": "/ˈpæŋɡɚoʊ/"
   },
   {
-    "dex": 676,
+    "dex": "#0676",
     "name": "Furfrou",
     "pronunciation": "FUR-froo",
     "ipa": "/ˈfɝːfɹuː/"
   },
   {
-    "dex": 677,
+    "dex": "#0677",
     "name": "Espurr",
     "pronunciation": "ESS-purr",
     "ipa": "/ˈɛspɚ/"
   },
   {
-    "dex": 678,
+    "dex": "#0678",
     "name": "Meowstic",
     "pronunciation": "mee-OW-stik",
     "ipa": "/miˈaʊstɪk/"
   },
   {
-    "dex": 679,
+    "dex": "#0679",
     "name": "Honedge",
     "pronunciation": "HOHN-ej",
     "ipa": "/ˈhoʊnɛdʒ/"
   },
   {
-    "dex": 680,
+    "dex": "#0680",
     "name": "Doublade",
     "pronunciation": "DUH-blade",
     "ipa": "/ˈdʌbleɪd/"
   },
   {
-    "dex": 681,
+    "dex": "#0681",
     "name": "Aegislash",
     "pronunciation": "EE-jih-slash",
     "ipa": "/ˈiːdʒɪslæʃ/"
   },
   {
-    "dex": 682,
+    "dex": "#0682",
     "name": "Spritzee",
     "pronunciation": "SPRIT-see",
     "ipa": "/ˈspɹɪtsiː/"
   },
   {
-    "dex": 683,
+    "dex": "#0683",
     "name": "Aromatisse",
     "pronunciation": "uh-ROHM-uh-TEES",
     "ipa": "/əɹoʊməˈtiːs/"
   },
   {
-    "dex": 684,
+    "dex": "#0684",
     "name": "Swirlix",
     "pronunciation": "SWUR-liks",
     "ipa": "/ˈswɝːlɪks/"
   },
   {
-    "dex": 685,
+    "dex": "#0685",
     "name": "Slurpuff",
     "pronunciation": "SLUR-puff",
     "ipa": "/ˈslɝːpʌf/"
   },
   {
-    "dex": 686,
+    "dex": "#0686",
     "name": "Inkay",
     "pronunciation": "INK-ay",
     "ipa": "/ˈɪŋkeɪ/"
   },
   {
-    "dex": 687,
+    "dex": "#0687",
     "name": "Malamar",
     "pronunciation": "MAL-uh-mar",
     "ipa": "/ˈmæləmɑːɹ/"
   },
   {
-    "dex": 688,
+    "dex": "#0688",
     "name": "Binacle",
     "pronunciation": "BYE-nuh-kull",
     "ipa": "/ˈbaɪnəkəl/"
   },
   {
-    "dex": 689,
+    "dex": "#0689",
     "name": "Barbaracle",
     "pronunciation": "bar-BEHR-uh-kull",
     "ipa": "/bɑːɹˈbɛɹəkəl/"
   },
   {
-    "dex": 690,
+    "dex": "#0690",
     "name": "Skrelp",
     "pronunciation": "SKRELP",
     "ipa": "/ˈskɹɛlp/"
   },
   {
-    "dex": 691,
+    "dex": "#0691",
     "name": "Dragalge",
     "pronunciation": "druh-GAL-jee",
     "ipa": "/dɹəˈɡældʒiː/"
   },
   {
-    "dex": 692,
+    "dex": "#0692",
     "name": "Clauncher",
     "pronunciation": "KLAHN-chur",
     "ipa": "/ˈklɑːntʃɚ/"
   },
   {
-    "dex": 693,
+    "dex": "#0693",
     "name": "Clawitzer",
     "pronunciation": "KLAH-wit-sur",
     "ipa": "/ˈklɑːwɪtsɚ/"
   },
   {
-    "dex": 694,
+    "dex": "#0694",
     "name": "Helioptile",
     "pronunciation": "HEE-lee-AHP-tile",
     "ipa": "/hiːliːˈɑːptaɪl/"
   },
   {
-    "dex": 695,
+    "dex": "#0695",
     "name": "Heliolisk",
     "pronunciation": "HEE-lee-oh-lisk",
     "ipa": "/ˈhiːliːoʊlɪsk/"
   },
   {
-    "dex": 696,
+    "dex": "#0696",
     "name": "Tyrunt",
     "pronunciation": "TYE-runt",
     "ipa": "/ˈtaɪɹʌnt/"
   },
   {
-    "dex": 697,
+    "dex": "#0697",
     "name": "Tyrantrum",
     "pronunciation": "tye-RAN-trum",
     "ipa": "/taɪˈɹæntɹʌm/"
   },
   {
-    "dex": 698,
+    "dex": "#0698",
     "name": "Amaura",
     "pronunciation": "uh-MOHR-uh",
     "ipa": "/əˈmɔːɹə/"
   },
   {
-    "dex": 699,
+    "dex": "#0699",
     "name": "Aurorus",
     "pronunciation": "uh-ROHR-is",
     "ipa": "/əˈɹɔːɹəs/"
   },
   {
-    "dex": 700,
+    "dex": "#0700",
     "name": "Sylveon",
     "pronunciation": "SILL-vee-ahn",
     "ipa": "/ˈsɪlviːɑːn/"
   },
   {
-    "dex": 701,
+    "dex": "#0701",
     "name": "Hawlucha",
     "pronunciation": "haw-LOO-chuh",
     "ipa": "/hɑːˈluːtʃə/"
   },
   {
-    "dex": 702,
+    "dex": "#0702",
     "name": "Dedenne",
     "pronunciation": "deh-DEN-ay",
     "ipa": "/dəˈdɛneɪ/"
   },
   {
-    "dex": 703,
+    "dex": "#0703",
     "name": "Carbink",
     "pronunciation": "KAR-bink",
     "ipa": "/ˈkɑːɹbɪŋk/"
   },
   {
-    "dex": 704,
+    "dex": "#0704",
     "name": "Goomy",
     "pronunciation": "GOO-mee",
     "ipa": "/ˈɡuːmiː/"
   },
   {
-    "dex": 705,
+    "dex": "#0705",
     "name": "Sliggoo",
     "pronunciation": "SLIH-goo",
     "ipa": "/ˈslɪɡuː/"
   },
   {
-    "dex": 706,
+    "dex": "#0706",
     "name": "Goodra",
     "pronunciation": "GOO-druh",
     "ipa": "/ˈɡuːdɹə/"
   },
   {
-    "dex": 707,
+    "dex": "#0707",
     "name": "Klefki",
     "pronunciation": "KLEF-kee",
     "ipa": "/ˈklɛfkiː/"
   },
   {
-    "dex": 708,
+    "dex": "#0708",
     "name": "Phantump",
     "pronunciation": "FAN-tump",
     "ipa": "/ˈfæntʌmp/"
   },
   {
-    "dex": 709,
+    "dex": "#0709",
     "name": "Trevenant",
     "pronunciation": "TREV-uh-nint",
     "ipa": "/ˈtɹɛvənɪnt/"
   },
   {
-    "dex": 710,
+    "dex": "#0710",
     "name": "Pumpkaboo",
     "pronunciation": "PUMP-kuh-boo",
     "ipa": "/ˈpʌmpkəbuː/"
   },
   {
-    "dex": 711,
+    "dex": "#0711",
     "name": "Gourgeist",
     "pronunciation": "GOHR-geist",
     "ipa": "/ˈɡɔːɹɡaɪst/"
   },
   {
-    "dex": 712,
+    "dex": "#0712",
     "name": "Bergmite",
     "pronunciation": "BURG-mite",
     "ipa": "/ˈbɝːɡmaɪt/"
   },
   {
-    "dex": 713,
+    "dex": "#0713",
     "name": "Avalugg",
     "pronunciation": "AV-uh-lug",
     "ipa": "/ˈævəlʌɡ/"
   },
   {
-    "dex": 714,
+    "dex": "#0714",
     "name": "Noibat",
     "pronunciation": "NOY-bat",
     "ipa": "/ˈnɔɪbæt/"
   },
   {
-    "dex": 715,
+    "dex": "#0715",
     "name": "Noivern",
     "pronunciation": "NOY-vurn",
     "ipa": "/ˈnɔɪvɚn/"
   },
   {
-    "dex": 716,
+    "dex": "#0716",
     "name": "Xerneas",
     "pronunciation": "ZURR-nee-us",
     "ipa": "/ˈzɝːniːəs/"
   },
   {
-    "dex": 717,
+    "dex": "#0717",
     "name": "Yveltal",
     "pronunciation": "ee-VELL-tall",
     "ipa": "/iːˈvɛltɑːl/"
   },
   {
-    "dex": 718,
+    "dex": "#0718",
     "name": "Zygarde",
     "pronunciation": "ZYE-gard",
     "ipa": "/ˈzaɪɡɑːɹd/"
   },
   {
-    "dex": 719,
+    "dex": "#0719",
     "name": "Diancie",
     "pronunciation": "dye-AHN-see",
     "ipa": "/daɪˈɑːnsiː/"
   },
   {
-    "dex": 720,
+    "dex": "#0720",
     "name": "Hoopa",
     "pronunciation": "HOO-puh",
     "ipa": "/ˈhuːpə/"
   },
   {
-    "dex": 721,
+    "dex": "#0721",
     "name": "Volcanion",
     "pronunciation": "vahl-KAYN-ee-un",
     "ipa": "/vɑːlˈkaɪniːən/"
   },
   {
-    "dex": 722,
+    "dex": "#0722",
     "name": "Rowlet",
     "pronunciation": "ROW-let",
     "ipa": "/ˈɹaʊlət/"
   },
   {
-    "dex": 723,
+    "dex": "#0723",
     "name": "Dartrix",
     "pronunciation": "DAR-triks",
     "ipa": "/ˈdɑːɹtrɪks/"
   },
   {
-    "dex": 724,
+    "dex": "#0724",
     "name": "Decidueye",
     "pronunciation": "dih-SIJ-yoo-eye",
     "ipa": "/dɪˈsɪdʒjuːaɪ/"
   },
   {
-    "dex": 725,
+    "dex": "#0725",
     "name": "Litten",
     "pronunciation": "LIT-in",
     "ipa": "/ˈlɪɾən/"
   },
   {
-    "dex": 726,
+    "dex": "#0726",
     "name": "Torracat",
     "pronunciation": "TOHR-uh-kat",
     "ipa": "/ˈtɔːɹəkæt/"
   },
   {
-    "dex": 727,
+    "dex": "#0727",
     "name": "Incineroar",
     "pronunciation": "in-SIN-uh-rohr",
     "ipa": "/ɪnˈsɪnəɹɔːɹ/"
   },
   {
-    "dex": 728,
+    "dex": "#0728",
     "name": "Popplio",
     "pronunciation": "PAHP-lee-oh",
     "ipa": "/ˈpɑːpliːoʊ/"
   },
   {
-    "dex": 729,
+    "dex": "#0729",
     "name": "Brionne",
     "pronunciation": "bree-AHN",
     "ipa": "/bɹiːˈɑːn/"
   },
   {
-    "dex": 730,
+    "dex": "#0730",
     "name": "Primarina",
     "pronunciation": "PREE-muh-REE-nuh",
     "ipa": "/ˌpɹiːməˈɹinə/"
   },
   {
-    "dex": 731,
+    "dex": "#0731",
     "name": "Pikipek",
     "pronunciation": "PIK-ee-pek",
     "ipa": "/ˈpɪkiːpɛk/"
   },
   {
-    "dex": 732,
+    "dex": "#0732",
     "name": "Trumbeak",
     "pronunciation": "TRUM-beek",
     "ipa": "/ˈtɹʌmːbiːk/"
   },
   {
-    "dex": 733,
+    "dex": "#0733",
     "name": "Toucannon",
     "pronunciation": "too-KAN-in",
     "ipa": "/tuːˈkænən/"
   },
   {
-    "dex": 734,
+    "dex": "#0734",
     "name": "Yungoos",
     "pronunciation": "YUNG-goos",
     "ipa": "/ˈjʌŋɡuːs/"
   },
   {
-    "dex": 735,
+    "dex": "#0735",
     "name": "Gumshoos",
     "pronunciation": "GUM-shooz",
     "ipa": "/ˈɡʌmʃuːz/"
   },
   {
-    "dex": 736,
+    "dex": "#0736",
     "name": "Grubbin",
     "pronunciation": "GRUB-in",
     "ipa": "/ˈɡɹʌbɪn/"
   },
   {
-    "dex": 737,
+    "dex": "#0737",
     "name": "Charjabug",
     "pronunciation": "CHAR-juh-bug",
     "ipa": "/ˈtʃɑːɹdʒəbʌɡ/"
   },
   {
-    "dex": 738,
+    "dex": "#0738",
     "name": "Vikavolt",
     "pronunciation": "VYE-kuh-volt",
     "ipa": "/ˈvaɪːkəvɔːlt/"
   },
   {
-    "dex": 739,
+    "dex": "#0739",
     "name": "Crabrawler",
     "pronunciation": "krab-RAH-lur",
     "ipa": "/kɹæbˈɹɑːlɚ/"
   },
   {
-    "dex": 740,
+    "dex": "#0740",
     "name": "Crabominable",
     "pronunciation": "krab-AHM-in-uh-bull",
     "ipa": "/kræbˈɑːmɪnəbəl/"
   },
   {
-    "dex": 741,
+    "dex": "#0741",
     "name": "Oricorio",
     "pronunciation": "ohr-ih-KOHR-ee-oh",
     "ipa": "/ˌɔːɹɪˈkɔːɹiːoʊ/"
   },
   {
-    "dex": 742,
+    "dex": "#0742",
     "name": "Cutiefly",
     "pronunciation": "KYOO-tee-fly",
     "ipa": "/ˈkjutiːflaɪ/"
   },
   {
-    "dex": 743,
+    "dex": "#0743",
     "name": "Ribombee",
     "pronunciation": "rih-BAHM-bee",
     "ipa": "/ɹəˈbɑːmbiː/"
   },
   {
-    "dex": 744,
+    "dex": "#0744",
     "name": "Rockruff",
     "pronunciation": "RAHK-ruff",
     "ipa": "/ˈɹɑːkɹʌf/"
   },
   {
-    "dex": 745,
+    "dex": "#0745",
     "name": "Lycanroc",
     "pronunciation": "LYE-kin-rahk",
     "ipa": "/ˈlaɪkənɹɑːk/"
   },
   {
-    "dex": 746,
+    "dex": "#0746",
     "name": "Wishiwashi",
     "pronunciation": "WISH-ee-wash-ee",
     "ipa": "/ˈwɪʃiːˌwɑːʃi/"
   },
   {
-    "dex": 747,
+    "dex": "#0747",
     "name": "Mareanie",
     "pronunciation": "muh-REE-nee",
     "ipa": "/məˈɹiːniː/"
   },
   {
-    "dex": 748,
+    "dex": "#0748",
     "name": "Toxapex",
     "pronunciation": "TAHKS-uh-peks",
     "ipa": "/ˈtɑːksəpɛks/"
   },
   {
-    "dex": 749,
+    "dex": "#0749",
     "name": "Mudbray",
     "pronunciation": "MUD-bray",
     "ipa": "/ˈmʌdbɹeɪ/"
   },
   {
-    "dex": 750,
+    "dex": "#0750",
     "name": "Mudsdale",
     "pronunciation": "MUDZ-dale",
     "ipa": "/ˈmʌdzdeɪl/"
   },
   {
-    "dex": 751,
+    "dex": "#0751",
     "name": "Dewpider",
     "pronunciation": "DOO-pih-durr",
     "ipa": "/ˈduːpədɚ/"
   },
   {
-    "dex": 752,
+    "dex": "#0752",
     "name": "Araquanid",
     "pronunciation": "uh-RA-kwuh-nid",
     "ipa": "/əˈɹæːkwənɪd/"
   },
   {
-    "dex": 753,
+    "dex": "#0753",
     "name": "Fomantis",
     "pronunciation": "foh-MAN-tiss",
     "ipa": "/foʊˈmæntɪs/"
   },
   {
-    "dex": 754,
+    "dex": "#0754",
     "name": "Lurantis",
     "pronunciation": "lur-AN-tiss",
     "ipa": "/lɚˈæntɪs/"
   },
   {
-    "dex": 755,
+    "dex": "#0755",
     "name": "Morelull",
     "pronunciation": "MOHR-uh-lull",
     "ipa": "/ˈmɔːɹəlʊl/"
   },
   {
-    "dex": 756,
+    "dex": "#0756",
     "name": "Shiinotic",
     "pronunciation": "shee-NAH-tik",
     "ipa": "/ʃiːˈnɑːtɪk/"
   },
   {
-    "dex": 757,
+    "dex": "#0757",
     "name": "Salandit",
     "pronunciation": "suh-LAN-dit",
     "ipa": "/səˈlændɪt/"
   },
   {
-    "dex": 758,
+    "dex": "#0758",
     "name": "Salazzle",
     "pronunciation": "suh-LAZ-ull",
     "ipa": "/səˈlæzəl/"
   },
   {
-    "dex": 759,
+    "dex": "#0759",
     "name": "Stufful",
     "pronunciation": "STUH-full",
     "ipa": "/ˈstʌfəl/"
   },
   {
-    "dex": 760,
+    "dex": "#0760",
     "name": "Bewear",
     "pronunciation": "buh-WEHR",
     "ipa": "/bəˈwɛɹ/"
   },
   {
-    "dex": 761,
+    "dex": "#0761",
     "name": "Bounsweet",
     "pronunciation": "BOWN-sweet",
     "ipa": "/ˈbaʊnswiːt/"
   },
   {
-    "dex": 762,
+    "dex": "#0762",
     "name": "Steenee",
     "pronunciation": "STEE-nee",
     "ipa": "/ˈstiːniː/"
   },
   {
-    "dex": 763,
+    "dex": "#0763",
     "name": "Tsareena",
     "pronunciation": "zah-REE-nuh",
     "ipa": "/zɑːˈɹiːnə/"
   },
   {
-    "dex": 764,
+    "dex": "#0764",
     "name": "Comfey",
     "pronunciation": "KUM-fay",
     "ipa": "/ˈkʌmfeɪ/"
   },
   {
-    "dex": 765,
+    "dex": "#0765",
     "name": "Oranguru",
     "pronunciation": "uh-RANG-guh-roo",
     "ipa": "/əˈɹæŋɡəɹuː/"
   },
   {
-    "dex": 766,
+    "dex": "#0766",
     "name": "Passimian",
     "pronunciation": "pass-SIM-ee-un",
     "ipa": "/ˌpæˈsɪmiːən/"
   },
   {
-    "dex": 767,
+    "dex": "#0767",
     "name": "Wimpod",
     "pronunciation": "WIM-pahd",
     "ipa": "/ˈwɪmpɑːd/"
   },
   {
-    "dex": 768,
+    "dex": "#0768",
     "name": "Golisopod",
     "pronunciation": "guh-LYE-soh-pahd",
     "ipa": "/gəˈlaɪsoʊpɑːd/"
   },
   {
-    "dex": 769,
+    "dex": "#0769",
     "name": "Sandygast",
     "pronunciation": "SAND-ee-gast",
     "ipa": "/ˈsændiːɡæst/"
   },
   {
-    "dex": 770,
+    "dex": "#0770",
     "name": "Palossand",
     "pronunciation": "PAL-uh-sand",
     "ipa": "/ˈpæləsænd/"
   },
   {
-    "dex": 771,
+    "dex": "#0771",
     "name": "Pyukumuku",
     "pronunciation": "PYOO-koo-MOO-koo",
     "ipa": "/ˌpjuːkuːˈmuːkuː/"
   },
   {
-    "dex": 772,
+    "dex": "#0772",
     "name": "Type: Null",
     "pronunciation": "type-NULL",
     "ipa": "/ˌtaɪpˈnʊl/"
   },
   {
-    "dex": 773,
+    "dex": "#0773",
     "name": "Silvally",
     "pronunciation": "sill-VAL-eye",
     "ipa": "/sɪlˈvælaɪː/"
   },
   {
-    "dex": 774,
+    "dex": "#0774",
     "name": "Minior",
     "pronunciation": "MIN-ee-ohr",
     "ipa": "/ˈmɪniːɔːɹ/"
   },
   {
-    "dex": 775,
+    "dex": "#0775",
     "name": "Komala",
     "pronunciation": "ko-MAH-luh",
     "ipa": "/koʊˈmɑːlə/"
   },
   {
-    "dex": 776,
+    "dex": "#0776",
     "name": "Turtonator",
     "pronunciation": "TURR-tuh-nay-turr",
     "ipa": "/ˈtɝːɾəneɪɾɚ/"
   },
   {
-    "dex": 777,
+    "dex": "#0777",
     "name": "Togedemaru",
     "pronunciation": "TOH-geh-deh-MAR-oo",
     "ipa": "/ˌtoʊɡədɛˈmɑːɹuː/"
   },
   {
-    "dex": 778,
+    "dex": "#0778",
     "name": "Mimikyu",
     "pronunciation": "MEE-mee-kyoo",
     "ipa": "/ˈmiːmiːkjuː/"
   },
   {
-    "dex": 779,
+    "dex": "#0779",
     "name": "Bruxish",
     "pronunciation": "BRUK-sish",
     "ipa": "/ˈbɹʌksɪʃ/"
   },
   {
-    "dex": 780,
+    "dex": "#0780",
     "name": "Drampa",
     "pronunciation": "DRAM-puh",
     "ipa": "/ˈdɹæmpə/"
   },
   {
-    "dex": 781,
+    "dex": "#0781",
     "name": "Dhelmise",
     "pronunciation": "dell-MIZE",
     "ipa": "/dɛlˈmaɪz/"
   },
   {
-    "dex": 782,
+    "dex": "#0782",
     "name": "Jangmo-o",
     "pronunciation": "jang-MOH-oh",
     "ipa": "/dʒæŋˈmoʊʔoʊ/"
   },
   {
-    "dex": 783,
+    "dex": "#0783",
     "name": "Hakamo-o",
     "pronunciation": "HAH-kuh-MOH-oh",
     "ipa": "/ˈhɑːkəmoʊʔoʊ/"
   },
   {
-    "dex": 784,
+    "dex": "#0784",
     "name": "Kommo-o",
     "pronunciation": "koh-MOH-oh",
     "ipa": "/koʊˈmoʊʔoʊ/"
   },
   {
-    "dex": 785,
+    "dex": "#0785",
     "name": "Tapu Koko",
     "pronunciation": "TAH-poo-KOH-koh",
     "ipa": "/ˌtɑːpuːˈkoʊkoʊ/"
   },
   {
-    "dex": 786,
+    "dex": "#0786",
     "name": "Tapu Lele",
     "pronunciation": "TAH-poo-LAY-lay",
     "ipa": "/ˌtɑːpuːˈleɪleɪ/"
   },
   {
-    "dex": 787,
+    "dex": "#0787",
     "name": "Tapu Bulu",
     "pronunciation": "TAH-poo-BOO-loo",
     "ipa": "/ˌtɑːpuːˈbuːluː/"
   },
   {
-    "dex": 788,
+    "dex": "#0788",
     "name": "Tapu Fini",
     "pronunciation": "TAH-poo-FEE-nee",
     "ipa": "/ˌtɑːpuːˈfiːniː/"
   },
   {
-    "dex": 789,
+    "dex": "#0789",
     "name": "Cosmog",
     "pronunciation": "KAHZ-mahg",
     "ipa": "/ˈkɑːzmɑːɡ/"
   },
   {
-    "dex": 790,
+    "dex": "#0790",
     "name": "Cosmoem",
     "pronunciation": "KAHZ-moh-em",
     "ipa": "/ˈkɑːzmoʊɛm/"
   },
   {
-    "dex": 791,
+    "dex": "#0791",
     "name": "Solgaleo",
     "pronunciation": "SOHL-guh-LAY-oh",
     "ipa": "/ˌsoʊlɡəˈleɪoʊ/"
   },
   {
-    "dex": 792,
+    "dex": "#0792",
     "name": "Lunala",
     "pronunciation": "loo-NAH-luh",
     "ipa": "/luːˈnɑːlə/"
   },
   {
-    "dex": 793,
+    "dex": "#0793",
     "name": "Nihilego",
     "pronunciation": "NYE-uh-LEE-goh",
     "ipa": "/ˌnaɪəːˈliːɡoʊ/"
   },
   {
-    "dex": 794,
+    "dex": "#0794",
     "name": "Buzzwole",
     "pronunciation": "BUZZ-wohl",
     "ipa": "/ˈbʌzwɔːl/"
   },
   {
-    "dex": 795,
+    "dex": "#0795",
     "name": "Pheromosa",
     "pronunciation": "FAIR-uh-MOH-suh",
     "ipa": "/ˌfɛɹəˈmoʊsə/"
   },
   {
-    "dex": 796,
+    "dex": "#0796",
     "name": "Xurkitree",
     "pronunciation": "ZURR-kih-tree",
     "ipa": "/ˈzɝkɪtriː/"
   },
   {
-    "dex": 797,
+    "dex": "#0797",
     "name": "Celesteela",
     "pronunciation": "SELL-uh-STEEL-uh",
     "ipa": "/ˌsɛləˈstiːlə/"
   },
   {
-    "dex": 798,
+    "dex": "#0798",
     "name": "Kartana",
     "pronunciation": "kar-TAH-nuh",
     "ipa": "/kɑːɹˈtɑːnə/"
   },
   {
-    "dex": 799,
+    "dex": "#0799",
     "name": "Guzzlord",
     "pronunciation": "GUZZ-lord",
     "ipa": "/ˈɡʌzlɔːɹd/"
   },
   {
-    "dex": 800,
+    "dex": "#0800",
     "name": "Necrozma",
     "pronunciation": "neh-KROHZ-muh",
     "ipa": "/nɛˈkɹoʊzmə/"
   },
   {
-    "dex": 801,
+    "dex": "#0801",
     "name": "Magearna",
     "pronunciation": "muh-GEER-nuh",
     "ipa": "/məˈɡɪɹnə/"
   },
   {
-    "dex": 802,
+    "dex": "#0802",
     "name": "Marshadow",
     "pronunciation": "MAR-shad-oh",
     "ipa": "/ˈmɑːɹʃædoʊ/"
   },
   {
-    "dex": 803,
+    "dex": "#0803",
     "name": "Poipole",
     "pronunciation": "POY-pohl",
     "ipa": "/ˈpɔːɪpɔl/"
   },
   {
-    "dex": 804,
+    "dex": "#0804",
     "name": "Naganadel",
     "pronunciation": "NAH-guh-NAH-dull",
     "ipa": "/ˌnɑːgəˈnɑːdəl/"
   },
   {
-    "dex": 805,
+    "dex": "#0805",
     "name": "Stakataka",
     "pronunciation": "STAK-uh-TAK-uh",
     "ipa": "/ˌstækəˈtækə/"
   },
   {
-    "dex": 806,
+    "dex": "#0806",
     "name": "Blacephalon",
     "pronunciation": "bluh-SEF-uh-lahn",
     "ipa": "/bləˈsɛfəlɑːn/"
   },
   {
-    "dex": 807,
+    "dex": "#0807",
     "name": "Zeraora",
     "pronunciation": "ZEHR-uh-OHR-uh",
     "ipa": "/ˌzɛɹəʔˈɔːɹə/"
   },
   {
-    "dex": 808,
+    "dex": "#0808",
     "name": "Meltan",
     "pronunciation": "MELL-tan",
     "ipa": "/ˈmɛltæn/"
   },
   {
-    "dex": 809,
+    "dex": "#0809",
     "name": "Melmetal",
     "pronunciation": "MELL-met-ull",
     "ipa": "/ˈmɛlmɛɾəl/"
   },
   {
-    "dex": 810,
+    "dex": "#0810",
     "name": "Grookey",
     "pronunciation": "GROO-kee",
     "ipa": "/ˈɡɹuːkiː/"
   },
   {
-    "dex": 811,
+    "dex": "#0811",
     "name": "Thwackey",
     "pronunciation": "THWAK-ee",
     "ipa": "/ˈθwækiː/"
   },
   {
-    "dex": 812,
+    "dex": "#0812",
     "name": "Rillaboom",
     "pronunciation": "RILL-uh-boom",
     "ipa": "/ˈɹɪləbuːm/"
   },
   {
-    "dex": 813,
+    "dex": "#0813",
     "name": "Scorbunny",
     "pronunciation": "SKOR-bun-ee",
     "ipa": "/ˈskɔːɹbʌniː/"
   },
   {
-    "dex": 814,
+    "dex": "#0814",
     "name": "Raboot",
     "pronunciation": "RAB-oot",
     "ipa": "/ˈɹæbuːt/"
   },
   {
-    "dex": 815,
+    "dex": "#0815",
     "name": "Cinderace",
     "pronunciation": "SIND-uh-race",
     "ipa": "/ˈsɪndɚeɪs/"
   },
   {
-    "dex": 816,
+    "dex": "#0816",
     "name": "Sobble",
     "pronunciation": "SAHB-ull",
     "ipa": "/ˈsɑːbəl/"
   },
   {
-    "dex": 817,
+    "dex": "#0817",
     "name": "Drizzile",
     "pronunciation": "DRIZ-ile",
     "ipa": "/ˈdɹɪzaɪl/"
   },
   {
-    "dex": 818,
+    "dex": "#0818",
     "name": "Inteleon",
     "pronunciation": "in-TELL-ee-uhn",
     "ipa": "/ɪnˈtɛliːən/"
   },
   {
-    "dex": 819,
+    "dex": "#0819",
     "name": "Skwovet",
     "pronunciation": "SKWUH-vet",
     "ipa": "/ˈskwʌːvət/"
   },
   {
-    "dex": 820,
+    "dex": "#0820",
     "name": "Greedent",
     "pronunciation": "GREE-dint",
     "ipa": "/ˈɡɹiːdənt/"
   },
   {
-    "dex": 821,
+    "dex": "#0821",
     "name": "Rookidee",
     "pronunciation": "RU-kih-dee",
     "ipa": "/ˈɹʊkədiː/"
   },
   {
-    "dex": 822,
+    "dex": "#0822",
     "name": "Corvisquire",
     "pronunciation": "KOR-vih-skwire",
     "ipa": "/ˈkɔːɹvəskwaɪɹ/"
   },
   {
-    "dex": 823,
+    "dex": "#0823",
     "name": "Corviknight",
     "pronunciation": "KOR-vih-nite",
     "ipa": "/ˈkɔːɹvənaɪt/"
   },
   {
-    "dex": 824,
+    "dex": "#0824",
     "name": "Blipbug",
     "pronunciation": "BLIP-bug",
     "ipa": "/ˈblɪpbʌɡ/"
   },
   {
-    "dex": 825,
+    "dex": "#0825",
     "name": "Dottler",
     "pronunciation": "DOT-lurr",
     "ipa": "/ˈdɑːtlɚ/"
   },
   {
-    "dex": 826,
+    "dex": "#0826",
     "name": "Orbeetle",
     "pronunciation": "OHR-bee-tull",
     "ipa": "/ˈɔɹbiːɾəl/"
   },
   {
-    "dex": 827,
+    "dex": "#0827",
     "name": "Nickit",
     "pronunciation": "NIK-it",
     "ipa": "/ˈnɪkət/"
   },
   {
-    "dex": 828,
+    "dex": "#0828",
     "name": "Thievul",
     "pronunciation": "THEE-vull",
     "ipa": "/ˈθiːvəl/"
   },
   {
-    "dex": 829,
+    "dex": "#0829",
     "name": "Gossifleur",
     "pronunciation": "GAHS-ih-flur",
     "ipa": "/ˈɡɑːsəflɚ/"
   },
   {
-    "dex": 830,
+    "dex": "#0830",
     "name": "Eldegoss",
     "pronunciation": "EL-de-gahs",
     "ipa": "/ˈɛldəɡɑːs/"
   },
   {
-    "dex": 831,
+    "dex": "#0831",
     "name": "Wooloo",
     "pronunciation": "WOO-loo",
     "ipa": "/ˈwuːluː/"
   },
   {
-    "dex": 832,
+    "dex": "#0832",
     "name": "Dubwool",
     "pronunciation": "DUB-wull",
     "ipa": "/ˈdʌbwʊl/"
   },
   {
-    "dex": 833,
+    "dex": "#0833",
     "name": "Chewtle",
     "pronunciation": "CHOO-tull",
     "ipa": "/ˈtʃuːɾəl/"
   },
   {
-    "dex": 834,
+    "dex": "#0834",
     "name": "Drednaw",
     "pronunciation": "DRED-nah",
     "ipa": "/ˈdɹɛdnɑː/"
   },
   {
-    "dex": 835,
+    "dex": "#0835",
     "name": "Yamper",
     "pronunciation": "YAM-purr",
     "ipa": "/ˈjæmpɚ/"
   },
   {
-    "dex": 836,
+    "dex": "#0836",
     "name": "Boltund",
     "pronunciation": "BOHL-tund",
     "ipa": "/ˈbɔːltənd/"
   },
   {
-    "dex": 837,
+    "dex": "#0837",
     "name": "Rolycoly",
     "pronunciation": "ROHL-ee-KOHL-ee",
     "ipa": "/ˌɹɔːliːˈkɔːliː/"
   },
   {
-    "dex": 838,
+    "dex": "#0838",
     "name": "Carkol",
     "pronunciation": "KAR-kohl",
     "ipa": "/ˈkɑɹkɔːl/"
   },
   {
-    "dex": 839,
+    "dex": "#0839",
     "name": "Coalossal",
     "pronunciation": "kohl-AH-sull",
     "ipa": "/kɔːlˈɑːsəl/"
   },
   {
-    "dex": 840,
+    "dex": "#0840",
     "name": "Applin",
     "pronunciation": "APP-lin",
     "ipa": "/ˈæplɪn/"
   },
   {
-    "dex": 841,
+    "dex": "#0841",
     "name": "Flapple",
     "pronunciation": "FLAP-ull",
     "ipa": "/ˈflæpəl/"
   },
   {
-    "dex": 842,
+    "dex": "#0842",
     "name": "Appletun",
     "pronunciation": "APP-ull-tun",
     "ipa": "/ˈæpəltən/"
   },
   {
-    "dex": 843,
+    "dex": "#0843",
     "name": "Silicobra",
     "pronunciation": "SIL-ih-KOH-bruh",
     "ipa": "/sɪləˈkoʊbɹə/"
   },
   {
-    "dex": 844,
+    "dex": "#0844",
     "name": "Sandaconda",
     "pronunciation": "SAND-uh-KAHN-duh",
     "ipa": "/sændəkɑːndə/"
   },
   {
-    "dex": 845,
+    "dex": "#0845",
     "name": "Cramorant",
     "pronunciation": "KRAM-er-int",
     "ipa": "/ˈkɹæmɚənt/"
   },
   {
-    "dex": 846,
+    "dex": "#0846",
     "name": "Arrokuda",
     "pronunciation": "AIR-uh-KOO-duh",
     "ipa": "/ˌɛrəˈkuːdə/"
   },
   {
-    "dex": 847,
+    "dex": "#0847",
     "name": "Barraskewda",
     "pronunciation": "BEHR-uh-SKYOO-duh",
     "ipa": "/ˌbɛrəˈskjuːdə/"
   },
   {
-    "dex": 848,
+    "dex": "#0848",
     "name": "Toxel",
     "pronunciation": "TAHKS-ull",
     "ipa": "/tɑːksəl/"
   },
   {
-    "dex": 849,
+    "dex": "#0849",
     "name": "Toxtricity",
     "pronunciation": "tahks-TRIS-ih-tee",
     "ipa": "/tɑksˈtɹɪsətiː/"
   },
   {
-    "dex": 850,
+    "dex": "#0850",
     "name": "Sizzlipede",
     "pronunciation": "SIZZ-lih-peed",
     "ipa": "/ˈsɪzləpiːd/"
   },
   {
-    "dex": 851,
+    "dex": "#0851",
     "name": "Centiskorch",
     "pronunciation": "SENT-ih-skorch",
     "ipa": "/ˈsɛntəskɔːɹtʃ/"
   },
   {
-    "dex": 852,
+    "dex": "#0852",
     "name": "Clobbopus",
     "pronunciation": "KLOB-uh-puss",
     "ipa": "/ˈklɑːbəpʊs/"
   },
   {
-    "dex": 853,
+    "dex": "#0853",
     "name": "Grapploct",
     "pronunciation": "GRAP-lokt",
     "ipa": "/ˈɡɹæplɑːkt/"
   },
   {
-    "dex": 854,
+    "dex": "#0854",
     "name": "Sinistea",
     "pronunciation": "SIN-iss-tee",
     "ipa": "/ˈsɪnəstiː/"
   },
   {
-    "dex": 855,
+    "dex": "#0855",
     "name": "Polteageist",
     "pronunciation": "POHL-tee-geist",
     "ipa": "/ˈpɔːltiːɡaɪst/"
   },
   {
-    "dex": 856,
+    "dex": "#0856",
     "name": "Hatenna",
     "pronunciation": "huh-TEN-uh",
     "ipa": "/həˈtɛnə/"
   },
   {
-    "dex": 857,
+    "dex": "#0857",
     "name": "Hattrem",
     "pronunciation": "HA-trem",
     "ipa": "/ˈhætɹɛm/"
   },
   {
-    "dex": 858,
+    "dex": "#0858",
     "name": "Hatterene",
     "pronunciation": "HAT-ur-een",
     "ipa": "/ˈhætɚiːn/"
   },
   {
-    "dex": 859,
+    "dex": "#0859",
     "name": "Impidimp",
     "pronunciation": "IMP-ih-dimp",
     "ipa": "/ˈɪmpɪdɪmp/"
   },
   {
-    "dex": 860,
+    "dex": "#0860",
     "name": "Morgrem",
     "pronunciation": "MOHR-grem",
     "ipa": "/ˈmɔːɹɡɹɛm/"
   },
   {
-    "dex": 861,
+    "dex": "#0861",
     "name": "Grimmsnarl",
     "pronunciation": "GRIM-snarl",
     "ipa": "/ˈɡɹɪmsnɑɹl/"
   },
   {
-    "dex": 862,
+    "dex": "#0862",
     "name": "Obstagoon",
     "pronunciation": "AHB-stuh-goon",
     "ipa": "/ˈɑːbstəɡuːn/"
   },
   {
-    "dex": 863,
+    "dex": "#0863",
     "name": "Perrserker",
     "pronunciation": "purr-SURR-kurr",
     "ipa": "/pɚˈsɝkɚ/"
   },
   {
-    "dex": 864,
+    "dex": "#0864",
     "name": "Cursola",
     "pronunciation": "CURR-suh-luh",
     "ipa": "/ˈkɝsələ/"
   },
   {
-    "dex": 865,
+    "dex": "#0865",
     "name": "Sirfetch'd",
     "pronunciation": "surr-FETCHT",
     "ipa": "/sɝˈfɛtʃt/"
   },
   {
-    "dex": 866,
+    "dex": "#0866",
     "name": "Mr. Rime",
     "pronunciation": "MISS-tur-RIME",
     "ipa": "/ˌmɪstɚˈɹaɪm/"
   },
   {
-    "dex": 867,
+    "dex": "#0867",
     "name": "Runerigus",
     "pronunciation": "roon-er-EE-gus",
     "ipa": "/ɹuːnɛˈɹiːɡəs/"
   },
   {
-    "dex": 868,
+    "dex": "#0868",
     "name": "Milcery",
     "pronunciation": "MILL-surr-ee",
     "ipa": "/ˈmɪlsɚiː/"
   },
   {
-    "dex": 869,
+    "dex": "#0869",
     "name": "Alcremie",
     "pronunciation": "AL-cruh-mee",
     "ipa": "/ˈælkɹəmiː/"
   },
   {
-    "dex": 870,
+    "dex": "#0870",
     "name": "Falinks",
     "pronunciation": "FAY-links",
     "ipa": "/ˈfeɪlɪŋks/"
   },
   {
-    "dex": 871,
+    "dex": "#0871",
     "name": "Pincurchin",
     "pronunciation": "pin-KURR-chin",
     "ipa": "/pɪnˈkɚtʃən/"
   },
   {
-    "dex": 872,
+    "dex": "#0872",
     "name": "Snom",
     "pronunciation": "SNAHM",
     "ipa": "/ˈsnɑːm/"
   },
   {
-    "dex": 873,
+    "dex": "#0873",
     "name": "Frosmoth",
     "pronunciation": "FRAHS-moth",
     "ipa": "/ˈfɹɑːsmɑːθ/"
   },
   {
-    "dex": 874,
+    "dex": "#0874",
     "name": "Stonjourner",
     "pronunciation": "STOHN-jurr-nurr",
     "ipa": "/ˈstoʊndʒɚnɚ/"
   },
   {
-    "dex": 875,
+    "dex": "#0875",
     "name": "Eiscue",
     "pronunciation": "ICE-kyoo",
     "ipa": "/ˈaɪskju/"
   },
   {
-    "dex": 876,
+    "dex": "#0876",
     "name": "Indeedee",
     "pronunciation": "in-DEE-dee",
     "ipa": "/ɪnˈdiːdiː/"
   },
   {
-    "dex": 877,
+    "dex": "#0877",
     "name": "Morpeko",
     "pronunciation": "mohr-PECK-oh",
     "ipa": "/mɔːɹˈpɛkoʊ/"
   },
   {
-    "dex": 878,
+    "dex": "#0878",
     "name": "Cufant",
     "pronunciation": "KYOO-funt",
     "ipa": "/ˈkjuːfənt/"
   },
   {
-    "dex": 879,
+    "dex": "#0879",
     "name": "Copperajah",
     "pronunciation": "KAH-purr-AH-zhuh",
     "ipa": "/ˌkɑːpɚɑːʒə/"
   },
   {
-    "dex": 880,
+    "dex": "#0880",
     "name": "Dracozolt",
     "pronunciation": "DRAK-uh-zolt",
     "ipa": "/ˈdɹækəzɔːlt/"
   },
   {
-    "dex": 881,
+    "dex": "#0881",
     "name": "Arctozolt",
     "pronunciation": "ARK-tuh-zolt",
     "ipa": "/ˈɑɹktəzɔːlt/"
   },
   {
-    "dex": 882,
+    "dex": "#0882",
     "name": "Dracovish",
     "pronunciation": "DRAK-uh-vish",
     "ipa": "/ˈdɹækəvɪʃ/"
   },
   {
-    "dex": 883,
+    "dex": "#0883",
     "name": "Arctovish",
     "pronunciation": "ARK-tuh-vish",
     "ipa": "/ˈɑɹktəvɪʃ/"
   },
   {
-    "dex": 884,
+    "dex": "#0884",
     "name": "Duraludon",
     "pronunciation": "durr-AL-uh-dahn",
     "ipa": "/dɚˈælədɑn/"
   },
   {
-    "dex": 885,
+    "dex": "#0885",
     "name": "Dreepy",
     "pronunciation": "DREE-pee",
     "ipa": "/ˈdɹiːpiː/"
   },
   {
-    "dex": 886,
+    "dex": "#0886",
     "name": "Drakloak",
     "pronunciation": "DRAK-lohk",
     "ipa": "/ˈdɹækloʊk/"
   },
   {
-    "dex": 887,
+    "dex": "#0887",
     "name": "Dragapult",
     "pronunciation": "DRAG-uh-pult",
     "ipa": "/ˈdɹæɡəpʊlt/"
   },
   {
-    "dex": 888,
+    "dex": "#0888",
     "name": "Zacian",
     "pronunciation": "ZAH-shee-un",
     "ipa": "/ˈzɑːʃiːən/"
   },
   {
-    "dex": 889,
+    "dex": "#0889",
     "name": "Zamazenta",
     "pronunciation": "ZAH-muh-ZEN-tuh",
     "ipa": "/ˌzɑːməˈzɛntə/"
   },
   {
-    "dex": 890,
+    "dex": "#0890",
     "name": "Eternatus",
     "pronunciation": "ee-TURN-uh-tiss",
     "ipa": "/ɪˈtɝnətəs/"
   },
   {
-    "dex": 891,
+    "dex": "#0891",
     "name": "Kubfu",
     "pronunciation": "kub-FOO",
     "ipa": "/kʌbˈfuː/"
   },
   {
-    "dex": 892,
+    "dex": "#0892",
     "name": "Urshifu",
     "pronunciation": "UR-shee-foo",
     "ipa": "/ˈɝʃiːfuː/"
   },
   {
-    "dex": 893,
+    "dex": "#0893",
     "name": "Zarude",
     "pronunciation": "zah-ROOD",
     "ipa": "/zɑːˈɹuːd/"
   },
   {
-    "dex": 894,
+    "dex": "#0894",
     "name": "Regieleki",
     "pronunciation": "REJ-ee-uh-LEK-ee",
     "ipa": "/ˌɹɛdʒiːəˈlɛkiː/"
   },
   {
-    "dex": 895,
+    "dex": "#0895",
     "name": "Regidrago",
     "pronunciation": "REJ-ee-DRAY-goh",
     "ipa": "/ˌɹɛdʒiːˈdɹɛɪɡoʊ/"
   },
   {
-    "dex": 896,
+    "dex": "#0896",
     "name": "Glastrier",
     "pronunciation": "GLASS-tree-urr",
     "ipa": "/ˈɡlæstɹiːɚ/"
   },
   {
-    "dex": 897,
+    "dex": "#0897",
     "name": "Spectrier",
     "pronunciation": "SPEK-tree-urr",
     "ipa": "/ˈspɛktɹiːɚ/"
   },
   {
-    "dex": 898,
+    "dex": "#0898",
     "name": "Calyrex",
     "pronunciation": "KAL-uh-rex",
     "ipa": "/ˈkæləɹɛks/"
   },
   {
-    "dex": 899,
+    "dex": "#0899",
     "name": "Wyrdeer",
     "pronunciation": "WEER-deer",
     "ipa": "/ˈwɪɹdɪɹ/"
   },
   {
-    "dex": 900,
+    "dex": "#0900",
     "name": "Kleavor",
     "pronunciation": "KLEE-vohr",
     "ipa": "/ˈkliːvɔːɹ/"
   },
   {
-    "dex": 901,
+    "dex": "#0901",
     "name": "Ursaluna",
     "pronunciation": "UR-suh-LOO-nuh",
     "ipa": "/ˌɝsəˈluːnə/"
   },
   {
-    "dex": 902,
+    "dex": "#0902",
     "name": "Basculegion",
     "pronunciation": "BASS-kyoo-LEE-jin",
     "ipa": "/ˌbæskjuːˈliːdʒən/"
   },
   {
-    "dex": 903,
+    "dex": "#0903",
     "name": "Sneasler",
     "pronunciation": "SNEEZ-lurr",
     "ipa": "/ˈsniːzlɚ/"
   },
   {
-    "dex": 904,
+    "dex": "#0904",
     "name": "Overqwil",
     "pronunciation": "OH-vur-kwil",
     "ipa": "/ˈoʊvɚkwɪl/"
   },
   {
-    "dex": 905,
+    "dex": "#0905",
     "name": "Enamorus",
     "pronunciation": "ee-NAM-ur-iss",
     "ipa": "/ɪˈnæmɚɪs/"
   },
   {
-    "dex": 906,
+    "dex": "#0906",
     "name": "Sprigatito",
     "pronunciation": "sprig-uh-TEE-toh",
     "ipa": "/ˌspɹɪɡəˈtiːtoʊ/"
   },
   {
-    "dex": 907,
+    "dex": "#0907",
     "name": "Floragato",
     "pronunciation": "flor-uh-GAH-toh",
     "ipa": "/ˌflɔɹəˈɡɑːtoʊ/"
   },
   {
-    "dex": 908,
+    "dex": "#0908",
     "name": "Meowscarada",
     "pronunciation": "mee-ow-scuh-RAH-duh",
     "ipa": "/miˈaʊskəˈɹɑːdə/"
   },
   {
-    "dex": 909,
+    "dex": "#0909",
     "name": "Fuecoco",
     "pronunciation": "fway-KOH-koh",
     "ipa": "/fweɪˈkoʊkoʊ/"
   },
   {
-    "dex": 910,
+    "dex": "#0910",
     "name": "Crocalor",
     "pronunciation": "KROK-uh-lohr",
     "ipa": "/ˈkɹɑːkəlɔɹ/"
   },
   {
-    "dex": 911,
+    "dex": "#0911",
     "name": "Skeledirge",
     "pronunciation": "SKEL-ih-durj",
     "ipa": "/ˈskɛlədɚdʒ/"
   },
   {
-    "dex": 912,
+    "dex": "#0912",
     "name": "Quaxly",
     "pronunciation": "KWAKS-lee",
     "ipa": "/ˈkwæksliː/"
   },
   {
-    "dex": 913,
+    "dex": "#0913",
     "name": "Quaxwell",
     "pronunciation": "KWAKS-well",
     "ipa": "/ˈkwækswɛl/"
   },
   {
-    "dex": 914,
+    "dex": "#0914",
     "name": "Quaquaval",
     "pronunciation": "KWA-kwuh-vahl",
     "ipa": "/ˈkwækwəvɑːl/"
   },
   {
-    "dex": 915,
+    "dex": "#0915",
     "name": "Lechonk",
     "pronunciation": "luh-CHONK",
     "ipa": "/ləˈtʃɑːnk/"
   },
   {
-    "dex": 916,
+    "dex": "#0916",
     "name": "Oinkologne",
     "pronunciation": "OING-kuh-lohn",
     "ipa": "/ˈɔɪŋkəloʊn/"
   },
   {
-    "dex": 917,
+    "dex": "#0917",
     "name": "Tarountula",
     "pronunciation": "tuh-ROWN-chuh-luh",
     "ipa": "/təˈɹaʊntʃələ/"
   },
   {
-    "dex": 918,
+    "dex": "#0918",
     "name": "Spidops",
     "pronunciation": "SPIE-dahps",
     "ipa": "/ˈspaɪdɑps/"
   },
   {
-    "dex": 919,
+    "dex": "#0919",
     "name": "Nymble",
     "pronunciation": "NIM-buhl",
     "ipa": "/ˈnɪmbəl/"
   },
   {
-    "dex": 920,
+    "dex": "#0920",
     "name": "Lokix",
     "pronunciation": "LOH-kicks",
     "ipa": "/ˈloʊkɪks/"
   },
   {
-    "dex": 921,
+    "dex": "#0921",
     "name": "Pawmi",
     "pronunciation": "PAW-mee",
     "ipa": "/ˈpɑːmiː/"
   },
   {
-    "dex": 922,
+    "dex": "#0922",
     "name": "Pawmo",
     "pronunciation": "PAW-moh",
     "ipa": "/ˈpɑːmoʊ/"
   },
   {
-    "dex": 923,
+    "dex": "#0923",
     "name": "Pawmot",
     "pronunciation": "PAW-mit",
     "ipa": "/ˈpɑːmət/"
   },
   {
-    "dex": 924,
+    "dex": "#0924",
     "name": "Tandemaus",
     "pronunciation": "TAN-duh-mowse",
     "ipa": "/ˈtændəmaʊs/"
   },
   {
-    "dex": 925,
+    "dex": "#0925",
     "name": "Maushold",
     "pronunciation": "MOWSE-hold",
     "ipa": "/ˈmaʊshɔld/"
   },
   {
-    "dex": 926,
+    "dex": "#0926",
     "name": "Fidough",
     "pronunciation": "FYE-doh",
     "ipa": "/ˈfaɪdoʊ/"
   },
   {
-    "dex": 927,
+    "dex": "#0927",
     "name": "Dachsbun",
     "pronunciation": "DAHKS-bun",
     "ipa": "/ˈdɑːksbʌn/"
   },
   {
-    "dex": 928,
+    "dex": "#0928",
     "name": "Smoliv",
     "pronunciation": "SMOHL-iv",
     "ipa": "/ˈsmoʊlɪv/"
   },
   {
-    "dex": 929,
+    "dex": "#0929",
     "name": "Dolliv",
     "pronunciation": "DAHL-iv",
     "ipa": "/ˈdɑːlɪv/"
   },
   {
-    "dex": 930,
+    "dex": "#0930",
     "name": "Arboliva",
     "pronunciation": "ahr-BALL-iv-uh",
     "ipa": "/ɑɹˈbɑːləvə/"
   },
   {
-    "dex": 931,
+    "dex": "#0931",
     "name": "Squawkabilly",
     "pronunciation": "SKWAHK-uh-bill-ee",
     "ipa": "/ˈskwɑːkəbɪliː/"
   },
   {
-    "dex": 932,
+    "dex": "#0932",
     "name": "Nacli",
     "pronunciation": "NAK-lee",
     "ipa": "/ˈnækliː/"
   },
   {
-    "dex": 933,
+    "dex": "#0933",
     "name": "Naclstack",
     "pronunciation": "NAK-ull-stak",
     "ipa": "/ˈnækəlstæk/"
   },
   {
-    "dex": 934,
+    "dex": "#0934",
     "name": "Garganacl",
     "pronunciation": "GAHR-guh-nak-ull",
     "ipa": "/ˈɡɑːɹɡənækəl/"
   },
   {
-    "dex": 935,
+    "dex": "#0935",
     "name": "Charcadet",
     "pronunciation": "CHAR-kuh-det",
     "ipa": "/ˈtʃɑːɹkədɛt/"
   },
   {
-    "dex": 936,
+    "dex": "#0936",
     "name": "Armarouge",
     "pronunciation": "AR-muh-roozh",
     "ipa": "/ˈɑːɹmɚuːʒ/"
   },
   {
-    "dex": 937,
+    "dex": "#0937",
     "name": "Ceruledge",
     "pronunciation": "suh-ROO-lej",
     "ipa": "/səˈɹuːlɛdʒ/"
   },
   {
-    "dex": 938,
+    "dex": "#0938",
     "name": "Tadbulb",
     "pronunciation": "TAD-bulb",
     "ipa": "/ˈtædbʊlb/"
   },
   {
-    "dex": 939,
+    "dex": "#0939",
     "name": "Bellibolt",
     "pronunciation": "BELL-ee-bolt",
     "ipa": "/ˈbɛliːbɔlt/"
   },
   {
-    "dex": 940,
+    "dex": "#0940",
     "name": "Wattrel",
     "pronunciation": "WAH-trull",
     "ipa": "/ˈwɑːtɹəl/"
   },
   {
-    "dex": 941,
+    "dex": "#0941",
     "name": "Kilowattrel",
     "pronunciation": "keel-oh-WAH-trull",
     "ipa": "/ˌkiːloʊˈwɑtɹəl/"
   },
   {
-    "dex": 942,
+    "dex": "#0942",
     "name": "Maschiff",
     "pronunciation": "MASS-chif",
     "ipa": "ˈmæstʃɪf"
   },
   {
-    "dex": 943,
+    "dex": "#0943",
     "name": "Mabosstiff",
     "pronunciation": "muh-BOSS-tiff",
     "ipa": "/məˈbɑːstɪf/"
   },
   {
-    "dex": 944,
+    "dex": "#0944",
     "name": "Shroodle",
     "pronunciation": "SHROO-dull",
     "ipa": "/ˈʃɹuːdəl/"
   },
   {
-    "dex": 945,
+    "dex": "#0945",
     "name": "Grafaiai",
     "pronunciation": "gruh-FYE-eye",
     "ipa": "/ɡɹəˈfaɪaɪ/"
   },
   {
-    "dex": 946,
+    "dex": "#0946",
     "name": "Bramblin",
     "pronunciation": "BRAM-blin",
     "ipa": "/ˈbɹæmblɪn/"
   },
   {
-    "dex": 947,
+    "dex": "#0947",
     "name": "Brambleghast",
     "pronunciation": "BRAM-bull-gast",
     "ipa": "/ˈbɹæmbəlɡæst/"
   },
   {
-    "dex": 948,
+    "dex": "#0948",
     "name": "Toedscool",
     "pronunciation": "TOHDZ-kool",
     "ipa": "/ˈtoʊdzkuːl/"
   },
   {
-    "dex": 949,
+    "dex": "#0949",
     "name": "Toedscruel",
     "pronunciation": "TOHDZ-krool",
     "ipa": "/ˈtoʊdzkɹuːl/"
   },
   {
-    "dex": 950,
+    "dex": "#0950",
     "name": "Klawf",
     "pronunciation": "KLAHF",
     "ipa": "/ˈklɑːf/"
   },
   {
-    "dex": 951,
+    "dex": "#0951",
     "name": "Capsakid",
     "pronunciation": "KAP-suh-kid",
     "ipa": "/ˈkæpsəkɪd/"
   },
   {
-    "dex": 952,
+    "dex": "#0952",
     "name": "Scovillain",
     "pronunciation": "SKOH-vill-in",
     "ipa": "/ˈskoʊvɪlən/"
   },
   {
-    "dex": 953,
+    "dex": "#0953",
     "name": "Rellor",
     "pronunciation": "RELL-ohr",
     "ipa": "/ˈɹɛlɔɹ/"
   },
   {
-    "dex": 954,
+    "dex": "#0954",
     "name": "Rabsca",
     "pronunciation": "RAB-skuh",
     "ipa": "/ˈɹæbskə/"
   },
   {
-    "dex": 955,
+    "dex": "#0955",
     "name": "Flittle",
     "pronunciation": "FLIT-ull",
     "ipa": "/ˈflɪɾəl/"
   },
   {
-    "dex": 956,
+    "dex": "#0956",
     "name": "Espathra",
     "pronunciation": "es-PATH-ruh",
     "ipa": "/ɛsˈpæθɹə/"
   },
   {
-    "dex": 957,
+    "dex": "#0957",
     "name": "Tinkatink",
     "pronunciation": "TINK-uh-tink",
     "ipa": "/ˈtiːŋkətiːŋk/"
   },
   {
-    "dex": 958,
+    "dex": "#0958",
     "name": "Tinkatuff",
     "pronunciation": "TINK-uh-tuff",
     "ipa": "/ˈtiːŋkətʌf/"
   },
   {
-    "dex": 959,
+    "dex": "#0959",
     "name": "Tinkaton",
     "pronunciation": "TINK-uh-tun",
     "ipa": "/ˈtiːŋkətʌn/"
   },
   {
-    "dex": 960,
+    "dex": "#0960",
     "name": "Wiglett",
     "pronunciation": "WIG-lit",
     "ipa": "/ˈwɪɡlət/"
   },
   {
-    "dex": 961,
+    "dex": "#0961",
     "name": "Wugtrio",
     "pronunciation": "wug-TREE-oh",
     "ipa": "/wʌɡˈtɹiːoʊ/"
   },
   {
-    "dex": 962,
+    "dex": "#0962",
     "name": "Bombirdier",
     "pronunciation": "bahm-burr-DEER",
     "ipa": "/ˌbɑːmbɚˈdɪɹ/"
   },
   {
-    "dex": 963,
+    "dex": "#0963",
     "name": "Finizen",
     "pronunciation": "FIN-ih-zen",
     "ipa": "/ˈfɪnɪzən/"
   },
   {
-    "dex": 964,
+    "dex": "#0964",
     "name": "Palafin",
     "pronunciation": "PAL-uh-fin",
     "ipa": "/ˈpæləfɪn/"
   },
   {
-    "dex": 965,
+    "dex": "#0965",
     "name": "Varoom",
     "pronunciation": "vuh-ROOM",
     "ipa": "/vəˈɹuːm/"
   },
   {
-    "dex": 966,
+    "dex": "#0966",
     "name": "Revavroom",
     "pronunciation": "REV-uh-vroom",
     "ipa": "/ˈɹɛvəvɹuːm/"
   },
   {
-    "dex": 967,
+    "dex": "#0967",
     "name": "Cyclizar",
     "pronunciation": "SYE-klih-zahr",
     "ipa": "/ˈsaɪkləzɑːɹ/"
   },
   {
-    "dex": 968,
+    "dex": "#0968",
     "name": "Orthworm",
     "pronunciation": "ORTH-wurm",
     "ipa": "/ˈɔɹθwɚm/"
   },
   {
-    "dex": 969,
+    "dex": "#0969",
     "name": "Glimmet",
     "pronunciation": "GLIM-it",
     "ipa": "/ˈɡlɪmət/"
   },
   {
-    "dex": 970,
+    "dex": "#0970",
     "name": "Glimmora",
     "pronunciation": "glih-MOHR-uh",
     "ipa": "/ɡləˈmɔɹə/"
   },
   {
-    "dex": 971,
+    "dex": "#0971",
     "name": "Greavard",
     "pronunciation": "GREE-vard",
     "ipa": "/ˈɡɹiːvɑːɹd/"
   },
   {
-    "dex": 972,
+    "dex": "#0972",
     "name": "Houndstone",
     "pronunciation": "HOUND-stone",
     "ipa": "/ˈhaʊndstoʊn/"
   },
   {
-    "dex": 973,
+    "dex": "#0973",
     "name": "Flamigo",
     "pronunciation": "fluh-MEE-goh",
     "ipa": "/fləˈmiːɡoʊ/"
   },
   {
-    "dex": 974,
+    "dex": "#0974",
     "name": "Cetoddle",
     "pronunciation": "suh-TOD-ull",
     "ipa": "/səˈtɑːdəl/"
   },
   {
-    "dex": 975,
+    "dex": "#0975",
     "name": "Cetitan",
     "pronunciation": "suh-TYE-tun",
     "ipa": "/səˈtaɪtən/"
   },
   {
-    "dex": 976,
+    "dex": "#0976",
     "name": "Veluza",
     "pronunciation": "vuh-LOO-zuh",
     "ipa": "/vəˈluːzə/"
   },
   {
-    "dex": 977,
+    "dex": "#0977",
     "name": "Dondozo",
     "pronunciation": "dohn-DOH-zoh",
     "ipa": "/doʊnˈdoʊnzoʊ/"
   },
   {
-    "dex": 978,
+    "dex": "#0978",
     "name": "Tatsugiri",
     "pronunciation": "taht-soo-GEER-ee",
     "ipa": "/ˌtɑːtsuːɡɪɹiː/"
   },
   {
-    "dex": 979,
+    "dex": "#0979",
     "name": "Annihilape",
     "pronunciation": "uh-NYE-uh-lape",
     "ipa": "/əˈnaɪəleɪp/"
   },
   {
-    "dex": 980,
+    "dex": "#0980",
     "name": "Clodsire",
     "pronunciation": "KLOD-sire",
     "ipa": "/ˈklɑːdsaɪɚ/"
   },
   {
-    "dex": 981,
+    "dex": "#0981",
     "name": "Farigiraf",
     "pronunciation": "fuh-RIG-uh-raf",
     "ipa": "/fəˈɹɪɡəɹæf/"
   },
   {
-    "dex": 982,
+    "dex": "#0982",
     "name": "Dudunsparce",
     "pronunciation": "duh-DUN-sparce",
     "ipa": "/dəˈdʌnspɑːɹs/"
   },
   {
-    "dex": 983,
+    "dex": "#0983",
     "name": "Kingambit",
     "pronunciation": "king-GAM-bit",
     "ipa": "/kiːŋˈɡæmbɪt/"
   },
   {
-    "dex": 984,
+    "dex": "#0984",
     "name": "Great Tusk",
     "pronunciation": "grate-TUSK",
     "ipa": "/ˌɡɹɛɪt ˈtʌsk/"
   },
   {
-    "dex": 985,
+    "dex": "#0985",
     "name": "Scream Tail",
     "pronunciation": "SKREEM-tail",
     "ipa": "/ˈskɹiːm ˌteɪl/"
   },
   {
-    "dex": 986,
+    "dex": "#0986",
     "name": "Brute Bonnet",
     "pronunciation": "broot-BAHN-it",
     "ipa": "/ˌbɹuːt ˈbɑːnət/"
   },
   {
-    "dex": 987,
+    "dex": "#0987",
     "name": "Flutter Mane",
     "pronunciation": "FLUH-turr-main",
     "ipa": "/ˈflʌɾɚ ˌmeɪn/"
   },
   {
-    "dex": 988,
+    "dex": "#0988",
     "name": "Slither Wing",
     "pronunciation": "SLIH-th (voiced)ur-wing",
     "ipa": "/ˈslɪðɚ ˌwiŋ/"
   },
   {
-    "dex": 989,
+    "dex": "#0989",
     "name": "Sandy Shocks",
     "pronunciation": "san-dee-SHAHKS",
     "ipa": "/ˈsændiː ˈʃɑːks/"
   },
   {
-    "dex": 990,
+    "dex": "#0990",
     "name": "Iron Treads",
     "pronunciation": "eye-urn-TREDZ",
     "ipa": "/ˌaɪɹn ˈtɹɛdz/"
   },
   {
-    "dex": 991,
+    "dex": "#0991",
     "name": "Iron Bundle",
     "pronunciation": "eye-urn-BUN-dull",
     "ipa": "/ˌaɪɹn ˈbʌndəl/"
   },
   {
-    "dex": 992,
+    "dex": "#0992",
     "name": "Iron Hands",
     "pronunciation": "eye-urn-HANDZ",
     "ipa": "/ˌaɪɹn ˈhændz/"
   },
   {
-    "dex": 993,
+    "dex": "#0993",
     "name": "Iron Jugulis",
     "pronunciation": "eye-urn-JUG-yoo-lis",
     "ipa": "/ˌaɪɹn ˈdʒʌɡjuːləs/"
   },
   {
-    "dex": 994,
+    "dex": "#0994",
     "name": "Iron Moth",
     "pronunciation": "eye-urn-MOTH",
     "ipa": "/ˌaɪɹn ˈmɑːθ/"
   },
   {
-    "dex": 995,
+    "dex": "#0995",
     "name": "Iron Thorns",
     "pronunciation": "eye-urn-THORNZ",
     "ipa": "/ˌaɪɹn ˈθɔɹnz/"
   },
   {
-    "dex": 996,
+    "dex": "#0996",
     "name": "Frigibax",
     "pronunciation": "FRIJ-ih-baks",
     "ipa": "/ˈfɹɪdʒɪbæks/"
   },
   {
-    "dex": 997,
+    "dex": "#0997",
     "name": "Arctibax",
     "pronunciation": "ARK-tih-baks",
     "ipa": "/ˈɑɹktɪbæks/"
   },
   {
-    "dex": 998,
+    "dex": "#0998",
     "name": "Baxcalibur",
     "pronunciation": "baks-KAL-ih-bur",
     "ipa": "/bæksˈkælɪbɚ/"
   },
   {
-    "dex": 999,
+    "dex": "#0999",
     "name": "Gimmighoul",
     "pronunciation": "GIM-ee-gool",
     "ipa": "/ˈɡɪmiːɡuːl/"
   },
   {
-    "dex": 1000,
+    "dex": "#1000",
     "name": "Gholdengo",
     "pronunciation": "GOHL-dun-goh",
     "ipa": "/ˈɡɔldənɡoʊ/"
   },
   {
-    "dex": 1001,
+    "dex": "#1001",
     "name": "Wo-Chien",
     "pronunciation": "wo-chee-EN",
     "ipa": "/woʊtʃiːˈɛn/"
   },
   {
-    "dex": 1002,
+    "dex": "#1002",
     "name": "Chien-Pao",
     "pronunciation": "chee-en-POW",
     "ipa": "/tʃiːɛnˈpaʊ/"
   },
   {
-    "dex": 1003,
+    "dex": "#1003",
     "name": "Ting-Lu",
     "pronunciation": "ting-LOO",
     "ipa": "/tiŋˈluː/"
   },
   {
-    "dex": 1004,
+    "dex": "#1004",
     "name": "Chi-Yu",
     "pronunciation": "chee-YOO",
     "ipa": "/tʃiːˈjuː/"
   },
   {
-    "dex": 1005,
+    "dex": "#1005",
     "name": "Roaring Moon",
     "pronunciation": "rohr-ing-MOON",
     "ipa": "/ˌɹɔɹiŋ ˈmuːn/"
   },
   {
-    "dex": 1006,
+    "dex": "#1006",
     "name": "Iron Valiant",
     "pronunciation": "eye-urn-VAL-yunt",
     "ipa": "/ˌaɪɹn ˈvæljənt/"
   },
   {
-    "dex": 1007,
+    "dex": "#1007",
     "name": "Koraidon",
     "pronunciation": "kohr-EYE-dahn",
     "ipa": "/kɔːɹˈaɪdɑːn/"
   },
   {
-    "dex": 1008,
+    "dex": "#1008",
     "name": "Miraidon",
     "pronunciation": "meer-EYE-dahn",
     "ipa": "/mɪɹˈaɪdɑːn/"
   },
   {
-    "dex": 1009,
+    "dex": "#1009",
     "name": "Walking Wake",
     "pronunciation": "wah-king-WAKE",
     "ipa": "/ˌwɑːkiːŋ ˈweɪk/"
   },
   {
-    "dex": 1010,
+    "dex": "#1010",
     "name": "Iron Leaves",
     "pronunciation": "eye-urn-LEEVZ",
     "ipa": "/ˌaɪɹn ˈliːvz/"
   },
   {
-    "dex": 1011,
+    "dex": "#1011",
     "name": "Dipplin",
     "pronunciation": "DIP-lin",
     "ipa": "/ˈdɪplən/"
   },
   {
-    "dex": 1012,
+    "dex": "#1012",
     "name": "Poltchageist",
     "pronunciation": "POHL-chuh-geist",
     "ipa": "/ˈpɔːltʃəɡaɪst/"
   },
   {
-    "dex": 1013,
+    "dex": "#1013",
     "name": "Sinistcha",
     "pronunciation": "SIN-iss-chuh",
     "ipa": "/ˈsɪnəstʃə/"
   },
   {
-    "dex": 1014,
+    "dex": "#1014",
     "name": "Okidogi",
     "pronunciation": "oh-kee-DOH-gee",
     "ipa": "/ˌoʊkiːˈdoʊɡiː/"
   },
   {
-    "dex": 1015,
+    "dex": "#1015",
     "name": "Munkidori",
     "pronunciation": "munk-ee-DOHR-ee",
     "ipa": "/ˌmʌŋkiːˈdɔːɹiː/"
   },
   {
-    "dex": 1016,
+    "dex": "#1016",
     "name": "Fezandipiti",
     "pronunciation": "fez-un-DIP-ih-tee",
     "ipa": "/ˌfɛzənˈdɪpəɾiː/"
   },
   {
-    "dex": 1017,
+    "dex": "#1017",
     "name": "Ogerpon",
     "pronunciation": "OH-gurr-pahn",
     "ipa": "/ˈoʊɡɚpɑːn/"
   },
   {
-    "dex": 1018,
+    "dex": "#1018",
     "name": "Archaludon",
     "pronunciation": "ahr-CHAL-uh-dahn",
     "ipa": "/ɑːɹˈtʃælədɑːn/"
   },
   {
-    "dex": 1019,
+    "dex": "#1019",
     "name": "Hydrapple",
     "pronunciation": "hie-DRAP-ull",
     "ipa": "/ˌhaɪˈdɹæpəl/"
   },
   {
-    "dex": 1020,
+    "dex": "#1020",
     "name": "Gouging Fire",
     "pronunciation": "gow-jeeng-FIRE",
     "ipa": "/ˌɡaʊdʒiŋ ˈfaɪɚ/"
   },
   {
-    "dex": 1021,
+    "dex": "#1021",
     "name": "Raging Bolt",
     "pronunciation": "ray-jeeng-BOHLT",
     "ipa": "/ˌɹɛɪdʒiːŋ ˈbɔlt/"
   },
   {
-    "dex": 1022,
+    "dex": "#1022",
     "name": "Iron Boulder",
     "pronunciation": "eye-urn-BOHL-durr",
     "ipa": "/ˌaɪɹn ˈbɔldɚ/"
   },
   {
-    "dex": 1023,
+    "dex": "#1023",
     "name": "Iron Crown",
     "pronunciation": "eye-urn-KROWN",
     "ipa": "/ˌaɪɹn ˈkɹaʊn/"
   },
   {
-    "dex": 1024,
+    "dex": "#1024",
     "name": "Terapagos",
     "pronunciation": "turr-AHP-uh-gohs",
     "ipa": "/tɚˈɑːpəɡoʊs/"
   },
   {
-    "dex": 1025,
+    "dex": "#1025",
     "name": "Pecharunt",
     "pronunciation": "PECH-uh-runt",
     "ipa": "ˈpɛtʃəɹʌnt/"

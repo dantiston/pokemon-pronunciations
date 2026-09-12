@@ -10,7 +10,7 @@ import {
   Gauge,
   BookOpenText,
 } from "lucide-react";
-import pokemonData from "./assets/bef2bbd38be9ea66-pokemon_ipa.json";
+import pokemonData from "./assets/pokemon_ipa.json";
 
 interface PokemonEntry {
   dex: string;
