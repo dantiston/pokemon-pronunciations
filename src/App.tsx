@@ -375,19 +375,19 @@ export default function App() {
                         disabled={!speechSupported}
                         className={
                           isPlaying
-                            ? "inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800"
-                            : "inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:from-amber-600 hover:to-orange-700 disabled:opacity-50"
+                            ? "inline-flex flex-1 min-w-[172px] shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800"
+                            : "inline-flex flex-1 min-w-[172px] shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:from-amber-600 hover:to-orange-700 disabled:opacity-50"
                         }
                       >
                         {isPlaying ? (
                           <>
-                            <Square className="h-4 w-4" aria-hidden />
-                            Playing…
+                            <Square className="h-4 w-4 shrink-0" aria-hidden />
+                            <span className="whitespace-nowrap">Playing…</span>
                           </>
                         ) : (
                           <>
-                            <Play className="h-4 w-4" aria-hidden />
-                            Play pronunciation
+                            <Play className="h-4 w-4 shrink-0" aria-hidden />
+                            <span className="whitespace-nowrap">Play pronunciation</span>
                           </>
                         )}
                       </button>
