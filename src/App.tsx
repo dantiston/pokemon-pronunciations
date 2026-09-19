@@ -151,11 +151,12 @@ export default function App() {
   const toggleSpeak = (entry: PokemonEntry) => {
     if (!speechSupported) return;
     const synth = window.speechSynthesis;
+    const dex = dexString(entry);
     if (playWatchdog.current !== null) {
       window.clearTimeout(playWatchdog.current);
       playWatchdog.current = null;
     }
-    if (playingDex === entry.dex) {
+    if (playingDex === dex) {
       synth.cancel();
       setPlayingDex(null);
       return;
@@ -166,15 +167,15 @@ export default function App() {
     if (voice) utterance.voice = voice;
     utterance.rate = rate;
     utterance.onend = () =>
-      setPlayingDex((prev) => (prev === entry.dex ? null : prev));
+      setPlayingDex((prev) => (prev === dex ? null : prev));
     utterance.onerror = () =>
-      setPlayingDex((prev) => (prev === entry.dex ? null : prev));
-    setPlayingDex(entry.dex);
+      setPlayingDex((prev) => (prev === dex ? null : prev));
+    setPlayingDex(dex);
     synth.speak(utterance);
     // Safety watchdog: some environments never fire onend/onerror, so the
     // "Playing…" state can't get stuck on a card.
     playWatchdog.current = window.setTimeout(() => {
-      setPlayingDex((prev) => (prev === entry.dex ? null : prev));
+      setPlayingDex((prev) => (prev === dex ? null : prev));
       playWatchdog.current = null;
     }, 6000);
   };
@@ -194,9 +195,10 @@ export default function App() {
       }
       document.body.removeChild(ta);
     }
-    setCopiedDex(entry.dex);
+    const dex = dexString(entry);
+    setCopiedDex(dex);
     window.setTimeout(() => {
-      setCopiedDex((prev) => (prev === entry.dex ? null : prev));
+      setCopiedDex((prev) => (prev === dex ? null : prev));
     }, 1500);
   };
 
