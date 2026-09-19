@@ -64,6 +64,7 @@ export default function App() {
   const [toast, setToast] = useState<string | null>(null);
   const toastTimer = useRef<number | null>(null);
   const playWatchdog = useRef<number | null>(null);
+  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   const speechSupported =
     typeof window !== "undefined" && "speechSynthesis" in window;
@@ -161,8 +162,16 @@ export default function App() {
       setPlayingDex(null);
       return;
     }
-    synth.cancel();
+    // iOS Safari can wedge its speech queue if cancel() is called while
+    // nothing is speaking, so only cancel when there's something to cancel.
+    if (synth.speaking || synth.pending) {
+      synth.cancel();
+    }
     const utterance = new SpeechSynthesisUtterance(entry.name);
+    // Keep a strong reference: iOS Safari can garbage-collect an utterance
+    // mid-speech if nothing outside the browser's internal queue holds it,
+    // which silently kills playback.
+    utteranceRef.current = utterance;
     const voice = voices.find((v) => v.voiceURI === voiceURI);
     if (voice) utterance.voice = voice;
     utterance.rate = rate;
@@ -171,6 +180,9 @@ export default function App() {
     utterance.onerror = () =>
       setPlayingDex((prev) => (prev === dex ? null : prev));
     setPlayingDex(dex);
+    // iOS Safari sometimes leaves the synth paused after a cancel/idle
+    // period; resume defensively before speaking.
+    if (synth.paused) synth.resume();
     synth.speak(utterance);
     // Safety watchdog: some environments never fire onend/onerror, so the
     // "Playing…" state can't get stuck on a card.
