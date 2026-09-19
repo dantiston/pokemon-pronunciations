@@ -168,7 +168,7 @@ export default function App() {
     if (synth.speaking || synth.pending) {
       synth.cancel();
     }
-    const utterance = new SpeechSynthesisUtterance(entry.name);
+    const utterance = new SpeechSynthesisUtterance(entry.pronunciation);
     // Keep a strong reference: iOS Safari can garbage-collect an utterance
     // mid-speech if nothing outside the browser's internal queue holds it,
     // which silently kills playback.
