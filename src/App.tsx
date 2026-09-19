@@ -101,11 +101,15 @@ export default function App() {
         return a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name);
       });
       setVoices(sorted);
-      const samantha = sorted.find((v) => v.name === "Samantha");
+      // Prefer the OS's own flagged default voice rather than matching a
+      // name like "Samantha": iOS can list voices (e.g. enhanced/premium
+      // quality tiers) that share a display name but aren't actually
+      // downloaded, and speaking with one of those fails silently.
+      const osDefault = sorted.find((v) => v.default);
       setVoiceURI((prev) =>
         prev && sorted.some((v) => v.voiceURI === prev)
           ? prev
-          : samantha?.voiceURI ?? sorted[0]?.voiceURI ?? ""
+          : osDefault?.voiceURI ?? sorted[0]?.voiceURI ?? ""
       );
     };
     load();
@@ -178,8 +182,12 @@ export default function App() {
     utterance.rate = rate;
     utterance.onend = () =>
       setPlayingDex((prev) => (prev === dex ? null : prev));
-    utterance.onerror = () =>
+    utterance.onerror = (e) => {
       setPlayingDex((prev) => (prev === dex ? null : prev));
+      // AVSpeechSynthesizer often fails silently on iOS with no error
+      // detail; surface whatever we do get to help diagnose device issues.
+      showToast(`Playback error: ${e.error || "unknown"}`);
+    };
     setPlayingDex(dex);
     // iOS Safari sometimes leaves the synth paused after a cancel/idle
     // period; resume defensively before speaking.
