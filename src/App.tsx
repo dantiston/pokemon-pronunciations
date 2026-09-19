@@ -101,10 +101,11 @@ export default function App() {
         return a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name);
       });
       setVoices(sorted);
+      const samantha = sorted.find((v) => v.name === "Samantha");
       setVoiceURI((prev) =>
         prev && sorted.some((v) => v.voiceURI === prev)
           ? prev
-          : sorted[0]?.voiceURI ?? ""
+          : samantha?.voiceURI ?? sorted[0]?.voiceURI ?? ""
       );
     };
     load();
