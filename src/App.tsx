@@ -52,6 +52,14 @@ function formatDex(entry: PokemonEntry): string {
   return `#${String(n).padStart(4, "0")}`;
 }
 
+// The pronunciation field is formatted for reading ("VEE-nuh-sohr"), but
+// some speech engines (notably iOS Safari) can silently fail to speak
+// hyphenated, all-caps-stress text — likely trying to treat it as an
+// acronym. Normalize to plain lowercase words before speaking it.
+function speechText(entry: PokemonEntry): string {
+  return entry.pronunciation.replace(/-/g, " ").toLowerCase();
+}
+
 export default function App() {
   const [query, setQuery] = useState("");
   const [genIndex, setGenIndex] = useState(0);
@@ -172,7 +180,7 @@ export default function App() {
     if (synth.speaking || synth.pending) {
       synth.cancel();
     }
-    const utterance = new SpeechSynthesisUtterance(entry.pronunciation);
+    const utterance = new SpeechSynthesisUtterance(speechText(entry));
     // Keep a strong reference: iOS Safari can garbage-collect an utterance
     // mid-speech if nothing outside the browser's internal queue holds it,
     // which silently kills playback.
