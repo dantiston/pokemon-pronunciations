@@ -52,15 +52,6 @@ function formatDex(entry: PokemonEntry): string {
   return `#${String(n).padStart(4, "0")}`;
 }
 
-// Safari (and WebKit generally) reads unsupported SSML aloud as literal
-// text instead of falling back to plain speech, so only attempt it on
-// Firefox, which is the one browser reported to actually honor it.
-function isFirefox(): boolean {
-  return (
-    typeof navigator !== "undefined" && /firefox/i.test(navigator.userAgent)
-  );
-}
-
 function escapeXml(text: string): string {
   return text
     .replace(/&/g, "&amp;")
@@ -70,7 +61,6 @@ function escapeXml(text: string): string {
 }
 
 function speechInput(entry: PokemonEntry): string {
-  if (!isFirefox()) return entry.pronunciation;
   const ph = escapeXml(entry.ipa.replace(/^\/+|\/+$/g, ""));
   const text = escapeXml(entry.pronunciation);
   return `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><phoneme alphabet="ipa" ph="${ph}">${text}</phoneme></speak>`;
