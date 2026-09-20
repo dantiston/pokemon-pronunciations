@@ -55,13 +55,31 @@ function formatDex(entry: PokemonEntry): string {
 // Vendors don't expose a voice-quality field in the Web Speech API, but
 // they do consistently flag their higher-quality voices in the name
 // string itself (Apple: "Enhanced"/"Premium", Microsoft Edge: "Online
-// (Natural)", Google/Chrome: "Wavenet"/"Neural2", etc.).
+// (Natural)", Google/Chrome: "Wavenet"/"Neural2", etc.). This heuristic
+// catches those automatically; the curated list below adds specific
+// known-good voices (like Apple's default "Samantha") that don't carry
+// a naming hint, or whose exact display name varies enough that the
+// heuristic alone might miss them.
 const PREMIUM_VOICE_HINT = /\b(enhanced|premium|neural|natural|wavenet|studio)\b/i;
 
+const CURATED_VOICE_NAMES = new Set([
+  // Apple (macOS/iOS) default system voice — always installed
+  "Samantha",
+  // Google Chrome / ChromeOS network voices
+  "Google US English",
+  "Google UK English Female",
+  "Google UK English Male",
+  // Microsoft Edge neural voices
+  "Microsoft Aria Online (Natural) - English (United States)",
+  "Microsoft Ava Online (Natural) - English (United States)",
+  "Microsoft Guy Online (Natural) - English (United States)",
+  "Microsoft Jenny Online (Natural) - English (United States)",
+  "Microsoft Sonia Online (Natural) - English (United Kingdom)",
+  "Microsoft Ryan Online (Natural) - English (United Kingdom)",
+]);
+
 function isPremiumVoice(voice: SpeechSynthesisVoice): boolean {
-  // "Samantha" itself carries no quality-tier hint in its name, but it's
-  // a well-regarded voice on Apple platforms worth keeping eligible.
-  return voice.name === "Samantha" || PREMIUM_VOICE_HINT.test(voice.name);
+  return CURATED_VOICE_NAMES.has(voice.name) || PREMIUM_VOICE_HINT.test(voice.name);
 }
 
 function escapeXml(text: string): string {
