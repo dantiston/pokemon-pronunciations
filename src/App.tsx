@@ -52,6 +52,18 @@ function formatDex(entry: PokemonEntry): string {
   return `#${String(n).padStart(4, "0")}`;
 }
 
+// Vendors don't expose a voice-quality field in the Web Speech API, but
+// they do consistently flag their higher-quality voices in the name
+// string itself (Apple: "Enhanced"/"Premium", Microsoft Edge: "Online
+// (Natural)", Google/Chrome: "Wavenet"/"Neural2", etc.).
+const PREMIUM_VOICE_HINT = /\b(enhanced|premium|neural|natural|wavenet|studio)\b/i;
+
+function isPremiumVoice(voice: SpeechSynthesisVoice): boolean {
+  // "Samantha" itself carries no quality-tier hint in its name, but it's
+  // a well-regarded voice on Apple platforms worth keeping eligible.
+  return voice.name === "Samantha" || PREMIUM_VOICE_HINT.test(voice.name);
+}
+
 function escapeXml(text: string): string {
   return text
     .replace(/&/g, "&amp;")
@@ -114,16 +126,18 @@ export default function App() {
         if (aEn !== bEn) return aEn - bEn;
         return a.lang.localeCompare(b.lang) || a.name.localeCompare(b.name);
       });
-      setVoices(sorted);
-      // Prefer the OS's own flagged default voice rather than matching a
-      // name like "Samantha": iOS can list voices (e.g. enhanced/premium
-      // quality tiers) that share a display name but aren't actually
-      // downloaded, and speaking with one of those fails silently.
-      const osDefault = sorted.find((v) => v.default);
+      // Narrow to voices whose name hints at a higher-quality tier; fall
+      // back to the full list on platforms that don't label quality at
+      // all (e.g. Firefox/Linux with only baseline eSpeak voices).
+      const premium = sorted.filter(isPremiumVoice);
+      const shortlist = premium.length > 0 ? premium : sorted;
+      setVoices(shortlist);
+      const samantha = shortlist.find((v) => v.name === "Samantha");
+      const osDefault = shortlist.find((v) => v.default);
       setVoiceURI((prev) =>
-        prev && sorted.some((v) => v.voiceURI === prev)
+        prev && shortlist.some((v) => v.voiceURI === prev)
           ? prev
-          : osDefault?.voiceURI ?? sorted[0]?.voiceURI ?? ""
+          : samantha?.voiceURI ?? osDefault?.voiceURI ?? shortlist[0]?.voiceURI ?? ""
       );
     };
     load();
