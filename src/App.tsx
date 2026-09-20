@@ -63,8 +63,23 @@ function formatDex(entry: PokemonEntry): string {
 const PREMIUM_VOICE_HINT = /\b(enhanced|premium|neural|natural|wavenet|studio)\b/i;
 
 const CURATED_VOICE_NAMES = new Set([
-  // Apple (macOS/iOS) default system voice — always installed
-  "Samantha",
+  // Apple (macOS/iOS) "Default"-tier English voices — same baseline
+  // quality as each other (only "Enhanced"/"Premium" tiers, which the
+  // regex hint below catches, are meaningfully better), sourced from a
+  // real device voice list: https://gist.github.com/Koze/d1de49c24fc28375a9e314c72f7fdae4
+  "Samantha", // en-US
+  "Aaron", // en-US
+  "Fred", // en-US
+  "Nicky", // en-US
+  "Daniel", // en-GB
+  "Arthur", // en-GB
+  "Martha", // en-GB
+  "Karen", // en-AU
+  "Catherine", // en-AU
+  "Gordon", // en-AU
+  "Moira", // en-IE
+  "Tessa", // en-ZA
+  "Rishi", // en-IN
   // Google Chrome / ChromeOS network voices
   "Google US English",
   "Google UK English Female",
