@@ -22,6 +22,30 @@ interface PokemonEntry {
 const DATA = pokemonData as PokemonEntry[];
 const PAGE_SIZE = 96;
 
+// Discover clip files at build time: src/assets/clips/<name>/*.mp3 (etc),
+// matched to a Pokemon by lowercasing both sides. Glob keys look like
+// "./assets/clips/venusaur/clip1.mp3"; eager + url import gives back a
+// plain map of that path to its final built asset URL.
+const clipModules = import.meta.glob(
+  "./assets/clips/**/*.{mp3,wav,m4a,ogg,aac}",
+  { eager: true, query: "?url", import: "default" }
+) as Record<string, string>;
+
+const CLIPS_BY_NAME: Record<string, string[]> = {};
+for (const [path, url] of Object.entries(clipModules)) {
+  const match = path.match(/^\.\/assets\/clips\/([^/]+)\//);
+  if (!match) continue;
+  const key = match[1].toLowerCase();
+  (CLIPS_BY_NAME[key] ??= []).push(url);
+}
+for (const urls of Object.values(CLIPS_BY_NAME)) {
+  urls.sort();
+}
+
+function clipsFor(entry: PokemonEntry): string[] {
+  return CLIPS_BY_NAME[entry.name.toLowerCase()] ?? [];
+}
+
 const GENS = [
   { label: "All", from: 1, to: 1025 },
   { label: "Gen I", from: 1, to: 151 },
@@ -107,6 +131,7 @@ export default function App() {
   const [visible, setVisible] = useState(PAGE_SIZE);
   const [playingDex, setPlayingDex] = useState<string | null>(null);
   const [copiedDex, setCopiedDex] = useState<string | null>(null);
+  const [playingClipDex, setPlayingClipDex] = useState<string | null>(null);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [voiceURI, setVoiceURI] = useState("");
   const [rate, setRate] = useState(1);
@@ -114,6 +139,8 @@ export default function App() {
   const toastTimer = useRef<number | null>(null);
   const playWatchdog = useRef<number | null>(null);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const clipAudioRef = useRef<HTMLAudioElement | null>(null);
+  const clipIndexRef = useRef<Record<string, number>>({});
 
   const speechSupported =
     typeof window !== "undefined" && "speechSynthesis" in window;
@@ -134,6 +161,7 @@ export default function App() {
     return () => {
       if (toastTimer.current !== null) window.clearTimeout(toastTimer.current);
       if (playWatchdog.current !== null) window.clearTimeout(playWatchdog.current);
+      clipAudioRef.current?.pause();
     };
   }, []);
 
@@ -223,6 +251,9 @@ export default function App() {
     if (synth.speaking || synth.pending) {
       synth.cancel();
     }
+    // Only one audio source should play at a time.
+    clipAudioRef.current?.pause();
+    setPlayingClipDex(null);
     const utterance = new SpeechSynthesisUtterance(speechInput(entry));
     // Keep a strong reference: iOS Safari can garbage-collect an utterance
     // mid-speech if nothing outside the browser's internal queue holds it,
@@ -250,6 +281,34 @@ export default function App() {
       setPlayingDex((prev) => (prev === dex ? null : prev));
       playWatchdog.current = null;
     }, 6000);
+  };
+
+  const toggleClip = (entry: PokemonEntry, clips: string[]) => {
+    const dex = dexString(entry);
+    if (playingClipDex === dex) {
+      clipAudioRef.current?.pause();
+      setPlayingClipDex(null);
+      return;
+    }
+    // Only one audio source should play at a time.
+    if (speechSupported) window.speechSynthesis.cancel();
+    setPlayingDex(null);
+    clipAudioRef.current?.pause();
+    const index = clipIndexRef.current[dex] ?? 0;
+    const audio = new Audio(clips[index % clips.length]);
+    clipAudioRef.current = audio;
+    audio.onended = () => {
+      clipIndexRef.current[dex] = (index + 1) % clips.length;
+      setPlayingClipDex((prev) => (prev === dex ? null : prev));
+    };
+    audio.onerror = () => {
+      setPlayingClipDex((prev) => (prev === dex ? null : prev));
+      showToast("Clip playback error");
+    };
+    setPlayingClipDex(dex);
+    audio.play().catch(() => {
+      setPlayingClipDex((prev) => (prev === dex ? null : prev));
+    });
   };
 
   const copyIpa = async (entry: PokemonEntry) => {
@@ -423,6 +482,8 @@ export default function App() {
               {shown.map((p) => {
                 const isPlaying = playingDex === dexString(p);
                 const isCopied = copiedDex === dexString(p);
+                const clips = clipsFor(p);
+                const isClipPlaying = playingClipDex === dexString(p);
                 return (
                   <article
                     key={formatDex(p)}
@@ -483,6 +544,29 @@ export default function App() {
                           </>
                         )}
                       </button>
+                      {clips.length > 0 && (
+                        <button
+                          type="button"
+                          onClick={() => toggleClip(p, clips)}
+                          className={
+                            isClipPlaying
+                              ? "inline-flex flex-1 min-w-[172px] shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800"
+                              : "inline-flex flex-1 min-w-[172px] shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:from-sky-600 hover:to-blue-700"
+                          }
+                        >
+                          {isClipPlaying ? (
+                            <>
+                              <Square className="h-4 w-4 shrink-0" aria-hidden />
+                              <span className="whitespace-nowrap">Playing…</span>
+                            </>
+                          ) : (
+                            <>
+                              <Volume2 className="h-4 w-4 shrink-0" aria-hidden />
+                              <span className="whitespace-nowrap">Play clip</span>
+                            </>
+                          )}
+                        </button>
+                      )}
                     </div>
                   </article>
                 );
