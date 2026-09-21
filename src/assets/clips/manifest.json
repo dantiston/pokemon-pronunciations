@@ -1,0 +1,38 @@
+[
+  {
+    "word": "Palkia",
+    "source_path": "/Users/admin/Movies/pokemon/item_36_A Secret Sphere Of Influence! ｜ POKÉMON FULL EPISODE 36 ｜ Season 10.mp4",
+    "word_start": 468.24,
+    "word_end": 468.72,
+    "clip_start": 467.94,
+    "clip_end": 469.02000000000004,
+    "confidence": 0.77490234375,
+    "context_before": "controls time, and",
+    "context_after": "is the Pokémon",
+    "output_path": "/Users/admin/Movies/pokemon/clips/palkia/item_36_A_Secret_Sphere_Of_Influence_POK_MON_FULL_EPISODE_36_Season_10_468240-468720.wav"
+  },
+  {
+    "word": "Palkia",
+    "source_path": "/Users/admin/Movies/pokemon/item_36_A Secret Sphere Of Influence! ｜ POKÉMON FULL EPISODE 36 ｜ Season 10.mp4",
+    "word_start": 473.86,
+    "word_end": 474.38,
+    "clip_start": 473.56,
+    "clip_end": 474.68,
+    "confidence": 0.99853515625,
+    "context_before": "legend, Dialga and",
+    "context_after": "form the same",
+    "output_path": "/Users/admin/Movies/pokemon/clips/palkia/item_36_A_Secret_Sphere_Of_Influence_POK_MON_FULL_EPISODE_36_Season_10_473860-474380.wav"
+  },
+  {
+    "word": "Palkia",
+    "source_path": "/Users/admin/Movies/pokemon/item_36_A Secret Sphere Of Influence! ｜ POKÉMON FULL EPISODE 36 ｜ Season 10.mp4",
+    "word_start": 1102.9,
+    "word_end": 1103.44,
+    "clip_start": 1102.6000000000001,
+    "clip_end": 1103.74,
+    "confidence": 0.90185546875,
+    "context_before": "of Dialga and",
+    "context_after": "really true? We",
+    "output_path": "/Users/admin/Movies/pokemon/clips/palkia/item_36_A_Secret_Sphere_Of_Influence_POK_MON_FULL_EPISODE_36_Season_10_1102900-1103440.wav"
+  }
+]
